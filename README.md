@@ -8,10 +8,15 @@ decisions.
 repo after every run - dry run, daily preview, or live - so this stays
 current even on days with no actual changes.
 
-This repo intentionally contains **no strategy logic** - no scoring
-weights, no decision code, just the resulting data and a static page
-that renders it. The "how" stays in the private automation repo; this
-is just the "what."
+`strategy.html` explains the scoring model in plain English, including
+the actual weights and constants - kept in sync by hand whenever the
+private repo's `STRATEGY.md` changes. `changelog.json` is a manually
+curated, plain-English change feed (dated from the private repo's real
+commit history) - update both whenever a strategy/logic change ships.
+
+This repo still contains **no actual code** from the private automation
+repo - no Python, no file/line references, nothing runnable. It's a
+description of the logic, not the logic itself.
 
 ## Local preview
 

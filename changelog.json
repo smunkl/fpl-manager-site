@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-08-20",
+    "title": "Built the auto-manager",
+    "description": "Connects to the live FPL account through its official login flow, pulls official player/fixture data, and can submit real transfers, lineups, and captaincy changes."
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Switched to a proper squad optimizer",
+    "description": "Replaced one-swap-at-a-time transfer logic with an integer linear program (PuLP/CBC) that considers the whole 15-player squad and budget jointly, so it can see combinations a step-by-step search would miss."
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Added a daily preview",
+    "description": "Recommendations are now written out ahead of each deadline so they're visible before anything is actually submitted."
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Documented the full strategy",
+    "description": "Published a complete internal reference for the scoring model - this page is the public-facing version of it."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Position-aware fixture difficulty + rotation risk",
+    "description": "Defenders/keepers are now scored on the opponent's attacking threat, attackers on the opponent's defensive solidity, instead of one blunt fixture-difficulty number. Also added a discount for players who don't reliably start (starts-per-90 below 1.0 with a real sample size)."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Fixed captaincy to score this week only",
+    "description": "Captaincy previously used the same multi-week horizon score as squad selection. Since captaincy can be changed every single week for free, it's now scored purely on that week's projection, ignoring the fixture run beyond it."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Tested a hunch, didn't ship it",
+    "description": "Considered flipping the sign of the underlying-stats (xG) signal based on an isolated correlation that looked backwards. Backtested the full formula instead of trusting the isolated number - the current sign scores better (r=0.571 vs 0.563 flipped) - so it stayed as is."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Fixed the optimizer overvaluing the bench",
+    "description": "A backup goalkeeper was being valued almost like a starter, even though a benched player only scores when actually subbed in (rare). Bench value is now discounted to 15% of a player's projected score."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Added a real defensive-strength signal",
+    "description": "Each team's underlying expected goals conceded is now factored in for goalkeepers and defenders - a strong defense's player is more likely to keep a clean sheet than a leaky defense's, beyond what the player's own season stats capture on their own."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Built a captaincy-specific backtest",
+    "description": "Correlating with points in general isn't the same test as \"picks the right captain out of a pool of candidates.\" A dedicated simulation confirmed the current formula's captain picks scored about 0.46 points/gameweek more, on average, than dropping the underlying-stats signal, across 56 simulated real gameweeks."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Went live",
+    "description": "Turned off dry-run mode - the tool now submits real transfers and lineup changes ahead of each deadline, not just recommendations."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Fixed a bench substitute-order bug",
+    "description": "The reserve goalkeeper's bench slot was correct, but outfield substitutes were being ordered by position type instead of actual projected score. Found and fixed against the live account."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Launched this site",
+    "description": "A public, read-only view of the live squad, the decision model, and this change feed."
+  }
+]

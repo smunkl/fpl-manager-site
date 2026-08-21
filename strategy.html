@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FPL Auto-Manager - How It Works</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow"><span class="dot"></span> Live &middot; Fully Automated</div>
+  <h1>&#129504; How It Works</h1>
+  <p>The actual scoring model, weights, and rules behind every decision &mdash; kept in sync as the tool evolves.</p>
+  <nav class="sitenav">
+    <a href="index.html">Live Squad</a>
+    <a href="strategy.html" class="active">How It Works</a>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <h2><span class="icon">&#128202;</span> Scoring every player</h2>
+    <div class="prose">
+      <p>Every player gets a single number each week: a blend of five signals, weighted by how much each one actually predicts real points (tested against two seasons of historical gameweek data, not guessed). Goalkeepers use a slightly different mix, noted below.</p>
+    </div>
+    <div class="signal-grid">
+      <div class="signal-card">
+        <div class="signal-title">Baseline projection &mdash; 35% <span style="color:var(--muted);font-weight:500">(40% for GKP)</span></div>
+        <p>FPL's own official next-gameweek projection, floored by recent points-per-game so a single lucky/unlucky projection can't dominate. Points-per-game itself is ignored below 900 minutes played &mdash; too small a sample to trust.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Recent form &mdash; 20%</div>
+        <p>FPL's own rolling recent-form stat &mdash; how hot or cold a player has been lately, independent of their season-long average.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Fixture ease &mdash; 30%</div>
+        <p>How favourable the upcoming run of fixtures is, decayed so nearer matches matter more. Position-aware: defenders/keepers care about the opponent's <em>attacking</em> threat (clean-sheet odds); attackers care about the opponent's <em>defensive</em> solidity (scoring odds) &mdash; two different things a single 1&ndash;5 difficulty rating conflates.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Underlying stats delta &mdash; 10%</div>
+        <p>Over/under-performance vs expected goal involvement (xG + xA). A player consistently outperforming their underlying chances is more likely to regress; one underperforming is more likely to catch up.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">ICT index &mdash; 5% <span style="color:var(--muted);font-weight:500">(0% for GKP)</span></div>
+        <p>FPL's Influence/Creativity/Threat stat. Zeroed for goalkeepers &mdash; it's driven by save volume, which tracks facing more shots (often on a worse team), not the clean sheets that actually earn a keeper points.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Team defense signal &mdash; &minus;20% <span style="color:var(--muted);font-weight:500">(GKP/DEF only)</span></div>
+        <p>Each team's underlying expected goals conceded per 90, while this player was on the pitch. A stronger defense genuinely means more clean sheets, beyond what season stats alone capture. Zero weight for MID/FWD, where clean sheets barely matter for points.</p>
+      </div>
+    </div>
+    <div class="callout">
+      <strong>Also applied to every score:</strong> a reliability multiplier &mdash; 0 if injured or suspended, scaled to the club's own "chance of playing" percentage if flagged, 0.3 if the player hasn't played a minute all season, and scaled down toward 0.5 for a proven starter whose starts-per-90 has quietly dropped well below 1.0 (rotation risk no injury flag would ever catch).
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">&#9878;&#65039;</span> Picking the squad</h2>
+    <div class="prose">
+      <p>Not a greedy "best single upgrade" search &mdash; a proper integer program (PuLP/CBC solver) that considers the whole 15-player squad and starting XI <strong>jointly</strong>, so it can see combinations a step-by-step search would miss (sell a little here, upgrade a lot there, all in one move).</p>
+      <p>What it's actually maximizing:</p>
+    </div>
+    <div class="signal-grid">
+      <div class="signal-card">
+        <div class="signal-title">Starting XI value &mdash; full weight</div>
+        <p>Valued by a <strong>horizon score</strong>: each of the next 5 gameweeks scored individually using that week's specific fixture, discounted 15% per week further out (<code>HORIZON_DECAY = 0.85</code>) to reflect growing uncertainty. A rough week ahead of a strong run isn't undervalued, and vice versa.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Bench value &mdash; 15% weight</div>
+        <p><code>BENCH_WEIGHT = 0.15</code>. A bench player only scores when actually subbed in, which is rare &mdash; especially a backup keeper. Without this discount, the optimizer once priced a strong second-choice keeper as if he were a nailed-on starter (see change feed below).</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">This-week tactical nudge &mdash; 50% weight</div>
+        <p><code>TACTICAL_WEIGHT = 0.5</code>. Controls how much "hot right now" matters relative to "good over the next few weeks" when deciding who starts vs sits.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Cost of a paid transfer</div>
+        <p><code>HIT_COST = 4</code> &mdash; FPL's actual point deduction. A hit is only taken when the projected gain clearly clears that bar, not a hand-picked "feels worth it" threshold.</p>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:1rem">
+      <p>Hard constraints (not tunable &mdash; just FPL's actual rules): budget, 2/5/5/3 squad composition, max 3 players per real club, legal formation (1 GKP, 3&ndash;5 DEF, 2&ndash;5 MID, 1&ndash;3 FWD in the starting XI).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">&#127942;</span> Picking the captain</h2>
+    <div class="prose">
+      <p>Deliberately <strong>not</strong> the same scoring as squad selection. Squad choices are a multi-week commitment (transfers cost money or a hit), so they use the horizon score above. Captaincy can be changed for free every single week, so it's scored purely on <strong>that week's projection only</strong> &mdash; same five weights, but with zero look-ahead beyond the immediate match. Highest scorer is captain, second-highest is vice.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">&#129514;</span> Kept honest by data</h2>
+    <div class="prose">
+      <p>Every weight above was arrived at by backtesting against two real seasons of gameweek-by-gameweek FPL data (2024&ndash;25 and 2025&ndash;26), not intuition. Two different tests are used, because they answer different questions:</p>
+      <p><strong>Prediction accuracy</strong> &mdash; does a signal correlate with a player's actual points? The current formula scores <strong>r&nbsp;=&nbsp;0.571</strong> correlation with real outcomes. When a signal's own isolated correlation looked backwards (the underlying-stats delta correlates at &minus;0.14 alone) it got tested in the full combined formula rather than flipped on a hunch &mdash; flipping it actually scored worse (r&nbsp;=&nbsp;0.563) than leaving it alone.</p>
+      <p><strong>Decision quality</strong> &mdash; for a ranking problem like captaincy, correlating well in general isn't the same as picking the single best candidate from a pool. A dedicated simulation replays every historical gameweek and compares what each rule would actually have earned as captain: the current formula outscored the alternative by roughly <strong>0.46 points per gameweek</strong>, averaged over 56 simulated gameweeks.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">&#128203;</span> Change feed</h2>
+    <div id="changelog">
+      <div class="loading"><div class="spinner"></div>Loading history&hellip;</div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Built and run autonomously &middot; <a href="index.html">see the live squad</a> &middot;
+  <a href="https://smunkl.uk">smunkl.uk</a>
+</footer>
+
+<script>
+async function loadChangelog() {
+  const el = document.getElementById('changelog');
+  try {
+    const res = await fetch('changelog.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('changelog.json not found');
+    const entries = await res.json();
+    el.innerHTML = entries.slice().reverse().map(e => `
+      <div class="changelog-item">
+        <div class="changelog-date">${fmtDate(e.date)}</div>
+        <div class="changelog-title">${e.title}</div>
+        <p class="changelog-desc">${e.description}</p>
+      </div>
+    `).join('');
+  } catch (err) {
+    el.innerHTML = '<div class="error">No change feed published yet.</div>';
+    console.error(err);
+  }
+}
+
+function fmtDate(iso) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+loadChangelog();
+</script>
+
+</body>
+</html>

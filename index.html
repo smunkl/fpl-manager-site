@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FPL Auto-Manager - Live</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #37003c;
+    --accent2: #00ff87;
+    --pitch: #0a5c2b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    background: linear-gradient(135deg, var(--accent), #5a005f);
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.6rem;
+  }
+  header p {
+    margin: 0;
+    color: #d9c2db;
+    font-size: 0.95rem;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .meta-card {
+    flex: 1 1 140px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+  }
+  .meta-card .label {
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .meta-card .value {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0.15rem;
+  }
+  section {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  section h2 {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .pitch {
+    background: var(--pitch);
+    background-image: repeating-linear-gradient(
+      to bottom, rgba(255,255,255,0.04) 0, rgba(255,255,255,0.04) 40px, transparent 40px, transparent 80px
+    );
+    border-radius: 10px;
+    padding: 1.25rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .pitch-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .player-chip {
+    background: rgba(13, 17, 23, 0.85);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem;
+    text-align: center;
+    min-width: 84px;
+    font-size: 0.78rem;
+  }
+  .player-chip .name {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .player-chip .sub {
+    color: var(--muted);
+    font-size: 0.7rem;
+  }
+  .player-chip .pts {
+    color: var(--accent2);
+    font-weight: 600;
+    margin-top: 0.1rem;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    background: var(--accent2);
+    color: #04321a;
+    border-radius: 4px;
+    padding: 0 0.3rem;
+    margin-left: 0.25rem;
+  }
+  .bench-list {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+  }
+  .bench-list .player-chip {
+    background: rgba(255,255,255,0.04);
+    border-color: var(--border);
+  }
+  .activity-item {
+    border-left: 3px solid var(--accent2);
+    padding: 0.4rem 0 0.4rem 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+  .activity-item .header {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .activity-item ul {
+    margin: 0.3rem 0 0;
+    padding-left: 1.1rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    padding: 1.5rem;
+  }
+  footer a { color: var(--accent2); }
+  .loading, .error {
+    text-align: center;
+    color: var(--muted);
+    padding: 3rem 1rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>&#9917; FPL Auto-Manager</h1>
+  <p>A fully automated Fantasy Premier League manager - live squad, decisions, and reasoning</p>
+</header>
+
+<main id="app">
+  <div class="loading">Loading latest status&hellip;</div>
+</main>
+
+<footer>
+  Built and run autonomously. Data updates automatically after every decision.
+</footer>
+
+<script>
+async function load() {
+  const app = document.getElementById('app');
+  try {
+    const res = await fetch('status.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('status.json not found yet');
+    const data = await res.json();
+    render(data);
+  } catch (err) {
+    app.innerHTML = '<div class="error">No status published yet. Check back soon.</div>';
+    console.error(err);
+  }
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+function playerChip(p) {
+  const badges = [];
+  if (p.captain) badges.push('<span class="badge">C</span>');
+  if (p.vice_captain) badges.push('<span class="badge">VC</span>');
+  return `<div class="player-chip">
+    <div class="name">${p.name}${badges.join('')}</div>
+    <div class="sub">${p.position} &middot; ${p.team}</div>
+    ${p.projected_points !== undefined ? `<div class="pts">${p.projected_points.toFixed(1)} pts</div>` : ''}
+  </div>`;
+}
+
+function groupByPosition(players) {
+  const order = ['GKP', 'DEF', 'MID', 'FWD'];
+  const groups = {};
+  for (const pos of order) groups[pos] = [];
+  for (const p of players) (groups[p.position] || (groups[p.position] = [])).push(p);
+  return order.map(pos => groups[pos]).filter(g => g.length);
+}
+
+function render(data) {
+  const app = document.getElementById('app');
+  const rows = groupByPosition(data.starting_xi || []).map(
+    row => `<div class="pitch-row">${row.map(playerChip).join('')}</div>`
+  ).join('');
+  const bench = (data.bench || []).map(playerChip).join('');
+  const activity = (data.recent_activity || []).slice().reverse().map(a => `
+    <div class="activity-item">
+      <div class="header">${a.header}</div>
+      ${a.details && a.details.length ? `<ul>${a.details.map(d => `<li>${d.replace(/^- /, '')}</li>`).join('')}</ul>` : ''}
+    </div>
+  `).join('') || '<p style="color:var(--muted)">No changes yet this gameweek.</p>';
+
+  app.innerHTML = `
+    <div class="meta-row">
+      <div class="meta-card"><div class="label">Gameweek</div><div class="value">GW${data.gameweek ?? '-'}</div></div>
+      <div class="meta-card"><div class="label">Mode</div><div class="value">${data.mode ?? '-'}</div></div>
+      <div class="meta-card"><div class="label">Bank</div><div class="value">&pound;${(data.bank ?? 0).toFixed(1)}m</div></div>
+      <div class="meta-card"><div class="label">Free transfers</div><div class="value">${data.free_transfers ?? '-'}</div></div>
+      <div class="meta-card"><div class="label">Projected pts</div><div class="value">${(data.total_projected_points ?? 0).toFixed(1)}</div></div>
+    </div>
+
+    <section>
+      <h2>Current Starting XI</h2>
+      <div class="pitch">${rows}</div>
+      <h2 style="margin-top:1.25rem;">Bench</h2>
+      <div class="bench-list">${bench}</div>
+    </section>
+
+    <section>
+      <h2>Recent Activity</h2>
+      ${activity}
+    </section>
+
+    <p style="text-align:center;color:var(--muted);font-size:0.8rem;">
+      Last updated ${fmtDate(data.last_updated)} &middot; Next deadline ${fmtDate(data.deadline)}
+    </p>
+  `;
+}
+
+load();
+</script>
+
+</body>
+</html>

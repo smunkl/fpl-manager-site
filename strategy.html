@@ -50,6 +50,10 @@
         <div class="signal-title">Team defense signal &mdash; &minus;20% <span style="color:var(--muted);font-weight:500">(GKP/DEF only)</span></div>
         <p>Each team's underlying expected goals conceded per 90, while this player was on the pitch. A stronger defense genuinely means more clean sheets, beyond what season stats alone capture. Zero weight for MID/FWD, where clean sheets barely matter for points.</p>
       </div>
+      <div class="signal-card">
+        <div class="signal-title">Set-piece duty &mdash; flat bonus</div>
+        <p>+0.75 for the confirmed primary penalty taker (+0.25 for backup), +0.15 for primary direct free-kicks, +0.10 for primary corners. A different evidence tier from the rest &mdash; not backtested, since its real value is catching a player who just <em>inherited</em> duty, which a season-long backtest can't see (an established taker's value already shows up in their normal scoring stats).</p>
+      </div>
     </div>
     <div class="callout">
       <strong>Also applied to every score:</strong> a reliability multiplier &mdash; 0 if injured or suspended, scaled to the club's own "chance of playing" percentage if flagged, 0.3 if the player hasn't played a minute all season, and scaled down toward 0.5 for a proven starter whose starts-per-90 has quietly dropped well below 1.0 (rotation risk no injury flag would ever catch).

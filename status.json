@@ -1,0 +1,122 @@
+{
+  "last_updated": "2026-08-21T12:33:03.338748+00:00",
+  "gameweek": 1,
+  "deadline": "2026-08-21T17:30:00Z",
+  "mode": "DRY RUN (no changes submitted)",
+  "bank": 0.0,
+  "free_transfers": 15,
+  "total_projected_points": 33.2,
+  "starting_xi": [
+    {
+      "name": "Raya",
+      "position": "GKP",
+      "team": "ARS",
+      "projected_points": 2.1,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Thiago",
+      "position": "FWD",
+      "team": "BRE",
+      "projected_points": 2.9,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Enzo",
+      "position": "MID",
+      "team": "CHE",
+      "projected_points": 6.5,
+      "captain": true,
+      "vice_captain": false
+    },
+    {
+      "name": "Calvert-Lewin",
+      "position": "FWD",
+      "team": "LEE",
+      "projected_points": 2.6,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Wirtz",
+      "position": "MID",
+      "team": "LIV",
+      "projected_points": 3.0,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Szoboszlai",
+      "position": "MID",
+      "team": "LIV",
+      "projected_points": 2.8,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "O'Reilly",
+      "position": "DEF",
+      "team": "MCI",
+      "projected_points": 2.3,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "B.Fernandes",
+      "position": "MID",
+      "team": "MUN",
+      "projected_points": 3.1,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Mbeumo",
+      "position": "MID",
+      "team": "MUN",
+      "projected_points": 3.2,
+      "captain": false,
+      "vice_captain": true
+    },
+    {
+      "name": "Senesi",
+      "position": "DEF",
+      "team": "TOT",
+      "projected_points": 2.3,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Pedro Porro",
+      "position": "DEF",
+      "team": "TOT",
+      "projected_points": 2.4,
+      "captain": false,
+      "vice_captain": false
+    }
+  ],
+  "bench": [
+    {
+      "name": "Mateta",
+      "position": "FWD",
+      "team": "CRY"
+    },
+    {
+      "name": "N.Williams",
+      "position": "DEF",
+      "team": "NFO"
+    },
+    {
+      "name": "F.Kad\u0131o\u011flu",
+      "position": "DEF",
+      "team": "BHA"
+    },
+    {
+      "name": "Verbruggen",
+      "position": "GKP",
+      "team": "BHA"
+    }
+  ],
+  "recent_activity": []
+}

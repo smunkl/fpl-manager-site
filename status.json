@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-21T14:56:46.431286+00:00",
+  "last_updated": "2026-08-21T15:20:52.288851+00:00",
   "gameweek": 1,
   "deadline": "2026-08-21T17:30:00Z",
-  "mode": "LIVE",
+  "mode": "DRY RUN (no changes submitted)",
   "bank": 0.0,
   "free_transfers": 15,
-  "total_projected_points": 33.2,
+  "total_projected_points": 38.0,
   "starting_xi": [
     {
       "name": "Raya",
@@ -16,10 +16,18 @@
       "vice_captain": false
     },
     {
+      "name": "Saka",
+      "position": "MID",
+      "team": "ARS",
+      "projected_points": 3.4,
+      "captain": false,
+      "vice_captain": true
+    },
+    {
       "name": "Thiago",
       "position": "FWD",
       "team": "BRE",
-      "projected_points": 2.9,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     },
@@ -27,31 +35,31 @@
       "name": "Enzo",
       "position": "MID",
       "team": "CHE",
-      "projected_points": 6.5,
-      "captain": true,
+      "projected_points": 3.5,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Mateta",
+      "position": "FWD",
+      "team": "CRY",
+      "projected_points": 3.3,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Ndiaye",
+      "position": "MID",
+      "team": "EVE",
+      "projected_points": 3.3,
+      "captain": false,
       "vice_captain": false
     },
     {
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 2.6,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Wirtz",
-      "position": "MID",
-      "team": "LIV",
-      "projected_points": 3.0,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Szoboszlai",
-      "position": "MID",
-      "team": "LIV",
-      "projected_points": 2.8,
+      "projected_points": 3.3,
       "captain": false,
       "vice_captain": false
     },
@@ -67,17 +75,9 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.1,
-      "captain": false,
+      "projected_points": 8.1,
+      "captain": true,
       "vice_captain": false
-    },
-    {
-      "name": "Mbeumo",
-      "position": "MID",
-      "team": "MUN",
-      "projected_points": 3.2,
-      "captain": false,
-      "vice_captain": true
     },
     {
       "name": "Senesi",
@@ -91,16 +91,21 @@
       "name": "Pedro Porro",
       "position": "DEF",
       "team": "TOT",
-      "projected_points": 2.4,
+      "projected_points": 2.6,
       "captain": false,
       "vice_captain": false
     }
   ],
   "bench": [
     {
-      "name": "Mateta",
-      "position": "FWD",
-      "team": "CRY"
+      "name": "Donnarumma",
+      "position": "GKP",
+      "team": "MCI"
+    },
+    {
+      "name": "Gro\u00df",
+      "position": "MID",
+      "team": "BHA"
     },
     {
       "name": "N.Williams",
@@ -108,15 +113,21 @@
       "team": "NFO"
     },
     {
-      "name": "F.Kad\u0131o\u011flu",
+      "name": "Richards",
       "position": "DEF",
-      "team": "BHA"
-    },
-    {
-      "name": "Verbruggen",
-      "position": "GKP",
-      "team": "BHA"
+      "team": "CRY"
     }
   ],
-  "recent_activity": []
+  "recent_activity": [
+    {
+      "header": "GW1 - 2026-08-21T14:56:48.133536+00:00",
+      "details": [
+        "- Transfer: OUT Benitez -> IN Verbruggen",
+        "- Transfer: OUT Virgil -> IN N.Williams",
+        "- Transfer: OUT Mitchell -> IN Senesi",
+        "- Lineup: benched N.Williams, started Senesi",
+        "- Captain: Enzo, Vice: Mbeumo"
+      ]
+    }
+  ]
 }

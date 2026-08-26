@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FPL Auto-Manager - History</title>
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 
@@ -35,7 +35,12 @@ async function load() {
     const res = await fetch('history.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('history.json not found yet');
     const data = await res.json();
-    render(data);
+    let proposed = null;
+    try {
+      const pres = await fetch('proposed.json', { cache: 'no-store' });
+      if (pres.ok) proposed = await pres.json();
+    } catch (e) { /* proposed.json is optional */ }
+    render(data, proposed);
   } catch (err) {
     el.innerHTML = '<div class="error">No history published yet. Check back after the first gameweek.</div>';
     console.error(err);
@@ -78,15 +83,71 @@ function gwCard(gw) {
   `;
 }
 
-function render(data) {
+function playerRationale(label, p) {
+  return `<div class="rationale-player">
+    <div class="rationale-player-label">${label}</div>
+    <div class="rationale-player-name">${p.name} <span class="sub">(${p.team})</span></div>
+    <div class="rationale-stats">
+      horizon <strong>${p.horizon.toFixed(1)}</strong> &middot;
+      form ${p.form.toFixed(1)} &middot;
+      fixture ease ${p.fixture_ease.toFixed(1)} &middot;
+      set-piece ${p.set_piece_bonus.toFixed(2)}
+    </div>
+  </div>`;
+}
+
+function pendingCard(proposed) {
+  // The proposal made *during* the last finished gameweek, for the one
+  // coming up - sits at the top of the feed (newest position) since
+  // that's chronologically where it belongs, but reads as "here's what
+  // we're planning heading out of gameweek N-1" rather than a floating
+  // disconnected preview.
+  const body = !proposed.has_changes
+    ? '<p class="no-activity">No changes currently proposed &mdash; current squad already looks optimal.</p>'
+    : `
+      ${(proposed.transfers || []).map(t => `
+        <div class="proposed-transfer">
+          <div class="proposed-transfer-arrow">${t.out.name} <span class="arrow">&rarr;</span> ${t.in.name}</div>
+          <div class="rationale-grid">
+            ${playerRationale('OUT', t.out)}
+            ${playerRationale('IN', t.in)}
+          </div>
+          ${t.alternatives && t.alternatives.length ? `<div class="alternatives">Other options considered: ${
+            t.alternatives.map(a => `${a.name} (${a.horizon.toFixed(1)})`).join(', ')
+          }</div>` : ''}
+        </div>
+      `).join('')}
+      ${(proposed.captain_change || proposed.vice_change) ? `
+        <div class="proposed-captaincy">
+          ${proposed.captain_change ? `<div>Captain: ${proposed.captain_change.from} &rarr; <strong>${proposed.captain_change.to}</strong></div>` : ''}
+          ${proposed.vice_change ? `<div>Vice: ${proposed.vice_change.from} &rarr; <strong>${proposed.vice_change.to}</strong></div>` : ''}
+        </div>` : ''}
+      ${proposed.hits_taken ? `<div class="callout" style="margin-top:0.75rem">Takes a &minus;${4 * proposed.hits_taken} point hit</div>` : ''}
+    `;
+
+  return `
+    <div class="gw-card gw-card-pending">
+      <div class="gw-card-header">
+        <div class="gw-card-title">Gameweek ${proposed.gameweek} <span class="pending-badge">PENDING</span></div>
+        <div class="gw-card-date">Deadline ${fmtDate(proposed.deadline)}</div>
+      </div>
+      ${body}
+    </div>
+  `;
+}
+
+function render(data, proposed) {
   const el = document.getElementById('feed');
   const gws = (data.gameweeks || []).slice().sort((a, b) => b.gw - a.gw);
-  if (!gws.length) {
+  if (!gws.length && !proposed) {
     el.innerHTML = '<div class="error">No gameweeks recorded yet.</div>';
     return;
   }
+  const playedGwNumbers = new Set(gws.map(g => g.gw));
+  const showPending = proposed && !playedGwNumbers.has(proposed.gameweek);
+  const cards = (showPending ? [pendingCard(proposed)] : []).concat(gws.map(gwCard));
   el.innerHTML = `
-    <div class="gw-feed">${gws.map(gwCard).join('')}</div>
+    <div class="gw-feed">${cards.join('')}</div>
     <p class="footnote">Last updated <strong>${fmtDate(data.last_updated)}</strong></p>
   `;
 }

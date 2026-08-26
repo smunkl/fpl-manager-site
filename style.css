@@ -567,6 +567,22 @@ code {
 @media (max-width: 480px) {
   .gw-outcome { grid-template-columns: repeat(2, 1fr); }
 }
+.gw-card-pending {
+  border: 1px dashed rgba(0,255,135,0.4);
+  background: rgba(0,255,135,0.03);
+}
+.pending-badge {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--green);
+  border: 1px solid rgba(0,255,135,0.4);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
 
 .changelog-item {
   position: relative;

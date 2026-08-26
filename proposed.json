@@ -1,0 +1,49 @@
+{
+  "last_updated": "2026-08-26T13:56:20.513673+00:00",
+  "gameweek": 2,
+  "deadline": "2026-08-28T17:30:00Z",
+  "has_changes": true,
+  "hits_taken": 0,
+  "transfers": [
+    {
+      "out": {
+        "name": "Wirtz",
+        "team": "LIV",
+        "horizon": 2.2,
+        "form": 0.5,
+        "fixture_ease": 12.2,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Ndiaye",
+        "team": "EVE",
+        "horizon": 6.0,
+        "form": 2.2,
+        "fixture_ease": 11.4,
+        "set_piece_bonus": 0.75
+      },
+      "alternatives": [
+        {
+          "name": "Gro\u00df",
+          "horizon": 5.7
+        },
+        {
+          "name": "Buend\u00eda",
+          "horizon": 5.3
+        },
+        {
+          "name": "Stach",
+          "horizon": 4.6
+        }
+      ]
+    }
+  ],
+  "captain_change": {
+    "from": "Enzo",
+    "to": "B.Fernandes"
+  },
+  "vice_change": {
+    "from": "Mbeumo",
+    "to": "Szoboszlai"
+  }
+}

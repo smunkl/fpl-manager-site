@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FPL Auto-Manager - Rivals</title>
+<link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow"><span class="dot"></span> Live &middot; Fully Automated</div>
+  <h1>&#9876;&#65039; Rivals</h1>
+  <p>Standings and squads in the mini-leagues that actually matter &mdash; informational only, doesn&#8217;t affect any decision the model makes.</p>
+  <nav class="sitenav">
+    <a href="index.html">Live Squad</a>
+    <a href="history.html">History</a>
+    <a href="rivals.html" class="active">Rivals</a>
+    <a href="strategy.html">How It Works</a>
+  </nav>
+</header>
+
+<main>
+  <div id="feed" class="loading"><div class="spinner"></div>Loading league standings&hellip;</div>
+</main>
+
+<footer>
+  Built and run autonomously &middot; <a href="index.html">see the live squad</a> &middot;
+  <a href="https://smunkl.uk">smunkl.uk</a>
+</footer>
+
+<script>
+async function load() {
+  const el = document.getElementById('feed');
+  try {
+    const res = await fetch('rivals.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('rivals.json not found yet');
+    const data = await res.json();
+    render(data);
+  } catch (err) {
+    el.innerHTML = '<div class="error">No league data published yet.</div>';
+    console.error(err);
+  }
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+function entryRow(e) {
+  return `
+    <div class="rival-entry ${e.is_me ? 'is-me' : ''}">
+      <div class="rival-rank">${e.rank}</div>
+      <div class="rival-identity">
+        <div class="rival-team">${e.team_name}${e.is_me ? ' <span class="badge">YOU</span>' : ''}</div>
+        <div class="rival-manager">${e.manager}</div>
+      </div>
+      <div class="rival-points">
+        <div class="rival-total">${e.total_points}</div>
+        <div class="rival-gw">${e.gw_points} this GW</div>
+      </div>
+      ${e.squad ? `
+        <div class="rival-squad">
+          <div class="rival-captain">Captain: <strong>${e.squad.captain ?? '-'}</strong></div>
+          <div class="rival-xi">${e.squad.xi.join(', ')}</div>
+        </div>
+      ` : '<div class="rival-squad"><p class="no-activity">Squad not available.</p></div>'}
+    </div>
+  `;
+}
+
+function leagueSection(league) {
+  return `
+    <section>
+      <h2><span class="icon">&#127942;</span> ${league.name}</h2>
+      <div class="rival-list">${league.entries.map(entryRow).join('')}</div>
+    </section>
+  `;
+}
+
+function render(data) {
+  const el = document.getElementById('feed');
+  const leagues = data.leagues || [];
+  if (!leagues.length) {
+    el.innerHTML = '<div class="error">No leagues configured yet.</div>';
+    return;
+  }
+  el.innerHTML = `
+    ${leagues.map(leagueSection).join('')}
+    <p class="footnote">Squads shown are from gameweek ${data.last_completed_gw ?? '-'} (the last one to lock) &mdash; a rival's live team for the upcoming deadline is never visible to anyone but them, by FPL's own rules. Last updated <strong>${fmtDate(data.last_updated)}</strong></p>
+  `;
+}
+
+load();
+</script>
+
+</body>
+</html>

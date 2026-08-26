@@ -584,6 +584,53 @@ code {
   vertical-align: middle;
 }
 
+.rival-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.rival-entry {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr auto;
+  grid-template-areas: "rank identity points" "squad squad squad";
+  gap: 0.25rem 0.85rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+}
+.rival-entry.is-me {
+  background: rgba(0,255,135,0.05);
+  border-color: rgba(0,255,135,0.3);
+}
+.rival-rank {
+  grid-area: rank;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--muted);
+  align-self: center;
+}
+.rival-entry.is-me .rival-rank { color: var(--green); }
+.rival-identity { grid-area: identity; align-self: center; }
+.rival-team { font-weight: 700; font-size: 0.95rem; }
+.rival-manager { color: var(--muted); font-size: 0.78rem; }
+.rival-points { grid-area: points; text-align: right; align-self: center; }
+.rival-total { font-weight: 800; font-size: 1.1rem; color: var(--green); }
+.rival-gw { color: var(--muted); font-size: 0.72rem; }
+.rival-squad {
+  grid-area: squad;
+  margin-top: 0.5rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--border);
+}
+.rival-captain { font-size: 0.82rem; color: var(--text); margin-bottom: 0.3rem; }
+.rival-captain strong { color: var(--green); }
+.rival-xi { font-size: 0.78rem; color: var(--muted); line-height: 1.6; }
+@media (max-width: 480px) {
+  .rival-entry { grid-template-columns: 2rem 1fr; grid-template-areas: "rank identity" "points points" "squad squad"; }
+  .rival-points { text-align: left; margin-top: 0.3rem; }
+}
+
 .changelog-item {
   position: relative;
   padding: 0.1rem 0 1.25rem 1.5rem;

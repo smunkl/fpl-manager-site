@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FPL Auto-Manager - History</title>
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow"><span class="dot"></span> Live &middot; Fully Automated</div>
+  <h1>&#128220; Season History</h1>
+  <p>Every gameweek&#8217;s decisions, and how they actually turned out.</p>
+  <nav class="sitenav">
+    <a href="index.html">Live Squad</a>
+    <a href="history.html" class="active">History</a>
+    <a href="strategy.html">How It Works</a>
+  </nav>
+</header>
+
+<main>
+  <div id="feed" class="loading"><div class="spinner"></div>Loading season history&hellip;</div>
+</main>
+
+<footer>
+  Built and run autonomously &middot; <a href="index.html">see the live squad</a> &middot;
+  <a href="https://smunkl.uk">smunkl.uk</a>
+</footer>
+
+<script>
+async function load() {
+  const el = document.getElementById('feed');
+  try {
+    const res = await fetch('history.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('history.json not found yet');
+    const data = await res.json();
+    render(data);
+  } catch (err) {
+    el.innerHTML = '<div class="error">No history published yet. Check back after the first gameweek.</div>';
+    console.error(err);
+  }
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+function gwCard(gw) {
+  const played = gw.actual_points !== undefined && gw.actual_points !== null;
+  const actionsHtml = (gw.actions || []).length
+    ? `<ul>${gw.actions.map(d =>
+        d.startsWith('- ') ? `<li>${d.replace(/^- /, '')}</li>`
+        : `<li class="rationale">${d.trim()}</li>`
+      ).join('')}</ul>`
+    : '<p class="no-activity">No changes made this gameweek.</p>';
+
+  const outcome = played ? `
+    <div class="gw-outcome">
+      <div class="gw-stat"><div class="gw-stat-value">${gw.actual_points}</div><div class="gw-stat-label">Points</div></div>
+      <div class="gw-stat"><div class="gw-stat-value">${gw.points_on_bench ?? '-'}</div><div class="gw-stat-label">On bench</div></div>
+      <div class="gw-stat"><div class="gw-stat-value">${gw.hit_cost ? '&minus;' + gw.hit_cost : '0'}</div><div class="gw-stat-label">Hit cost</div></div>
+      <div class="gw-stat"><div class="gw-stat-value">${gw.overall_rank ? gw.overall_rank.toLocaleString() : '-'}</div><div class="gw-stat-label">Overall rank</div></div>
+    </div>
+  ` : '<p class="no-activity">Not played yet.</p>';
+
+  return `
+    <div class="gw-card">
+      <div class="gw-card-header">
+        <div class="gw-card-title">Gameweek ${gw.gw}</div>
+        <div class="gw-card-date">${fmtDate(gw.date)}</div>
+      </div>
+      ${outcome}
+      ${actionsHtml}
+    </div>
+  `;
+}
+
+function render(data) {
+  const el = document.getElementById('feed');
+  const gws = (data.gameweeks || []).slice().sort((a, b) => b.gw - a.gw);
+  if (!gws.length) {
+    el.innerHTML = '<div class="error">No gameweeks recorded yet.</div>';
+    return;
+  }
+  el.innerHTML = `
+    <div class="gw-feed">${gws.map(gwCard).join('')}</div>
+    <p class="footnote">Last updated <strong>${fmtDate(data.last_updated)}</strong></p>
+  `;
+}
+
+load();
+</script>
+
+</body>
+</html>

@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-26T13:53:14.134446+00:00",
+  "last_updated": "2026-08-26T13:56:18.917152+00:00",
   "gameweek": 2,
   "deadline": "2026-08-28T17:30:00Z",
-  "mode": "LIVE",
+  "mode": "DRY RUN (no changes submitted)",
   "bank": 0.0,
   "free_transfers": 1,
-  "total_projected_points": 26.5,
+  "total_projected_points": 29.4,
   "starting_xi": [
     {
       "name": "Raya",
@@ -16,10 +16,66 @@
       "vice_captain": false
     },
     {
+      "name": "Thiago",
+      "position": "FWD",
+      "team": "BRE",
+      "projected_points": 2.4,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Mateta",
+      "position": "FWD",
+      "team": "CRY",
+      "projected_points": 2.3,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Ndiaye",
+      "position": "MID",
+      "team": "EVE",
+      "projected_points": 2.7,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Calvert-Lewin",
+      "position": "FWD",
+      "team": "LEE",
+      "projected_points": 2.2,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Szoboszlai",
+      "position": "MID",
+      "team": "LIV",
+      "projected_points": 3.1,
+      "captain": false,
+      "vice_captain": true
+    },
+    {
       "name": "O'Reilly",
       "position": "DEF",
       "team": "MCI",
       "projected_points": 1.9,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "B.Fernandes",
+      "position": "MID",
+      "team": "MUN",
+      "projected_points": 6.5,
+      "captain": true,
+      "vice_captain": false
+    },
+    {
+      "name": "Mbeumo",
+      "position": "MID",
+      "team": "MUN",
+      "projected_points": 2.1,
       "captain": false,
       "vice_captain": false
     },
@@ -38,62 +94,6 @@
       "projected_points": 1.8,
       "captain": false,
       "vice_captain": false
-    },
-    {
-      "name": "Szoboszlai",
-      "position": "MID",
-      "team": "LIV",
-      "projected_points": 3.1,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "B.Fernandes",
-      "position": "MID",
-      "team": "MUN",
-      "projected_points": 3.3,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Wirtz",
-      "position": "MID",
-      "team": "LIV",
-      "projected_points": 1.8,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Enzo",
-      "position": "MID",
-      "team": "CHE",
-      "projected_points": 3.6,
-      "captain": true,
-      "vice_captain": false
-    },
-    {
-      "name": "Mbeumo",
-      "position": "MID",
-      "team": "MUN",
-      "projected_points": 2.1,
-      "captain": false,
-      "vice_captain": true
-    },
-    {
-      "name": "Calvert-Lewin",
-      "position": "FWD",
-      "team": "LEE",
-      "projected_points": 2.2,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Thiago",
-      "position": "FWD",
-      "team": "BRE",
-      "projected_points": 2.4,
-      "captain": false,
-      "vice_captain": false
     }
   ],
   "bench": [
@@ -103,9 +103,9 @@
       "team": "BHA"
     },
     {
-      "name": "Mateta",
-      "position": "FWD",
-      "team": "CRY"
+      "name": "Enzo",
+      "position": "MID",
+      "team": "CHE"
     },
     {
       "name": "N.Williams",

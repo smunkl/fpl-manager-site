@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T14:14:15.525225+00:00",
+  "last_updated": "2026-08-26T14:24:16.669536+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -15,6 +15,18 @@
       "points_on_bench": 8,
       "hit_cost": 0,
       "overall_rank": 8494418
+    },
+    {
+      "gw": 2,
+      "date": "2026-08-26T14:14:19.400499+00:00",
+      "actions": [
+        "- Transfer: OUT Wirtz -> IN Ndiaye",
+        "  Wirtz: horizon 2.2 pts/5gw (form 0.5, fixture ease 12.2, set-piece 0.00)",
+        "  Ndiaye: horizon 6.0 pts/5gw (form 2.2, fixture ease 11.4, set-piece 0.75)",
+        "  Other options considered: Gro\u00df (5.7), Buend\u00eda (5.3), Stach (4.6)",
+        "- Lineup: benched Enzo, started Mateta",
+        "- Captain: B.Fernandes, Vice: Szoboszlai"
+      ]
     }
   ]
 }

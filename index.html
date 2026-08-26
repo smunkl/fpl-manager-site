@@ -62,6 +62,13 @@ function fmtDate(iso) {
   return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
 }
 
+function formatActivityHeader(header) {
+  // Raw form: "GW2 - 2026-08-26T14:14:19.400499+00:00"
+  const [gwPart, datePart] = header.split(' - ');
+  const gwLabel = (gwPart || header).replace(/^GW/, 'Gameweek ');
+  return datePart ? `${gwLabel} &middot; ${fmtDate(datePart)}` : gwLabel;
+}
+
 function playerChip(p) {
   const badges = [];
   if (p.captain) badges.push('<span class="badge">C</span>');
@@ -143,7 +150,7 @@ function render(data, proposed) {
   const bench = (data.bench || []).map(playerChip).join('');
   const activity = (data.recent_activity || []).slice().reverse().map(a => `
     <div class="activity-item">
-      <div class="header">${a.header}</div>
+      <div class="header">${formatActivityHeader(a.header)}</div>
       ${a.details && a.details.length ? `<ul>${a.details.map(d =>
         d.startsWith('- ') ? `<li>${d.replace(/^- /, '')}</li>`
         : `<li class="rationale">${d.trim()}</li>`

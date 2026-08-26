@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-08-26T14:03:57.713781+00:00",
+  "gameweeks": [
+    {
+      "gw": 1,
+      "date": "2026-08-21T14:56:48.133536+00:00",
+      "actions": [
+        "- Transfer: OUT Benitez -> IN Verbruggen",
+        "- Transfer: OUT Virgil -> IN N.Williams",
+        "- Transfer: OUT Mitchell -> IN Senesi",
+        "- Lineup: benched N.Williams, started Senesi",
+        "- Captain: Enzo, Vice: Mbeumo"
+      ],
+      "actual_points": 30,
+      "points_on_bench": 8,
+      "hit_cost": 0,
+      "overall_rank": 8494418
+    }
+  ]
+}

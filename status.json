@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-26T14:03:56.089545+00:00",
+  "last_updated": "2026-08-26T14:04:12.857474+00:00",
   "gameweek": 2,
   "deadline": "2026-08-28T17:30:00Z",
-  "mode": "DRY RUN (no changes submitted)",
+  "mode": "LIVE",
   "bank": 0.0,
   "free_transfers": 1,
   "total_projected_points": 26.5,

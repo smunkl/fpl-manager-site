@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-26T14:04:12.857474+00:00",
+  "last_updated": "2026-08-26T14:14:13.591601+00:00",
   "gameweek": 2,
   "deadline": "2026-08-28T17:30:00Z",
   "mode": "LIVE",
   "bank": 0.0,
   "free_transfers": 1,
-  "total_projected_points": 26.5,
+  "total_projected_points": 27.4,
   "starting_xi": [
     {
       "name": "Raya",
@@ -56,10 +56,10 @@
       "vice_captain": false
     },
     {
-      "name": "Wirtz",
+      "name": "Ndiaye",
       "position": "MID",
-      "team": "LIV",
-      "projected_points": 1.8,
+      "team": "EVE",
+      "projected_points": 2.7,
       "captain": false,
       "vice_captain": false
     },

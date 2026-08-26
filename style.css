@@ -428,6 +428,70 @@ code {
 }
 .callout strong { color: var(--green); }
 
+.proposed-transfer {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.85rem;
+}
+.proposed-transfer-arrow {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.proposed-transfer-arrow .arrow { color: var(--green); }
+.rationale-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+@media (max-width: 560px) {
+  .rationale-grid { grid-template-columns: 1fr; }
+}
+.rationale-player {
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+}
+.rationale-player-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--muted2);
+  text-transform: uppercase;
+}
+.rationale-player-name {
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin: 0.15rem 0 0.35rem;
+}
+.rationale-player-name .sub { color: var(--muted); font-weight: 500; font-size: 0.8rem; }
+.rationale-stats {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+.rationale-stats strong { color: var(--green); }
+.alternatives {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--border);
+  color: var(--muted2);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+.proposed-captaincy {
+  background: rgba(0,255,135,0.05);
+  border: 1px solid rgba(0,255,135,0.15);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  font-size: 0.88rem;
+  color: #d3f5e6;
+  margin-top: 0.5rem;
+}
+.proposed-captaincy strong { color: var(--green); }
+
 .changelog-item {
   position: relative;
   padding: 0.1rem 0 1.25rem 1.5rem;

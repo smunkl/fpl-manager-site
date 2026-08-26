@@ -42,7 +42,12 @@ async function load() {
     const res = await fetch('status.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('status.json not found yet');
     const data = await res.json();
-    render(data);
+    let proposed = null;
+    try {
+      const pres = await fetch('proposed.json', { cache: 'no-store' });
+      if (pres.ok) proposed = await pres.json();
+    } catch (e) { /* proposed.json is optional - older runs won't have it yet */ }
+    render(data, proposed);
   } catch (err) {
     app.innerHTML = '<div class="error">No status published yet. Check back soon.</div>';
     console.error(err);
@@ -75,7 +80,60 @@ function groupByPosition(players) {
   return order.map(pos => groups[pos]).filter(g => g.length);
 }
 
-function render(data) {
+function playerRationale(label, p) {
+  return `<div class="rationale-player">
+    <div class="rationale-player-label">${label}</div>
+    <div class="rationale-player-name">${p.name} <span class="sub">(${p.team})</span></div>
+    <div class="rationale-stats">
+      horizon <strong>${p.horizon.toFixed(1)}</strong> &middot;
+      form ${p.form.toFixed(1)} &middot;
+      fixture ease ${p.fixture_ease.toFixed(1)} &middot;
+      set-piece ${p.set_piece_bonus.toFixed(2)}
+    </div>
+  </div>`;
+}
+
+function renderProposed(proposed) {
+  if (!proposed) return '';
+  if (!proposed.has_changes) {
+    return `<section>
+      <h2><span class="icon">&#128302;</span> Proposed for Next Deadline</h2>
+      <p class="no-activity">No changes currently proposed &mdash; current squad already looks optimal.</p>
+      <p class="footnote" style="margin-top:0.75rem">Next deadline <strong>${fmtDate(proposed.deadline)}</strong></p>
+    </section>`;
+  }
+
+  const transferBlocks = (proposed.transfers || []).map(t => `
+    <div class="proposed-transfer">
+      <div class="proposed-transfer-arrow">${t.out.name} <span class="arrow">&rarr;</span> ${t.in.name}</div>
+      <div class="rationale-grid">
+        ${playerRationale('OUT', t.out)}
+        ${playerRationale('IN', t.in)}
+      </div>
+      ${t.alternatives && t.alternatives.length ? `<div class="alternatives">Other options considered: ${
+        t.alternatives.map(a => `${a.name} (${a.horizon.toFixed(1)})`).join(', ')
+      }</div>` : ''}
+    </div>
+  `).join('');
+
+  const hitNote = proposed.hits_taken ? `<div class="callout" style="margin-top:0.75rem">Takes a &minus;${4 * proposed.hits_taken} point hit</div>` : '';
+
+  const capNote = (proposed.captain_change || proposed.vice_change) ? `
+    <div class="proposed-captaincy">
+      ${proposed.captain_change ? `<div>Captain: ${proposed.captain_change.from} &rarr; <strong>${proposed.captain_change.to}</strong></div>` : ''}
+      ${proposed.vice_change ? `<div>Vice: ${proposed.vice_change.from} &rarr; <strong>${proposed.vice_change.to}</strong></div>` : ''}
+    </div>` : '';
+
+  return `<section>
+    <h2><span class="icon">&#128302;</span> Proposed for Next Deadline</h2>
+    ${transferBlocks}
+    ${capNote}
+    ${hitNote}
+    <p class="footnote" style="margin-top:0.75rem">Nothing submitted yet &middot; next deadline <strong>${fmtDate(proposed.deadline)}</strong></p>
+  </section>`;
+}
+
+function render(data, proposed) {
   const app = document.getElementById('app');
   const rows = groupByPosition(data.starting_xi || []).map(
     row => `<div class="pitch-row">${row.map(playerChip).join('')}</div>`
@@ -106,6 +164,8 @@ function render(data) {
       <div class="bench-header"><h2 style="margin:0;font-size:0.95rem;color:var(--muted)">Bench</h2></div>
       <div class="bench-list">${bench}</div>
     </section>
+
+    ${renderProposed(proposed)}
 
     <section>
       <h2><span class="icon">&#128203;</span> Recent Activity</h2>

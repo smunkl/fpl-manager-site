@@ -1,0 +1,426 @@
+{
+  "last_updated": "2026-08-26T14:19:10.228240+00:00",
+  "last_completed_gw": 1,
+  "leagues": [
+    {
+      "name": "Ferrets play FPL",
+      "league_id": 1512951,
+      "entries": [
+        {
+          "rank": 1,
+          "manager": "Mandeep Thandi",
+          "team_name": "Thandi FC",
+          "total_points": 53,
+          "gw_points": 53,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Calafiori",
+              "Maguire",
+              "Gvardiol",
+              "B.Fernandes",
+              "Wirtz",
+              "Anderson",
+              "Tzolis",
+              "Jo\u00e3o Pedro",
+              "Haaland",
+              "Calvert-Lewin"
+            ]
+          }
+        },
+        {
+          "rank": 1,
+          "manager": "Ash Pattni",
+          "team_name": "Gabagool FC",
+          "total_points": 53,
+          "gw_points": 53,
+          "is_me": false,
+          "squad": {
+            "captain": "B.Fernandes",
+            "xi": [
+              "Verbruggen",
+              "N.Williams",
+              "Calafiori",
+              "Ajer",
+              "B.Fernandes",
+              "Tzolis",
+              "Anderson",
+              "Wirtz",
+              "Calvert-Lewin",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "manager": "Daivik Sicotra",
+          "team_name": "SquirtleSquad",
+          "total_points": 50,
+          "gw_points": 50,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Davis",
+              "Gabriel",
+              "Gu\u00e9hi",
+              "Maguire",
+              "Szoboszlai",
+              "B.Fernandes",
+              "Ndiaye",
+              "Gro\u00df",
+              "Haaland",
+              "Calvert-Lewin"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "manager": "Akash Mehta",
+          "team_name": "Akash's Team",
+          "total_points": 30,
+          "gw_points": 30,
+          "is_me": true,
+          "squad": {
+            "captain": "Enzo",
+            "xi": [
+              "Raya",
+              "O'Reilly",
+              "Senesi",
+              "N.Williams",
+              "Szoboszlai",
+              "B.Fernandes",
+              "Wirtz",
+              "Enzo",
+              "Mbeumo",
+              "Thiago",
+              "Calvert-Lewin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShahPatelGudkaHariaMehta",
+      "league_id": 759397,
+      "entries": [
+        {
+          "rank": 1,
+          "manager": "Seema Shah",
+          "team_name": "Seema's Team",
+          "total_points": 69,
+          "gw_points": 69,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Kinsky",
+              "Rodon",
+              "Calafiori",
+              "Maguire",
+              "Gomez",
+              "Tzolis",
+              "Szoboszlai",
+              "B.Fernandes",
+              "Mbeumo",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "manager": "Jignesh Patel",
+          "team_name": "Change Name",
+          "total_points": 68,
+          "gw_points": 68,
+          "is_me": false,
+          "squad": {
+            "captain": "B.Fernandes",
+            "xi": [
+              "Verbruggen",
+              "Maguire",
+              "Calafiori",
+              "White",
+              "Tzolis",
+              "B.Fernandes",
+              "Mbeumo",
+              "Gibbs-White",
+              "Jo\u00e3o Pedro",
+              "Thiago",
+              "Isak"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "manager": "Kush Patel",
+          "team_name": "los santos customs",
+          "total_points": 66,
+          "gw_points": 66,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Verbruggen",
+              "Calafiori",
+              "Hume",
+              "Maguire",
+              "B.Fernandes",
+              "Szoboszlai",
+              "E.Le F\u00e9e",
+              "Mbeumo",
+              "Calvert-Lewin",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "manager": "Hiren Patel",
+          "team_name": "\u00d8degaardians",
+          "total_points": 60,
+          "gw_points": 60,
+          "is_me": false,
+          "squad": {
+            "captain": "\u00d8degaard",
+            "xi": [
+              "Verbruggen",
+              "Gabriel",
+              "Hato",
+              "Shaw",
+              "Tzolis",
+              "Wirtz",
+              "Semenyo",
+              "\u00d8degaard",
+              "Tonali",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "manager": "Aasav Patel",
+          "team_name": "to cook or not cook",
+          "total_points": 52,
+          "gw_points": 52,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Calafiori",
+              "Gabriel",
+              "Shaw",
+              "Hume",
+              "Diop",
+              "Mbeumo",
+              "B.Fernandes",
+              "Szoboszlai",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "manager": "Binoy Shah",
+          "team_name": "COYS",
+          "total_points": 50,
+          "gw_points": 50,
+          "is_me": false,
+          "squad": {
+            "captain": "Gy\u00f6keres",
+            "xi": [
+              "Verbruggen",
+              "Senesi",
+              "Tarkowski",
+              "Truffert",
+              "Mu\u00f1oz",
+              "B.Fernandes",
+              "Szoboszlai",
+              "Semenyo",
+              "Ampadu",
+              "Thiago",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "manager": "Maanika Shah",
+          "team_name": "Gameofthrowins",
+          "total_points": 48,
+          "gw_points": 48,
+          "is_me": false,
+          "squad": {
+            "captain": "B.Fernandes",
+            "xi": [
+              "Kelleher",
+              "Calafiori",
+              "Maguire",
+              "Shaw",
+              "B.Fernandes",
+              "Szoboszlai",
+              "Semenyo",
+              "E.Le F\u00e9e",
+              "Jo\u00e3o Pedro",
+              "Haaland",
+              "Calvert-Lewin"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "manager": "Priya Shah",
+          "team_name": "Greywings",
+          "total_points": 46,
+          "gw_points": 46,
+          "is_me": false,
+          "squad": {
+            "captain": "Gy\u00f6keres",
+            "xi": [
+              "Verbruggen",
+              "Mu\u00f1oz",
+              "Senesi",
+              "Tarkowski",
+              "Truffert",
+              "B.Fernandes",
+              "Szoboszlai",
+              "Semenyo",
+              "Ampadu",
+              "Jo\u00e3o Pedro",
+              "Thiago"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "manager": "Sneha Shah",
+          "team_name": "Princess Kadhi",
+          "total_points": 46,
+          "gw_points": 46,
+          "is_me": false,
+          "squad": {
+            "captain": "Semenyo",
+            "xi": [
+              "Verbruggen",
+              "Tarkowski",
+              "Truffert",
+              "Senesi",
+              "Mu\u00f1oz",
+              "Semenyo",
+              "B.Fernandes",
+              "Szoboszlai",
+              "Ampadu",
+              "Thiago",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "manager": "Chirag Patel",
+          "team_name": "Gada Rovers",
+          "total_points": 46,
+          "gw_points": 46,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Lammens",
+              "Mosquera",
+              "Kerkez",
+              "Hato",
+              "N.Williams",
+              "Ndiaye",
+              "Szoboszlai",
+              "Mbeumo",
+              "Wirtz",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 11,
+          "manager": "Hemali Shah",
+          "team_name": "Hemali's Heroes",
+          "total_points": 43,
+          "gw_points": 43,
+          "is_me": false,
+          "squad": {
+            "captain": "Thiago",
+            "xi": [
+              "S\u00e1nchez",
+              "Milenkovi\u0107",
+              "Tarkowski",
+              "O'Shea",
+              "E.Le F\u00e9e",
+              "Saka",
+              "Anderson",
+              "Rice",
+              "Jo\u00e3o Pedro",
+              "Thiago",
+              "Haaland"
+            ]
+          }
+        },
+        {
+          "rank": 12,
+          "manager": "Kayaan Patel",
+          "team_name": "K.F.C",
+          "total_points": 42,
+          "gw_points": 42,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Virgil",
+              "Gabriel",
+              "O'Reilly",
+              "N.Williams",
+              "van Ewijk",
+              "Saka",
+              "Wirtz",
+              "Szoboszlai",
+              "Walle Egeli",
+              "Haaland"
+            ]
+          }
+        },
+        {
+          "rank": 13,
+          "manager": "Akash Mehta",
+          "team_name": "Akash's Team",
+          "total_points": 30,
+          "gw_points": 30,
+          "is_me": true,
+          "squad": {
+            "captain": "Enzo",
+            "xi": [
+              "Raya",
+              "O'Reilly",
+              "Senesi",
+              "N.Williams",
+              "Szoboszlai",
+              "B.Fernandes",
+              "Wirtz",
+              "Enzo",
+              "Mbeumo",
+              "Thiago",
+              "Calvert-Lewin"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

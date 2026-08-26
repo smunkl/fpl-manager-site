@@ -319,6 +319,15 @@ section h2 .icon { font-size: 1.05rem; }
   font-size: 0.85rem;
 }
 .activity-item li { margin-bottom: 0.15rem; }
+.activity-item li.rationale {
+  list-style: none;
+  margin-left: -1.1rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--border);
+  color: var(--muted2);
+  font-size: 0.78rem;
+  font-style: italic;
+}
 .no-activity {
   color: var(--muted2);
   font-size: 0.9rem;

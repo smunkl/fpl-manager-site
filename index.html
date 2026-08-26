@@ -84,7 +84,10 @@ function render(data) {
   const activity = (data.recent_activity || []).slice().reverse().map(a => `
     <div class="activity-item">
       <div class="header">${a.header}</div>
-      ${a.details && a.details.length ? `<ul>${a.details.map(d => `<li>${d.replace(/^- /, '')}</li>`).join('')}</ul>` : ''}
+      ${a.details && a.details.length ? `<ul>${a.details.map(d =>
+        d.startsWith('- ') ? `<li>${d.replace(/^- /, '')}</li>`
+        : `<li class="rationale">${d.trim()}</li>`
+      ).join('')}</ul>` : ''}
     </div>
   `).join('') || '<p class="no-activity">No changes yet this gameweek.</p>';
 

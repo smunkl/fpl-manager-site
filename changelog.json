@@ -78,5 +78,15 @@
     "date": "2026-08-21",
     "title": "Tested defensive contribution and BPS trend - didn't ship either",
     "description": "FPL's new tackles/interceptions/clearances threshold bonus looked promising as a recent-form signal (+0.016 to +0.023 to prediction accuracy), but that version needs per-player history that isn't cheaply available for the whole player pool. Retested with the version that's actually buildable in bulk and the improvement vanished. Left out rather than shipped on a technicality."
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Added a minimum-value threshold for transfers",
+    "description": "Free transfers had no cost in the model, so it would take any transfer with even a hair of positive value - found live when it wanted to swap the backup goalkeeper for one worth 0.2 points more over five weeks, a player who'll almost certainly never actually play. Transfers now need to clear a real minimum bar to be worth making, same idea as the existing cost for paid transfers beyond the free allowance."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Fixed a single-game form spike distorting captaincy",
+    "description": "With only one gameweek played all season, FPL's rolling form stat is just that one game's score, not an average. A defender's freak 17-point haul in gameweek 1 (clean sheet plus a big bonus) showed as red-hot form and nearly won him the captaincy over established players - 19 players had similarly inflated form at the time this was caught. Form now ramps up in trust as a player builds a real sample this season, instead of being taken at face value from game one."
   }
 ]

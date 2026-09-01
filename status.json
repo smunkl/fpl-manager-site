@@ -1,33 +1,33 @@
 {
-  "last_updated": "2026-08-26T14:24:14.949607+00:00",
-  "gameweek": 2,
-  "deadline": "2026-08-28T17:30:00Z",
+  "last_updated": "2026-09-01T14:10:37.115461+00:00",
+  "gameweek": 3,
+  "deadline": "2026-09-04T17:30:00Z",
   "mode": "LIVE",
   "bank": 1.5,
   "free_transfers": 1,
-  "total_projected_points": 29.4,
+  "total_projected_points": 52.9,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 2.5,
+      "projected_points": 3.6,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "O'Reilly",
+      "name": "Calafiori",
       "position": "DEF",
-      "team": "MCI",
-      "projected_points": 1.9,
+      "team": "ARS",
+      "projected_points": 5.1,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Senesi",
+      "name": "Ajayi",
       "position": "DEF",
-      "team": "TOT",
-      "projected_points": 1.8,
+      "team": "HUL",
+      "projected_points": 5.1,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "Pedro Porro",
       "position": "DEF",
       "team": "TOT",
-      "projected_points": 1.8,
+      "projected_points": 1.1,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Szoboszlai",
       "position": "MID",
       "team": "LIV",
-      "projected_points": 3.1,
+      "projected_points": 4.6,
       "captain": false,
       "vice_captain": true
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 6.5,
+      "projected_points": 14.6,
       "captain": true,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Ndiaye",
       "position": "MID",
       "team": "EVE",
-      "projected_points": 2.7,
+      "projected_points": 4.4,
       "captain": false,
       "vice_captain": false
     },
@@ -67,15 +67,15 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.1,
+      "projected_points": 4.0,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Mateta",
+      "name": "Jo\u00e3o Pedro",
       "position": "FWD",
-      "team": "CRY",
-      "projected_points": 2.3,
+      "team": "CHE",
+      "projected_points": 5.0,
       "captain": false,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 2.2,
+      "projected_points": 3.4,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Thiago",
       "position": "FWD",
       "team": "BRE",
-      "projected_points": 2.4,
+      "projected_points": 2.0,
       "captain": false,
       "vice_captain": false
     }
@@ -103,9 +103,9 @@
       "team": "BHA"
     },
     {
-      "name": "Enzo",
+      "name": "Saka",
       "position": "MID",
-      "team": "CHE"
+      "team": "ARS"
     },
     {
       "name": "N.Williams",
@@ -138,6 +138,30 @@
         "  Other options considered: Gro\u00df (5.7), Buend\u00eda (5.3), Stach (4.6)",
         "- Lineup: benched Enzo, started Mateta",
         "- Captain: B.Fernandes, Vice: Szoboszlai"
+      ]
+    },
+    {
+      "header": "GW3 - 2026-09-01T14:10:37.113932+00:00",
+      "details": [
+        "- Transfer: OUT O'Reilly -> IN Calafiori",
+        "  O'Reilly: horizon 2.5 pts/5gw (form 1.0, fixture ease 11.9, set-piece 0.00)",
+        "  Calafiori: horizon 7.5 pts/5gw (form 5.0, fixture ease 10.7, set-piece 0.00)",
+        "  Other options considered: Ajayi (7.8), Hall (7.2), White (7.1)",
+        "- Transfer: OUT Senesi -> IN Ajayi",
+        "  Senesi: horizon 1.5 pts/5gw (form 0.4, fixture ease 11.0, set-piece 0.00)",
+        "  Ajayi: horizon 7.8 pts/5gw (form 5.0, fixture ease 10.3, set-piece 0.00)",
+        "  Other options considered: Calafiori (7.5), Hall (7.2), White (7.1)",
+        "- Transfer: OUT Enzo -> IN Saka",
+        "  Enzo: horizon 1.7 pts/5gw (form 0.0, fixture ease 10.0, set-piece 0.25)",
+        "  Saka: horizon 10.8 pts/5gw (form 5.0, fixture ease 10.7, set-piece 0.75)",
+        "  Other options considered: Gro\u00df (9.6), Gibbs-White (9.2), Stach (7.6)",
+        "- Transfer: OUT Mateta -> IN Jo\u00e3o Pedro",
+        "  Mateta: horizon 0.0 pts/5gw (form 0.2, fixture ease 12.0, set-piece 0.75)",
+        "  Jo\u00e3o Pedro: horizon 7.5 pts/5gw (form 5.0, fixture ease 10.0, set-piece 0.00)",
+        "  Other options considered: Gonzalo (6.5), Barry (5.9), McBurnie (5.5)",
+        "- Lineup: benched Thiago, started Saka",
+        "- Lineup: benched Pedro Porro, started N.Williams",
+        "- Captain: B.Fernandes, Vice: Saka"
       ]
     }
   ]

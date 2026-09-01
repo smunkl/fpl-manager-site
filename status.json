@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-01T14:10:37.115461+00:00",
+  "last_updated": "2026-09-01T14:21:10.867270+00:00",
   "gameweek": 3,
   "deadline": "2026-09-04T17:30:00Z",
   "mode": "LIVE",
-  "bank": 1.5,
-  "free_transfers": 1,
-  "total_projected_points": 52.9,
+  "bank": 0.5,
+  "free_transfers": 0,
+  "total_projected_points": 58.1,
   "starting_xi": [
     {
       "name": "Raya",
@@ -32,10 +32,10 @@
       "vice_captain": false
     },
     {
-      "name": "Pedro Porro",
+      "name": "N.Williams",
       "position": "DEF",
-      "team": "TOT",
-      "projected_points": 1.1,
+      "team": "NFO",
+      "projected_points": 2.4,
       "captain": false,
       "vice_captain": false
     },
@@ -45,7 +45,7 @@
       "team": "LIV",
       "projected_points": 4.6,
       "captain": false,
-      "vice_captain": true
+      "vice_captain": false
     },
     {
       "name": "B.Fernandes",
@@ -72,6 +72,14 @@
       "vice_captain": false
     },
     {
+      "name": "Saka",
+      "position": "MID",
+      "team": "ARS",
+      "projected_points": 5.9,
+      "captain": false,
+      "vice_captain": true
+    },
+    {
       "name": "Jo\u00e3o Pedro",
       "position": "FWD",
       "team": "CHE",
@@ -86,14 +94,6 @@
       "projected_points": 3.4,
       "captain": false,
       "vice_captain": false
-    },
-    {
-      "name": "Thiago",
-      "position": "FWD",
-      "team": "BRE",
-      "projected_points": 2.0,
-      "captain": false,
-      "vice_captain": false
     }
   ],
   "bench": [
@@ -103,14 +103,14 @@
       "team": "BHA"
     },
     {
-      "name": "Saka",
-      "position": "MID",
-      "team": "ARS"
+      "name": "Thiago",
+      "position": "FWD",
+      "team": "BRE"
     },
     {
-      "name": "N.Williams",
+      "name": "Pedro Porro",
       "position": "DEF",
-      "team": "NFO"
+      "team": "TOT"
     },
     {
       "name": "F.Kad\u0131o\u011flu",

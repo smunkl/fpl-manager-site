@@ -88,5 +88,40 @@
     "date": "2026-08-26",
     "title": "Fixed a single-game form spike distorting captaincy",
     "description": "With only one gameweek played all season, FPL's rolling form stat is just that one game's score, not an average. A defender's freak 17-point haul in gameweek 1 (clean sheet plus a big bonus) showed as red-hot form and nearly won him the captaincy over established players - 19 players had similarly inflated form at the time this was caught. Form now ramps up in trust as a player builds a real sample this season, instead of being taken at face value from game one."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Every transfer now explains itself",
+    "description": "Each real transfer now comes with the same breakdown used to decide it - both players' scores, and the closest affordable alternatives that weren't chosen - shown in the season history and in what's proposed ahead of each deadline."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Added a preview of what's coming before it happens",
+    "description": "A new section shows what's currently proposed for the next deadline, with the full reasoning behind it, before anything is actually submitted - built as its own separate feed so a preview can never be confused with, or overwrite, the real live squad."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Fixed the live squad view showing hypothetical squads",
+    "description": "The public site was built from the model's proposed squad, not the actual one - correct the moment a real transfer went through, but a preview or dry run would briefly publish a fiction as if it were the real live team. Now always does one final authoritative check against the real account before publishing anything."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Added a full season history",
+    "description": "Every gameweek now gets its own record - the decisions made alongside the actual outcome once FPL has scored it (real points, points stranded on the bench, rank), not just a rolling snapshot of the last few changes."
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Added mini-league tracking",
+    "description": "Standings and squads for the leagues that actually matter, pulled from FPL's own public data. Purely informational - doesn't feed into any decision the model makes, and can't: a rival's live team for the upcoming deadline isn't visible to anyone but them, by FPL's own rules, only what they did last time."
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Fixed transfers silently targeting the wrong gameweek",
+    "description": "A real bug: the code that decides which gameweek a transfer is *for* relied on a field that no longer exists in FPL's own data, and was quietly defaulting to gameweek 1 every time - invisible as long as gameweek 1 was still current, but it would have broken every transfer from gameweek 2 onward. Caught when FPL rejected a submission outright; now takes the correct gameweek explicitly instead of guessing."
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Stopped capping how big a rebuild can be",
+    "description": "The optimizer was limited to one paid transfer beyond the free allowance by default - a safety limit, not a finding. That cap meant a genuinely good bigger move could never even be considered, only ever discovered by manually raising it to check. Since a hit is only ever taken when its own projected gain clears its own cost, removing the cap doesn't invite reckless weeks - it just stops hiding good ones."
   }
 ]

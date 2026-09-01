@@ -83,7 +83,11 @@
       </div>
       <div class="signal-card">
         <div class="signal-title">Cost of a paid transfer</div>
-        <p><code>HIT_COST = 4</code> &mdash; FPL's actual point deduction. A hit is only taken when the projected gain clearly clears that bar, not a hand-picked "feels worth it" threshold.</p>
+        <p><code>HIT_COST = 4</code> &mdash; FPL's actual point deduction. A hit is only taken when the projected gain clearly clears that bar, not a hand-picked "feels worth it" threshold. How many hits it's allowed to take in one week is effectively uncapped (<code>MAX_EXTRA_HITS = 14</code>, the true ceiling being squad size) &mdash; it doesn't take reckless hits just because it can, since each one still has to individually clear its own cost, but it's no longer artificially blocked from proposing a bigger rebuild when the numbers genuinely support one.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-title">Minimum value threshold for any transfer</div>
+        <p><code>TRANSFER_FRICTION_COST = 1.0</code>. A free transfer still isn't a costless one in real life (churn, price-change risk, giving up a transfer you could've saved) &mdash; without a floor here, the optimizer would take literally any transfer with positive expected value, however tiny. Every transfer, free or paid, has to clear this bar to be worth making at all.</p>
       </div>
     </div>
     <div class="prose" style="margin-top:1rem">

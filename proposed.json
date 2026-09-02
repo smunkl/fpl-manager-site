@@ -1,10 +1,43 @@
 {
-  "last_updated": "2026-09-01T14:10:44.698256+00:00",
+  "last_updated": "2026-09-02T08:03:08.055422+00:00",
   "gameweek": 3,
   "deadline": "2026-09-04T17:30:00Z",
-  "has_changes": false,
+  "has_changes": true,
   "hits_taken": 0,
-  "transfers": [],
+  "transfers": [
+    {
+      "out": {
+        "name": "F.Kad\u0131o\u011flu",
+        "team": "BHA",
+        "horizon": 0.8,
+        "form": 0.0,
+        "fixture_ease": 12.3,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "De Cuyper",
+        "team": "BHA",
+        "horizon": 7.1,
+        "form": 4.2,
+        "fixture_ease": 12.3,
+        "set_piece_bonus": 0.0
+      },
+      "alternatives": [
+        {
+          "name": "Egan",
+          "horizon": 6.9
+        },
+        {
+          "name": "Mendy",
+          "horizon": 6.3
+        },
+        {
+          "name": "Kayode",
+          "horizon": 6.1
+        }
+      ]
+    }
+  ],
   "captain_change": null,
   "vice_change": null
 }

@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-02T08:03:01.897542+00:00",
+  "last_updated": "2026-09-03T09:36:23.543631+00:00",
   "gameweek": 3,
   "deadline": "2026-09-04T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 0,
-  "total_projected_points": 58.1,
+  "total_projected_points": 57.4,
   "starting_xi": [
     {
       "name": "Raya",
@@ -58,8 +58,8 @@
     {
       "name": "Ndiaye",
       "position": "MID",
-      "team": "EVE",
-      "projected_points": 4.4,
+      "team": "MCI",
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     },

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T08:03:06.477668+00:00",
+  "last_updated": "2026-09-03T11:56:16.221679+00:00",
   "last_completed_gw": 2,
   "leagues": [
     {
@@ -115,22 +115,7 @@
           "total_points": 182,
           "gw_points": 116,
           "is_me": false,
-          "squad": {
-            "captain": "B.Fernandes",
-            "xi": [
-              "Kinsky",
-              "Calafiori",
-              "Hume",
-              "Maguire",
-              "B.Fernandes",
-              "Szoboszlai",
-              "E.Le F\u00e9e",
-              "Mbeumo",
-              "Calvert-Lewin",
-              "Haaland",
-              "Jo\u00e3o Pedro"
-            ]
-          }
+          "squad": null
         },
         {
           "rank": 2,

@@ -1,43 +1,78 @@
 {
-  "last_updated": "2026-09-04T08:04:13.845314+00:00",
-  "gameweek": 3,
-  "deadline": "2026-09-04T17:30:00Z",
+  "last_updated": "2026-09-05T08:00:10.570294+00:00",
+  "gameweek": 4,
+  "deadline": "2026-09-12T12:30:00Z",
   "has_changes": true,
-  "hits_taken": 0,
+  "hits_taken": 1,
   "transfers": [
     {
       "out": {
-        "name": "F.Kad\u0131o\u011flu",
-        "team": "BHA",
-        "horizon": 0.8,
-        "form": 0.0,
-        "fixture_ease": 12.3,
-        "set_piece_bonus": 0.0
+        "name": "Mbeumo",
+        "team": "MUN",
+        "horizon": 5.3,
+        "form": 2.1,
+        "fixture_ease": 10.3,
+        "set_piece_bonus": 0.25
       },
       "in": {
-        "name": "De Cuyper",
-        "team": "BHA",
-        "horizon": 7.1,
-        "form": 4.2,
-        "fixture_ease": 12.3,
+        "name": "Gakpo",
+        "team": "LIV",
+        "horizon": 8.6,
+        "form": 7.0,
+        "fixture_ease": 12.4,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Egan",
-          "horizon": 6.9
+          "name": "Gro\u00df",
+          "horizon": 7.8
         },
         {
-          "name": "Mendy",
-          "horizon": 6.3
+          "name": "Gibbs-White",
+          "horizon": 7.4
         },
         {
-          "name": "Kayode",
-          "horizon": 6.1
+          "name": "Stach",
+          "horizon": 5.6
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Thiago",
+        "team": "BRE",
+        "horizon": 4.7,
+        "form": 0.3,
+        "fixture_ease": 10.3,
+        "set_piece_bonus": 0.75
+      },
+      "in": {
+        "name": "Isak",
+        "team": "LIV",
+        "horizon": 8.7,
+        "form": 5.8,
+        "fixture_ease": 12.4,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Gonzalo",
+          "horizon": 5.6
+        },
+        {
+          "name": "Emersonn",
+          "horizon": 5.4
+        },
+        {
+          "name": "McBurnie",
+          "horizon": 4.7
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": null
+  "vice_change": {
+    "from": "Saka",
+    "to": "Gakpo"
+  }
 }

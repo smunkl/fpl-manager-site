@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T08:03:06.660891+00:00",
+  "last_updated": "2026-09-05T08:00:05.280294+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -55,7 +55,11 @@
         "- Lineup: benched Thiago, started Saka",
         "- Lineup: benched Pedro Porro, started N.Williams",
         "- Captain: B.Fernandes, Vice: Saka"
-      ]
+      ],
+      "actual_points": 3,
+      "points_on_bench": 0,
+      "hit_cost": 12,
+      "overall_rank": 7584406
     }
   ]
 }

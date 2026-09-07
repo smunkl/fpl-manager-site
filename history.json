@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T08:00:05.280294+00:00",
+  "last_updated": "2026-09-07T08:03:03.940019+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -56,10 +56,10 @@
         "- Lineup: benched Pedro Porro, started N.Williams",
         "- Captain: B.Fernandes, Vice: Saka"
       ],
-      "actual_points": 3,
-      "points_on_bench": 0,
+      "actual_points": 18,
+      "points_on_bench": 16,
       "hit_cost": 12,
-      "overall_rank": 7584406
+      "overall_rank": 8381494
     }
   ]
 }

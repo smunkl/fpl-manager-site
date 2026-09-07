@@ -1,71 +1,39 @@
 {
-  "last_updated": "2026-09-05T08:00:10.570294+00:00",
+  "last_updated": "2026-09-07T08:03:08.296156+00:00",
   "gameweek": 4,
   "deadline": "2026-09-12T12:30:00Z",
   "has_changes": true,
-  "hits_taken": 1,
+  "hits_taken": 0,
   "transfers": [
     {
       "out": {
-        "name": "Mbeumo",
-        "team": "MUN",
-        "horizon": 5.3,
-        "form": 2.1,
-        "fixture_ease": 10.3,
-        "set_piece_bonus": 0.25
+        "name": "Verbruggen",
+        "team": "BHA",
+        "horizon": 3.7,
+        "form": 2.2,
+        "fixture_ease": 12.3,
+        "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Gakpo",
-        "team": "LIV",
-        "horizon": 8.6,
-        "form": 7.0,
-        "fixture_ease": 12.4,
+        "name": "Tzolakis",
+        "team": "HUL",
+        "horizon": 8.9,
+        "form": 6.5,
+        "fixture_ease": 10.3,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Gro\u00df",
-          "horizon": 7.8
-        },
-        {
-          "name": "Gibbs-White",
-          "horizon": 7.4
-        },
-        {
-          "name": "Stach",
-          "horizon": 5.6
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "Thiago",
-        "team": "BRE",
-        "horizon": 4.7,
-        "form": 0.3,
-        "fixture_ease": 10.3,
-        "set_piece_bonus": 0.75
-      },
-      "in": {
-        "name": "Isak",
-        "team": "LIV",
-        "horizon": 8.7,
-        "form": 5.8,
-        "fixture_ease": 12.4,
-        "set_piece_bonus": 0.25
-      },
-      "alternatives": [
-        {
-          "name": "Gonzalo",
-          "horizon": 5.6
-        },
-        {
-          "name": "Emersonn",
+          "name": "Trafford",
           "horizon": 5.4
         },
         {
-          "name": "McBurnie",
-          "horizon": 4.7
+          "name": "Kelleher",
+          "horizon": 4.2
+        },
+        {
+          "name": "Horn\u00ed\u010dek",
+          "horizon": 3.9
         }
       ]
     }
@@ -73,6 +41,6 @@
   "captain_change": null,
   "vice_change": {
     "from": "Saka",
-    "to": "Gakpo"
+    "to": "Tzolakis"
   }
 }

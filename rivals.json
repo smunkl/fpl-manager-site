@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-07T08:03:06.704281+00:00",
-  "last_completed_gw": 2,
+  "last_updated": "2026-09-08T08:02:10.591494+00:00",
+  "last_completed_gw": 3,
   "leagues": [
     {
       "name": "Ferrets play FPL",
@@ -14,7 +14,7 @@
           "gw_points": 57,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Haaland",
             "xi": [
               "Raya",
               "Calafiori",
@@ -48,7 +48,7 @@
               "Gro\u00df",
               "Szoboszlai",
               "B.Fernandes",
-              "Ndiaye",
+              "M.Sangar\u00e9",
               "Calvert-Lewin",
               "Haaland"
             ]
@@ -62,15 +62,15 @@
           "gw_points": 36,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Cherki",
             "xi": [
               "Verbruggen",
               "N.Williams",
               "Calafiori",
               "Ajer",
               "B.Fernandes",
-              "Tzolis",
-              "Anderson",
+              "Cherki",
+              "M.Sangar\u00e9",
               "Wirtz",
               "Calvert-Lewin",
               "Haaland",
@@ -89,15 +89,15 @@
             "captain": "B.Fernandes",
             "xi": [
               "Raya",
-              "O'Reilly",
+              "Calafiori",
+              "Ajayi",
               "N.Williams",
-              "Pedro Porro",
-              "F.Kad\u0131o\u011flu",
               "Szoboszlai",
               "B.Fernandes",
               "Ndiaye",
               "Mbeumo",
-              "Thiago",
+              "Saka",
+              "Jo\u00e3o Pedro",
               "Calvert-Lewin"
             ]
           }
@@ -116,17 +116,17 @@
           "gw_points": 56,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Haaland",
             "xi": [
-              "Kinsky",
-              "Maguire",
+              "Verbruggen",
+              "De Cuyper",
               "Calafiori",
               "White",
               "Tzolis",
-              "B.Fernandes",
-              "Mbeumo",
+              "Foden",
+              "Cherki",
               "Gibbs-White",
-              "Jo\u00e3o Pedro",
+              "Haaland",
               "Thiago",
               "Isak"
             ]
@@ -140,16 +140,16 @@
           "gw_points": 48,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Haaland",
             "xi": [
-              "Kinsky",
+              "Verbruggen",
               "Calafiori",
-              "Hume",
-              "Maguire",
+              "De Cuyper",
+              "Kayode",
               "B.Fernandes",
               "Szoboszlai",
-              "E.Le F\u00e9e",
-              "Mbeumo",
+              "Gro\u00df",
+              "Cherki",
               "Calvert-Lewin",
               "Haaland",
               "Jo\u00e3o Pedro"
@@ -164,17 +164,17 @@
           "gw_points": 57,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Haaland",
             "xi": [
               "Kinsky",
-              "Rodon",
+              "De Cuyper",
               "Calafiori",
               "Maguire",
               "Tzolis",
               "Szoboszlai",
               "B.Fernandes",
-              "Mbeumo",
-              "Brobbey",
+              "Cherki",
+              "Gomez",
               "Haaland",
               "Jo\u00e3o Pedro"
             ]
@@ -188,7 +188,7 @@
           "gw_points": 62,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Haaland",
             "xi": [
               "Kelleher",
               "Calafiori",
@@ -232,23 +232,23 @@
           "rank": 6,
           "manager": "Chirag Patel",
           "team_name": "Gada Rovers",
-          "total_points": 177,
-          "gw_points": 51,
+          "total_points": 180,
+          "gw_points": 54,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
             "xi": [
               "Lammens",
-              "Mosquera",
               "Kerkez",
               "Hato",
-              "Foden",
+              "N.Williams",
               "Ndiaye",
               "Szoboszlai",
               "Mbeumo",
+              "Foden",
               "Wirtz",
-              "Haaland",
-              "Jo\u00e3o Pedro"
+              "Jo\u00e3o Pedro",
+              "Haaland"
             ]
           }
         },
@@ -284,16 +284,16 @@
           "gw_points": 48,
           "is_me": false,
           "squad": {
-            "captain": "Saka",
+            "captain": "Haaland",
             "xi": [
-              "S\u00e1nchez",
+              "Tzolakis",
               "White",
               "Tarkowski",
-              "O'Shea",
+              "Giles",
               "Palmer",
               "Saka",
               "Lewis-Potter",
-              "Rice",
+              "Cherki",
               "Jo\u00e3o Pedro",
               "Emersonn",
               "Haaland"
@@ -311,15 +311,15 @@
             "captain": "B.Fernandes",
             "xi": [
               "Raya",
-              "O'Reilly",
+              "Calafiori",
+              "Ajayi",
               "N.Williams",
-              "Pedro Porro",
-              "F.Kad\u0131o\u011flu",
               "Szoboszlai",
               "B.Fernandes",
               "Ndiaye",
               "Mbeumo",
-              "Thiago",
+              "Saka",
+              "Jo\u00e3o Pedro",
               "Calvert-Lewin"
             ]
           }
@@ -332,19 +332,19 @@
           "gw_points": 26,
           "is_me": false,
           "squad": {
-            "captain": "Szoboszlai",
+            "captain": "Cherki",
             "xi": [
-              "Kinsky",
+              "Verbruggen",
               "Tarkowski",
-              "Truffert",
+              "Mu\u00f1oz",
               "Konsa",
+              "Cherki",
               "B.Fernandes",
-              "Rogers",
               "Szoboszlai",
-              "Semenyo",
-              "Ampadu",
-              "Jo\u00e3o Pedro",
-              "Thiago"
+              "M.Sangar\u00e9",
+              "Wissa",
+              "Thiago",
+              "Jo\u00e3o Pedro"
             ]
           }
         },
@@ -352,23 +352,23 @@
           "rank": 11,
           "manager": "Kayaan Patel",
           "team_name": "K.F.C",
-          "total_points": 136,
-          "gw_points": 24,
+          "total_points": 138,
+          "gw_points": 26,
           "is_me": false,
           "squad": {
-            "captain": "Saka",
+            "captain": "B.Fernandes",
             "xi": [
               "Raya",
-              "Virgil",
-              "Gabriel",
-              "O'Reilly",
-              "N.Williams",
-              "van Ewijk",
+              "Tarkowski",
+              "Calafiori",
+              "Ajayi",
+              "Maguire",
+              "Cherki",
+              "M.Sangar\u00e9",
+              "B.Fernandes",
               "Saka",
-              "Wirtz",
-              "Szoboszlai",
-              "N.Jackson",
-              "Haaland"
+              "Elanga",
+              "Jo\u00e3o Pedro"
             ]
           }
         },
@@ -380,19 +380,19 @@
           "gw_points": 26,
           "is_me": false,
           "squad": {
-            "captain": "Szoboszlai",
+            "captain": "Cherki",
             "xi": [
-              "Kinsky",
-              "Truffert",
+              "Verbruggen",
               "Konsa",
+              "Mu\u00f1oz",
               "Tarkowski",
-              "Semenyo",
+              "M.Sangar\u00e9",
               "B.Fernandes",
-              "Ampadu",
               "Szoboszlai",
-              "Rogers",
-              "Thiago",
-              "Jo\u00e3o Pedro"
+              "Cherki",
+              "Wissa",
+              "Jo\u00e3o Pedro",
+              "Thiago"
             ]
           }
         },
@@ -404,17 +404,17 @@
           "gw_points": 22,
           "is_me": false,
           "squad": {
-            "captain": "Szoboszlai",
+            "captain": "Cherki",
             "xi": [
-              "Kinsky",
-              "Konsa",
-              "Tarkowski",
+              "Verbruggen",
               "Truffert",
+              "Tarkowski",
+              "Mu\u00f1oz",
+              "M.Sangar\u00e9",
               "B.Fernandes",
               "Szoboszlai",
-              "Semenyo",
-              "Ampadu",
-              "Rogers",
+              "Cherki",
+              "Wissa",
               "Jo\u00e3o Pedro",
               "Thiago"
             ]
@@ -427,7 +427,22 @@
           "total_points": 43,
           "gw_points": 43,
           "is_me": false,
-          "squad": null
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Verbruggen",
+              "Ajayi",
+              "Calafiori",
+              "De Cuyper",
+              "Cherki",
+              "Palmer",
+              "Szoboszlai",
+              "Elanga",
+              "Thiago",
+              "Jo\u00e3o Pedro",
+              "Haaland"
+            ]
+          }
         }
       ]
     }

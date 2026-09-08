@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T08:03:08.296156+00:00",
+  "last_updated": "2026-09-08T08:02:12.096450+00:00",
   "gameweek": 4,
   "deadline": "2026-09-12T12:30:00Z",
   "has_changes": true,
@@ -9,9 +9,9 @@
       "out": {
         "name": "Verbruggen",
         "team": "BHA",
-        "horizon": 3.7,
+        "horizon": 3.6,
         "form": 2.2,
-        "fixture_ease": 12.3,
+        "fixture_ease": 10.8,
         "set_piece_bonus": 0.0
       },
       "in": {
@@ -19,7 +19,7 @@
         "team": "HUL",
         "horizon": 8.9,
         "form": 6.5,
-        "fixture_ease": 10.3,
+        "fixture_ease": 10.1,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
@@ -29,7 +29,7 @@
         },
         {
           "name": "Kelleher",
-          "horizon": 4.2
+          "horizon": 4.1
         },
         {
           "name": "Horn\u00ed\u010dek",

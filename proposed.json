@@ -1,46 +1,81 @@
 {
-  "last_updated": "2026-09-12T08:18:09.247180+00:00",
-  "gameweek": 4,
-  "deadline": "2026-09-12T12:30:00Z",
+  "last_updated": "2026-09-13T08:03:07.612765+00:00",
+  "gameweek": 5,
+  "deadline": "2026-09-18T17:30:00Z",
   "has_changes": true,
   "hits_taken": 0,
   "transfers": [
     {
       "out": {
-        "name": "Verbruggen",
-        "team": "BHA",
-        "horizon": 3.6,
-        "form": 2.2,
-        "fixture_ease": 10.8,
+        "name": "Ndiaye",
+        "team": "MCI",
+        "horizon": 4.5,
+        "form": 3.0,
+        "fixture_ease": 10.3,
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Tzolakis",
-        "team": "HUL",
-        "horizon": 8.9,
-        "form": 6.5,
-        "fixture_ease": 10.1,
-        "set_piece_bonus": 0.0
+        "name": "Tavernier",
+        "team": "BOU",
+        "horizon": 9.7,
+        "form": 7.2,
+        "fixture_ease": 9.6,
+        "set_piece_bonus": 0.25
       },
       "alternatives": [
         {
-          "name": "Trafford",
-          "horizon": 5.4
+          "name": "Schade",
+          "horizon": 9.4
         },
         {
-          "name": "Kelleher",
-          "horizon": 4.1
+          "name": "Gro\u00df",
+          "horizon": 8.1
         },
         {
-          "name": "Horn\u00ed\u010dek",
-          "horizon": 3.9
+          "name": "Scott",
+          "horizon": 7.7
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Mbeumo",
+        "team": "MUN",
+        "horizon": 6.7,
+        "form": 3.9,
+        "fixture_ease": 10.1,
+        "set_piece_bonus": 0.25
+      },
+      "in": {
+        "name": "Gibbs-White",
+        "team": "NFO",
+        "horizon": 11.2,
+        "form": 6.5,
+        "fixture_ease": 10.9,
+        "set_piece_bonus": 0.9
+      },
+      "alternatives": [
+        {
+          "name": "Tavernier",
+          "horizon": 9.7
+        },
+        {
+          "name": "Schade",
+          "horizon": 9.4
+        },
+        {
+          "name": "\u00d8degaard",
+          "horizon": 8.8
         }
       ]
     }
   ],
-  "captain_change": null,
+  "captain_change": {
+    "from": "B.Fernandes",
+    "to": "Saka"
+  },
   "vice_change": {
     "from": "Saka",
-    "to": "Tzolakis"
+    "to": "B.Fernandes"
   }
 }

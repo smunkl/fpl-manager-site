@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T08:03:03.374403+00:00",
+  "last_updated": "2026-09-14T08:02:05.116521+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -65,10 +65,10 @@
       "gw": 4,
       "date": null,
       "actions": [],
-      "actual_points": 46,
-      "points_on_bench": 1,
+      "actual_points": 53,
+      "points_on_bench": 15,
       "hit_cost": 0,
-      "overall_rank": 7441917
+      "overall_rank": 8172911
     }
   ]
 }

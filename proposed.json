@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T08:02:09.624836+00:00",
+  "last_updated": "2026-09-15T08:17:40.193330+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
   "has_changes": true,
@@ -7,33 +7,33 @@
   "transfers": [
     {
       "out": {
-        "name": "F.Kad\u0131o\u011flu",
-        "team": "BHA",
-        "horizon": 2.7,
-        "form": 1.5,
-        "fixture_ease": 10.8,
-        "set_piece_bonus": 0.0
+        "name": "Pedro Porro",
+        "team": "TOT",
+        "horizon": 2.1,
+        "form": 1.0,
+        "fixture_ease": 10.5,
+        "set_piece_bonus": 0.15
       },
       "in": {
-        "name": "De Cuyper",
-        "team": "BHA",
-        "horizon": 9.0,
-        "form": 8.0,
-        "fixture_ease": 10.8,
+        "name": "Bogle",
+        "team": "LEE",
+        "horizon": 10.6,
+        "form": 9.2,
+        "fixture_ease": 10.1,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Giles",
-          "horizon": 7.7
+          "name": "De Cuyper",
+          "horizon": 9.0
         },
         {
-          "name": "Egan",
-          "horizon": 7.6
+          "name": "Gvardiol",
+          "horizon": 8.9
         },
         {
-          "name": "Mykolenko",
-          "horizon": 6.9
+          "name": "Gu\u00e9hi",
+          "horizon": 8.1
         }
       ]
     },
@@ -64,8 +64,8 @@
           "horizon": 9.4
         },
         {
-          "name": "Scott",
-          "horizon": 7.7
+          "name": "Stach",
+          "horizon": 7.9
         }
       ]
     }
@@ -74,5 +74,8 @@
     "from": "B.Fernandes",
     "to": "Gro\u00df"
   },
-  "vice_change": null
+  "vice_change": {
+    "from": "Saka",
+    "to": "Bogle"
+  }
 }

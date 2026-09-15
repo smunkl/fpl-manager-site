@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-14T08:02:02.908415+00:00",
+  "last_updated": "2026-09-15T08:02:33.085477+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 0,
-  "total_projected_points": 53.1,
+  "total_projected_points": 54.5,
   "starting_xi": [
     {
       "name": "Raya",
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 2.7,
+      "projected_points": 4.1,
       "captain": false,
       "vice_captain": false
     }

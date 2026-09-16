@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-15T08:02:33.085477+00:00",
+  "last_updated": "2026-09-16T08:03:02.298758+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 0,
-  "total_projected_points": 54.5,
+  "total_projected_points": 54.9,
   "starting_xi": [
     {
       "name": "Raya",
@@ -27,7 +27,7 @@
       "name": "Ajayi",
       "position": "DEF",
       "team": "HUL",
-      "projected_points": 4.2,
+      "projected_points": 4.3,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "N.Williams",
       "position": "DEF",
       "team": "NFO",
-      "projected_points": 3.0,
+      "projected_points": 3.1,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 11.4,
+      "projected_points": 11.5,
       "captain": true,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Ndiaye",
       "position": "MID",
       "team": "MCI",
-      "projected_points": 2.8,
+      "projected_points": 2.9,
       "captain": false,
       "vice_captain": false
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 4.2,
+      "projected_points": 4.3,
       "captain": false,
       "vice_captain": false
     },

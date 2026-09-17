@@ -1,81 +1,10 @@
 {
-  "last_updated": "2026-09-17T17:59:27.420958+00:00",
+  "last_updated": "2026-09-17T18:00:42.603267+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
-  "has_changes": true,
+  "has_changes": false,
   "hits_taken": 0,
-  "transfers": [
-    {
-      "out": {
-        "name": "Pedro Porro",
-        "team": "TOT",
-        "horizon": 2.1,
-        "form": 1.0,
-        "fixture_ease": 10.4,
-        "set_piece_bonus": 0.15
-      },
-      "in": {
-        "name": "Bogle",
-        "team": "LEE",
-        "horizon": 10.8,
-        "form": 9.2,
-        "fixture_ease": 8.7,
-        "set_piece_bonus": 0.0
-      },
-      "alternatives": [
-        {
-          "name": "Gvardiol",
-          "horizon": 9.0
-        },
-        {
-          "name": "De Cuyper",
-          "horizon": 9.0
-        },
-        {
-          "name": "Gu\u00e9hi",
-          "horizon": 8.3
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "Ndiaye",
-        "team": "MCI",
-        "horizon": 4.8,
-        "form": 3.2,
-        "fixture_ease": 11.9,
-        "set_piece_bonus": 0.0
-      },
-      "in": {
-        "name": "Gro\u00df",
-        "team": "BHA",
-        "horizon": 12.9,
-        "form": 8.2,
-        "fixture_ease": 8.5,
-        "set_piece_bonus": 1.0
-      },
-      "alternatives": [
-        {
-          "name": "Tavernier",
-          "horizon": 10.0
-        },
-        {
-          "name": "Schade",
-          "horizon": 9.6
-        },
-        {
-          "name": "Stach",
-          "horizon": 7.9
-        }
-      ]
-    }
-  ],
-  "captain_change": {
-    "from": "B.Fernandes",
-    "to": "Gro\u00df"
-  },
-  "vice_change": {
-    "from": "Saka",
-    "to": "B.Fernandes"
-  }
+  "transfers": [],
+  "captain_change": null,
+  "vice_change": null
 }

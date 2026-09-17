@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-16T08:03:02.298758+00:00",
+  "last_updated": "2026-09-17T08:02:30.632489+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 0,
-  "total_projected_points": 54.9,
+  "total_projected_points": 53.1,
   "starting_xi": [
     {
       "name": "Raya",
@@ -83,7 +83,7 @@
       "name": "Jo\u00e3o Pedro",
       "position": "FWD",
       "team": "CHE",
-      "projected_points": 5.0,
+      "projected_points": 3.2,
       "captain": false,
       "vice_captain": false
     },

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T17:59:22.571981+00:00",
+  "last_updated": "2026-09-17T18:00:37.987229+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -69,6 +69,22 @@
       "points_on_bench": 15,
       "hit_cost": 0,
       "overall_rank": 7928177
+    },
+    {
+      "gw": 5,
+      "date": "2026-09-17T18:00:36.045094+00:00",
+      "actions": [
+        "- Transfer: OUT Pedro Porro -> IN Bogle",
+        "  Pedro Porro: horizon 2.1 pts/5gw (form 1.0, fixture ease 10.4, set-piece 0.15)",
+        "  Bogle: horizon 10.8 pts/5gw (form 9.2, fixture ease 8.7, set-piece 0.00)",
+        "  Other options considered: Gvardiol (9.0), De Cuyper (9.0), Gu\u00e9hi (8.3)",
+        "- Transfer: OUT Ndiaye -> IN Gro\u00df",
+        "  Ndiaye: horizon 4.8 pts/5gw (form 3.2, fixture ease 11.9, set-piece 0.00)",
+        "  Gro\u00df: horizon 12.9 pts/5gw (form 8.2, fixture ease 8.5, set-piece 1.00)",
+        "  Other options considered: Tavernier (10.0), Schade (9.6), Stach (7.9)",
+        "- Lineup: benched N.Williams, started Bogle",
+        "- Captain: Gro\u00df, Vice: B.Fernandes"
+      ]
     }
   ]
 }

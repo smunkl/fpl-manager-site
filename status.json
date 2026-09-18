@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-09-17T18:00:36.046124+00:00",
+  "last_updated": "2026-09-18T08:03:05.114255+00:00",
   "gameweek": 5,
   "deadline": "2026-09-18T17:30:00Z",
-  "mode": "LIVE",
+  "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 56.1,
+  "total_projected_points": 58.9,
   "starting_xi": [
     {
       "name": "Raya",
@@ -32,10 +32,10 @@
       "vice_captain": false
     },
     {
-      "name": "N.Williams",
+      "name": "Bogle",
       "position": "DEF",
-      "team": "NFO",
-      "projected_points": 3.1,
+      "team": "LEE",
+      "projected_points": 5.6,
       "captain": false,
       "vice_captain": false
     },
@@ -51,16 +51,16 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 11.5,
-      "captain": true,
-      "vice_captain": false
+      "projected_points": 5.8,
+      "captain": false,
+      "vice_captain": true
     },
     {
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 5.9,
-      "captain": false,
+      "projected_points": 11.9,
+      "captain": true,
       "vice_captain": false
     },
     {
@@ -77,7 +77,7 @@
       "team": "ARS",
       "projected_points": 5.8,
       "captain": false,
-      "vice_captain": true
+      "vice_captain": false
     },
     {
       "name": "Jo\u00e3o Pedro",
@@ -103,14 +103,14 @@
       "team": "BHA"
     },
     {
+      "name": "N.Williams",
+      "position": "DEF",
+      "team": "NFO"
+    },
+    {
       "name": "Thiago",
       "position": "FWD",
       "team": "BRE"
-    },
-    {
-      "name": "Bogle",
-      "position": "DEF",
-      "team": "LEE"
     },
     {
       "name": "F.Kad\u0131o\u011flu",

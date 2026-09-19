@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T08:03:07.387295+00:00",
+  "last_updated": "2026-09-19T08:04:34.950433+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -84,7 +84,11 @@
         "  Other options considered: Tavernier (10.0), Schade (9.6), Stach (7.9)",
         "- Lineup: benched N.Williams, started Bogle",
         "- Captain: Gro\u00df, Vice: B.Fernandes"
-      ]
+      ],
+      "actual_points": 0,
+      "points_on_bench": 5,
+      "hit_cost": 0,
+      "overall_rank": 8057869
     }
   ]
 }

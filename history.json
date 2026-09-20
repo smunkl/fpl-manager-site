@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T08:04:34.950433+00:00",
+  "last_updated": "2026-09-20T08:03:06.677701+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -85,10 +85,10 @@
         "- Lineup: benched N.Williams, started Bogle",
         "- Captain: Gro\u00df, Vice: B.Fernandes"
       ],
-      "actual_points": 0,
-      "points_on_bench": 5,
+      "actual_points": 33,
+      "points_on_bench": 19,
       "hit_cost": 0,
-      "overall_rank": 8057869
+      "overall_rank": 6732590
     }
   ]
 }

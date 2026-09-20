@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-19T08:04:32.775725+00:00",
+  "last_updated": "2026-09-20T08:03:04.773666+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 50.0,
+  "total_projected_points": 53.4,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 4.2,
+      "projected_points": 4.3,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Calafiori",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 3.8,
+      "projected_points": 3.9,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Ajayi",
       "position": "DEF",
       "team": "HUL",
-      "projected_points": 3.6,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 10.1,
+      "projected_points": 12.9,
       "captain": true,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Saka",
       "position": "MID",
       "team": "ARS",
-      "projected_points": 5.0,
+      "projected_points": 5.3,
       "captain": false,
       "vice_captain": false
     },

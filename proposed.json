@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T08:04:40.193423+00:00",
+  "last_updated": "2026-09-20T08:03:11.145525+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
@@ -7,37 +7,40 @@
   "transfers": [
     {
       "out": {
-        "name": "Mbeumo",
-        "team": "MUN",
-        "horizon": 7.4,
-        "form": 4.6,
-        "fixture_ease": 10.6,
-        "set_piece_bonus": 0.25
+        "name": "F.Kad\u0131o\u011flu",
+        "team": "BHA",
+        "horizon": 3.6,
+        "form": 2.6,
+        "fixture_ease": 8.5,
+        "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Gibbs-White",
-        "team": "NFO",
-        "horizon": 10.1,
-        "form": 5.2,
-        "fixture_ease": 12.0,
-        "set_piece_bonus": 0.9
+        "name": "Tarkowski",
+        "team": "EVE",
+        "horizon": 9.7,
+        "form": 8.6,
+        "fixture_ease": 11.0,
+        "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Schade",
-          "horizon": 9.4
+          "name": "De Cuyper",
+          "horizon": 8.7
         },
         {
-          "name": "Tavernier",
+          "name": "Hall",
           "horizon": 8.5
         },
         {
-          "name": "\u00d8degaard",
-          "horizon": 7.3
+          "name": "Vuskovic",
+          "horizon": 7.7
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": null
+  "vice_change": {
+    "from": "B.Fernandes",
+    "to": "Tarkowski"
+  }
 }

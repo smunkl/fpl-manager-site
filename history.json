@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T08:03:06.677701+00:00",
+  "last_updated": "2026-09-21T08:48:31.084263+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -10,11 +10,7 @@
         "- Transfer: OUT Mitchell -> IN Senesi",
         "- Lineup: benched N.Williams, started Senesi",
         "- Captain: Enzo, Vice: Mbeumo"
-      ],
-      "actual_points": 30,
-      "points_on_bench": 8,
-      "hit_cost": 0,
-      "overall_rank": 8494418
+      ]
     },
     {
       "gw": 2,
@@ -26,11 +22,7 @@
         "  Other options considered: Gro\u00df (5.7), Buend\u00eda (5.3), Stach (4.6)",
         "- Lineup: benched Enzo, started Mateta",
         "- Captain: B.Fernandes, Vice: Szoboszlai"
-      ],
-      "actual_points": 90,
-      "points_on_bench": 0,
-      "hit_cost": 0,
-      "overall_rank": 6036188
+      ]
     },
     {
       "gw": 3,
@@ -55,20 +47,7 @@
         "- Lineup: benched Thiago, started Saka",
         "- Lineup: benched Pedro Porro, started N.Williams",
         "- Captain: B.Fernandes, Vice: Saka"
-      ],
-      "actual_points": 39,
-      "points_on_bench": 14,
-      "hit_cost": 12,
-      "overall_rank": 8108455
-    },
-    {
-      "gw": 4,
-      "date": null,
-      "actions": [],
-      "actual_points": 63,
-      "points_on_bench": 15,
-      "hit_cost": 0,
-      "overall_rank": 7928177
+      ]
     },
     {
       "gw": 5,
@@ -84,11 +63,7 @@
         "  Other options considered: Tavernier (10.0), Schade (9.6), Stach (7.9)",
         "- Lineup: benched N.Williams, started Bogle",
         "- Captain: Gro\u00df, Vice: B.Fernandes"
-      ],
-      "actual_points": 33,
-      "points_on_bench": 19,
-      "hit_cost": 0,
-      "overall_rank": 6732590
+      ]
     }
   ]
 }

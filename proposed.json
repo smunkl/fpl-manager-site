@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T09:03:40.089123+00:00",
+  "last_updated": "2026-09-27T08:04:05.725655+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
@@ -9,38 +9,35 @@
       "out": {
         "name": "F.Kad\u0131o\u011flu",
         "team": "BHA",
-        "horizon": 3.6,
-        "form": 2.6,
-        "fixture_ease": 8.5,
+        "horizon": 4.4,
+        "form": 3.2,
+        "fixture_ease": 10.0,
         "set_piece_bonus": 0.0
       },
       "in": {
         "name": "Tarkowski",
         "team": "EVE",
-        "horizon": 9.7,
-        "form": 8.6,
-        "fixture_ease": 11.0,
+        "horizon": 10.4,
+        "form": 9.2,
+        "fixture_ease": 10.4,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "De Cuyper",
-          "horizon": 8.7
+          "name": "Hall",
+          "horizon": 9.5
         },
         {
-          "name": "Hall",
-          "horizon": 8.5
+          "name": "Vuskovic",
+          "horizon": 7.9
         },
         {
           "name": "Gvardiol",
-          "horizon": 8.0
+          "horizon": 7.6
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": {
-    "from": "B.Fernandes",
-    "to": "Bogle"
-  }
+  "vice_change": null
 }

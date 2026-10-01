@@ -1,43 +1,142 @@
 {
-  "last_updated": "2026-09-28T08:52:48.691781+00:00",
+  "last_updated": "2026-10-01T09:48:30.989793+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
-  "hits_taken": 0,
+  "hits_taken": 3,
   "transfers": [
     {
       "out": {
-        "name": "F.Kad\u0131o\u011flu",
-        "team": "BHA",
-        "horizon": 4.4,
-        "form": 3.2,
-        "fixture_ease": 10.0,
+        "name": "Calafiori",
+        "team": "ARS",
+        "horizon": 4.0,
+        "form": 3.0,
+        "fixture_ease": 11.0,
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Tarkowski",
-        "team": "EVE",
-        "horizon": 10.4,
-        "form": 9.2,
-        "fixture_ease": 10.4,
+        "name": "Vuskovic",
+        "team": "BHA",
+        "horizon": 10.3,
+        "form": 8.7,
+        "fixture_ease": 10.0,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Hall",
-          "horizon": 9.5
+          "name": "Tarkowski",
+          "horizon": 9.4
         },
         {
           "name": "Mitchell",
           "horizon": 9.1
         },
         {
+          "name": "Virgil",
+          "horizon": 9.0
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "F.Kad\u0131o\u011flu",
+        "team": "BHA",
+        "horizon": 5.6,
+        "form": 4.3,
+        "fixture_ease": 10.0,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Mitchell",
+        "team": "CRY",
+        "horizon": 9.1,
+        "form": 7.7,
+        "fixture_ease": 9.8,
+        "set_piece_bonus": 0.0
+      },
+      "alternatives": [
+        {
+          "name": "Vuskovic",
+          "horizon": 10.3
+        },
+        {
           "name": "Gvardiol",
           "horizon": 8.4
+        },
+        {
+          "name": "Jacquet",
+          "horizon": 8.2
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "B.Fernandes",
+        "team": "MUN",
+        "horizon": 7.6,
+        "form": 2.0,
+        "fixture_ease": 11.5,
+        "set_piece_bonus": 1.0
+      },
+      "in": {
+        "name": "Schade",
+        "team": "BRE",
+        "horizon": 10.5,
+        "form": 8.7,
+        "fixture_ease": 10.5,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Buend\u00eda",
+          "horizon": 10.6
+        },
+        {
+          "name": "Tavernier",
+          "horizon": 9.5
+        },
+        {
+          "name": "Gibbs-White",
+          "horizon": 9.4
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Jo\u00e3o Pedro",
+        "team": "CHE",
+        "horizon": 3.2,
+        "form": 4.3,
+        "fixture_ease": 11.2,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Haaland",
+        "team": "MCI",
+        "horizon": 13.0,
+        "form": 8.0,
+        "fixture_ease": 11.0,
+        "set_piece_bonus": 0.75
+      },
+      "alternatives": [
+        {
+          "name": "Barry",
+          "horizon": 8.3
+        },
+        {
+          "name": "Kostoulas",
+          "horizon": 7.7
+        },
+        {
+          "name": "Isak",
+          "horizon": 7.4
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": null
+  "vice_change": {
+    "from": "B.Fernandes",
+    "to": "Bogle"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:48:29.194307+00:00",
+  "last_updated": "2026-10-02T08:19:19.576386+00:00",
   "last_completed_gw": 5,
   "leagues": [
     {
@@ -379,22 +379,7 @@
           "total_points": 227,
           "gw_points": 33,
           "is_me": false,
-          "squad": {
-            "captain": "Calvert-Lewin",
-            "xi": [
-              "Kinsky",
-              "Mu\u00f1oz",
-              "Tarkowski",
-              "Calafiori",
-              "Truffert",
-              "B.Fernandes",
-              "Palmer",
-              "Szoboszlai",
-              "Rogers",
-              "Calvert-Lewin",
-              "Wissa"
-            ]
-          }
+          "squad": null
         },
         {
           "rank": 13,

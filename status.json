@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-02T08:04:02.458954+00:00",
+  "last_updated": "2026-10-05T08:03:02.211119+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 49.5,
+  "total_projected_points": 49.4,
   "starting_xi": [
     {
       "name": "Raya",
@@ -43,7 +43,7 @@
       "name": "Szoboszlai",
       "position": "MID",
       "team": "LIV",
-      "projected_points": 3.4,
+      "projected_points": 3.2,
       "captain": false,
       "vice_captain": false
     },

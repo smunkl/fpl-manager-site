@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T08:19:21.117988+00:00",
+  "last_updated": "2026-10-05T08:03:08.601002+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
@@ -24,16 +24,16 @@
       },
       "alternatives": [
         {
+          "name": "Virgil",
+          "horizon": 9.8
+        },
+        {
           "name": "Tarkowski",
           "horizon": 9.4
         },
         {
-          "name": "Mitchell",
-          "horizon": 9.1
-        },
-        {
-          "name": "Virgil",
-          "horizon": 9.0
+          "name": "Davis",
+          "horizon": 9.3
         }
       ]
     },
@@ -47,11 +47,11 @@
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Mitchell",
-        "team": "CRY",
-        "horizon": 9.1,
-        "form": 7.7,
-        "fixture_ease": 9.8,
+        "name": "Davis",
+        "team": "IPS",
+        "horizon": 9.3,
+        "form": 8.0,
+        "fixture_ease": 11.0,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
@@ -60,12 +60,12 @@
           "horizon": 10.3
         },
         {
-          "name": "Gvardiol",
-          "horizon": 8.4
+          "name": "Mitchell",
+          "horizon": 9.1
         },
         {
           "name": "Jacquet",
-          "horizon": 8.2
+          "horizon": 9.1
         }
       ]
     },
@@ -120,16 +120,16 @@
       },
       "alternatives": [
         {
+          "name": "Emersonn",
+          "horizon": 9.2
+        },
+        {
           "name": "Barry",
           "horizon": 8.3
         },
         {
           "name": "Kostoulas",
           "horizon": 7.7
-        },
-        {
-          "name": "Isak",
-          "horizon": 7.4
         }
       ]
     }

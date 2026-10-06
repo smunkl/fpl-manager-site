@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T08:03:08.601002+00:00",
+  "last_updated": "2026-10-06T08:03:08.627556+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
@@ -15,16 +15,16 @@
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Vuskovic",
-        "team": "BHA",
-        "horizon": 10.3,
-        "form": 8.7,
-        "fixture_ease": 10.0,
+        "name": "Virgil",
+        "team": "LIV",
+        "horizon": 9.8,
+        "form": 8.0,
+        "fixture_ease": 9.5,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Virgil",
+          "name": "De Cuyper",
           "horizon": 9.8
         },
         {
@@ -32,40 +32,8 @@
           "horizon": 9.4
         },
         {
-          "name": "Davis",
+          "name": "Dasilva",
           "horizon": 9.3
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "F.Kad\u0131o\u011flu",
-        "team": "BHA",
-        "horizon": 5.6,
-        "form": 4.3,
-        "fixture_ease": 10.0,
-        "set_piece_bonus": 0.0
-      },
-      "in": {
-        "name": "Davis",
-        "team": "IPS",
-        "horizon": 9.3,
-        "form": 8.0,
-        "fixture_ease": 11.0,
-        "set_piece_bonus": 0.0
-      },
-      "alternatives": [
-        {
-          "name": "Vuskovic",
-          "horizon": 10.3
-        },
-        {
-          "name": "Mitchell",
-          "horizon": 9.1
-        },
-        {
-          "name": "Jacquet",
-          "horizon": 9.1
         }
       ]
     },
@@ -79,25 +47,57 @@
         "set_piece_bonus": 1.0
       },
       "in": {
+        "name": "Buend\u00eda",
+        "team": "AVL",
+        "horizon": 12.0,
+        "form": 7.0,
+        "fixture_ease": 10.5,
+        "set_piece_bonus": 0.9
+      },
+      "alternatives": [
+        {
+          "name": "Schade",
+          "horizon": 14.1
+        },
+        {
+          "name": "Gibbs-White",
+          "horizon": 10.2
+        },
+        {
+          "name": "Belloumi",
+          "horizon": 9.5
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Mbeumo",
+        "team": "MUN",
+        "horizon": 7.1,
+        "form": 4.0,
+        "fixture_ease": 11.5,
+        "set_piece_bonus": 0.25
+      },
+      "in": {
         "name": "Schade",
         "team": "BRE",
-        "horizon": 10.5,
-        "form": 8.7,
+        "horizon": 14.1,
+        "form": 12.0,
         "fixture_ease": 10.5,
         "set_piece_bonus": 0.25
       },
       "alternatives": [
         {
           "name": "Buend\u00eda",
-          "horizon": 10.6
-        },
-        {
-          "name": "Tavernier",
-          "horizon": 9.5
+          "horizon": 12.0
         },
         {
           "name": "Gibbs-White",
-          "horizon": 9.4
+          "horizon": 10.2
+        },
+        {
+          "name": "Belloumi",
+          "horizon": 9.5
         }
       ]
     },
@@ -113,12 +113,16 @@
       "in": {
         "name": "Haaland",
         "team": "MCI",
-        "horizon": 13.0,
-        "form": 8.0,
+        "horizon": 12.5,
+        "form": 7.5,
         "fixture_ease": 11.0,
         "set_piece_bonus": 0.75
       },
       "alternatives": [
+        {
+          "name": "Kostoulas",
+          "horizon": 10.7
+        },
         {
           "name": "Emersonn",
           "horizon": 9.2
@@ -126,10 +130,6 @@
         {
           "name": "Barry",
           "horizon": 8.3
-        },
-        {
-          "name": "Kostoulas",
-          "horizon": 7.7
         }
       ]
     }
@@ -137,6 +137,6 @@
   "captain_change": null,
   "vice_change": {
     "from": "B.Fernandes",
-    "to": "Bogle"
+    "to": "Schade"
   }
 }

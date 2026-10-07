@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T08:03:08.627556+00:00",
+  "last_updated": "2026-10-07T08:03:10.179869+00:00",
   "gameweek": 6,
   "deadline": "2026-10-10T10:00:00Z",
   "has_changes": true,
@@ -7,19 +7,19 @@
   "transfers": [
     {
       "out": {
-        "name": "Calafiori",
-        "team": "ARS",
-        "horizon": 4.0,
-        "form": 3.0,
-        "fixture_ease": 11.0,
+        "name": "N.Williams",
+        "team": "NFO",
+        "horizon": 3.3,
+        "form": 2.0,
+        "fixture_ease": 10.5,
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Virgil",
-        "team": "LIV",
-        "horizon": 9.8,
-        "form": 8.0,
-        "fixture_ease": 9.5,
+        "name": "Tarkowski",
+        "team": "EVE",
+        "horizon": 12.4,
+        "form": 11.0,
+        "fixture_ease": 10.4,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
@@ -28,8 +28,8 @@
           "horizon": 9.8
         },
         {
-          "name": "Tarkowski",
-          "horizon": 9.4
+          "name": "Virgil",
+          "horizon": 9.8
         },
         {
           "name": "Dasilva",
@@ -73,8 +73,8 @@
       "out": {
         "name": "Mbeumo",
         "team": "MUN",
-        "horizon": 7.1,
-        "form": 4.0,
+        "horizon": 4.9,
+        "form": 2.0,
         "fixture_ease": 11.5,
         "set_piece_bonus": 0.25
       },
@@ -105,8 +105,8 @@
       "out": {
         "name": "Jo\u00e3o Pedro",
         "team": "CHE",
-        "horizon": 3.2,
-        "form": 4.3,
+        "horizon": 4.5,
+        "form": 6.0,
         "fixture_ease": 11.2,
         "set_piece_bonus": 0.0
       },
@@ -129,12 +129,15 @@
         },
         {
           "name": "Barry",
-          "horizon": 8.3
+          "horizon": 9.1
         }
       ]
     }
   ],
-  "captain_change": null,
+  "captain_change": {
+    "from": "Saka",
+    "to": "Gro\u00df"
+  },
   "vice_change": {
     "from": "B.Fernandes",
     "to": "Schade"

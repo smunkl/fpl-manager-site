@@ -1,71 +1,39 @@
 {
-  "last_updated": "2026-10-10T08:19:04.555687+00:00",
-  "gameweek": 6,
-  "deadline": "2026-10-10T10:00:00Z",
+  "last_updated": "2026-10-11T10:27:36.427277+00:00",
+  "gameweek": 7,
+  "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
-  "hits_taken": 3,
+  "hits_taken": 0,
   "transfers": [
     {
       "out": {
-        "name": "N.Williams",
-        "team": "NFO",
-        "horizon": 1.5,
-        "form": 2.0,
-        "fixture_ease": 10.5,
+        "name": "F.Kad\u0131o\u011flu",
+        "team": "BHA",
+        "horizon": 8.2,
+        "form": 6.7,
+        "fixture_ease": 10.0,
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Tarkowski",
-        "team": "EVE",
-        "horizon": 12.4,
-        "form": 11.0,
-        "fixture_ease": 10.4,
-        "set_piece_bonus": 0.0
-      },
-      "alternatives": [
-        {
-          "name": "De Cuyper",
-          "horizon": 9.8
-        },
-        {
-          "name": "Virgil",
-          "horizon": 9.8
-        },
-        {
-          "name": "Dasilva",
-          "horizon": 9.3
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "B.Fernandes",
-        "team": "MUN",
-        "horizon": 7.6,
-        "form": 2.0,
-        "fixture_ease": 11.5,
-        "set_piece_bonus": 1.0
-      },
-      "in": {
-        "name": "Buend\u00eda",
-        "team": "AVL",
+        "name": "De Cuyper",
+        "team": "BHA",
         "horizon": 12.0,
-        "form": 7.0,
-        "fixture_ease": 10.5,
-        "set_piece_bonus": 0.9
+        "form": 10.7,
+        "fixture_ease": 10.0,
+        "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Schade",
-          "horizon": 14.1
+          "name": "Vuskovic",
+          "horizon": 8.9
         },
         {
-          "name": "Gibbs-White",
-          "horizon": 10.2
+          "name": "Van Hecke",
+          "horizon": 7.5
         },
         {
-          "name": "Belloumi",
-          "horizon": 9.5
+          "name": "Boscagli",
+          "horizon": 7.5
         }
       ]
     },
@@ -73,63 +41,31 @@
       "out": {
         "name": "Mbeumo",
         "team": "MUN",
-        "horizon": 4.9,
-        "form": 2.0,
+        "horizon": 6.9,
+        "form": 4.0,
         "fixture_ease": 11.5,
         "set_piece_bonus": 0.25
       },
       "in": {
-        "name": "Schade",
-        "team": "BRE",
-        "horizon": 14.1,
-        "form": 12.0,
+        "name": "Buend\u00eda",
+        "team": "AVL",
+        "horizon": 10.8,
+        "form": 6.0,
         "fixture_ease": 10.5,
-        "set_piece_bonus": 0.25
+        "set_piece_bonus": 0.9
       },
       "alternatives": [
         {
-          "name": "Buend\u00eda",
-          "horizon": 12.0
+          "name": "McGinn",
+          "horizon": 8.9
+        },
+        {
+          "name": "Cunha",
+          "horizon": 8.4
         },
         {
           "name": "Gibbs-White",
-          "horizon": 10.2
-        },
-        {
-          "name": "Belloumi",
-          "horizon": 9.5
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "Jo\u00e3o Pedro",
-        "team": "CHE",
-        "horizon": 6.6,
-        "form": 6.0,
-        "fixture_ease": 11.2,
-        "set_piece_bonus": 0.0
-      },
-      "in": {
-        "name": "Haaland",
-        "team": "MCI",
-        "horizon": 12.5,
-        "form": 7.5,
-        "fixture_ease": 11.0,
-        "set_piece_bonus": 0.75
-      },
-      "alternatives": [
-        {
-          "name": "Kostoulas",
-          "horizon": 10.7
-        },
-        {
-          "name": "Emersonn",
-          "horizon": 9.2
-        },
-        {
-          "name": "Barry",
-          "horizon": 9.1
+          "horizon": 8.3
         }
       ]
     }
@@ -140,6 +76,6 @@
   },
   "vice_change": {
     "from": "B.Fernandes",
-    "to": "Schade"
+    "to": "De Cuyper"
   }
 }

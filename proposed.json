@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T10:27:36.427277+00:00",
+  "last_updated": "2026-10-12T10:05:04.356252+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
@@ -28,23 +28,23 @@
           "horizon": 8.9
         },
         {
-          "name": "Van Hecke",
-          "horizon": 7.5
+          "name": "Jacquet",
+          "horizon": 7.6
         },
         {
-          "name": "Boscagli",
+          "name": "Van Hecke",
           "horizon": 7.5
         }
       ]
     },
     {
       "out": {
-        "name": "Mbeumo",
-        "team": "MUN",
-        "horizon": 6.9,
-        "form": 4.0,
-        "fixture_ease": 11.5,
-        "set_piece_bonus": 0.25
+        "name": "Szoboszlai",
+        "team": "LIV",
+        "horizon": 5.3,
+        "form": 1.7,
+        "fixture_ease": 9.5,
+        "set_piece_bonus": 1.0
       },
       "in": {
         "name": "Buend\u00eda",
@@ -56,16 +56,16 @@
       },
       "alternatives": [
         {
-          "name": "McGinn",
-          "horizon": 8.9
-        },
-        {
-          "name": "Cunha",
-          "horizon": 8.4
+          "name": "Semenyo",
+          "horizon": 9.6
         },
         {
           "name": "Gibbs-White",
-          "horizon": 8.3
+          "horizon": 9.3
+        },
+        {
+          "name": "McGinn",
+          "horizon": 8.9
         }
       ]
     }

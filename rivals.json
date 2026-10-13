@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T08:03:06.219828+00:00",
+  "last_updated": "2026-10-13T08:19:35.748149+00:00",
   "last_completed_gw": 5,
   "leagues": [
     {
@@ -10,8 +10,8 @@
           "rank": 1,
           "manager": "Mandeep Thandi",
           "team_name": "Thandi FC",
-          "total_points": 407,
-          "gw_points": 55,
+          "total_points": 409,
+          "gw_points": 57,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -34,8 +34,8 @@
           "rank": 2,
           "manager": "Ash Pattni",
           "team_name": "Gabagool FC",
-          "total_points": 369,
-          "gw_points": 64,
+          "total_points": 371,
+          "gw_points": 66,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -58,8 +58,8 @@
           "rank": 3,
           "manager": "Daivik Sicotra",
           "team_name": "SquirtleSquad",
-          "total_points": 369,
-          "gw_points": 38,
+          "total_points": 371,
+          "gw_points": 40,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -184,8 +184,8 @@
           "rank": 4,
           "manager": "Aasav Patel",
           "team_name": "to cook or not cook",
-          "total_points": 367,
-          "gw_points": 49,
+          "total_points": 371,
+          "gw_points": 53,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -328,8 +328,8 @@
           "rank": 10,
           "manager": "Binoy Shah",
           "team_name": "COYS",
-          "total_points": 289,
-          "gw_points": 59,
+          "total_points": 291,
+          "gw_points": 61,
           "is_me": false,
           "squad": {
             "captain": "Calvert-Lewin",
@@ -352,8 +352,8 @@
           "rank": 11,
           "manager": "Sneha Shah",
           "team_name": "Princess Kadhi",
-          "total_points": 286,
-          "gw_points": 59,
+          "total_points": 288,
+          "gw_points": 61,
           "is_me": false,
           "squad": {
             "captain": "Calvert-Lewin",
@@ -376,8 +376,8 @@
           "rank": 12,
           "manager": "Kayaan Patel",
           "team_name": "K.F.C",
-          "total_points": 285,
-          "gw_points": 45,
+          "total_points": 287,
+          "gw_points": 47,
           "is_me": false,
           "squad": {
             "captain": "B.Fernandes",
@@ -400,8 +400,8 @@
           "rank": 13,
           "manager": "Priya Shah",
           "team_name": "Greywings",
-          "total_points": 281,
-          "gw_points": 59,
+          "total_points": 283,
+          "gw_points": 61,
           "is_me": false,
           "squad": {
             "captain": "Calvert-Lewin",
@@ -427,22 +427,7 @@
           "total_points": 271,
           "gw_points": 80,
           "is_me": false,
-          "squad": {
-            "captain": "Haaland",
-            "xi": [
-              "Verbruggen",
-              "Calafiori",
-              "De Cuyper",
-              "Ajayi",
-              "Justin",
-              "Palmer",
-              "Szoboszlai",
-              "Gro\u00df",
-              "Cherki",
-              "Haaland",
-              "Thiago"
-            ]
-          }
+          "squad": null
         }
       ]
     }

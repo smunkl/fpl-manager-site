@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-12T08:03:01.322412+00:00",
+  "last_updated": "2026-10-13T08:03:01.322086+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 46.8,
+  "total_projected_points": 40.7,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 4.3,
+      "projected_points": 1.9,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Calafiori",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 3.6,
+      "projected_points": 3.4,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Szoboszlai",
       "position": "MID",
       "team": "LIV",
-      "projected_points": 2.0,
+      "projected_points": 1.8,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Saka",
       "position": "MID",
       "team": "ARS",
-      "projected_points": 8.1,
+      "projected_points": 5.9,
       "captain": true,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Jo\u00e3o Pedro",
       "position": "FWD",
       "team": "CHE",
-      "projected_points": 4.8,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     },

@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-13T08:03:01.322086+00:00",
+  "last_updated": "2026-10-14T08:03:01.287907+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 40.7,
+  "total_projected_points": 40.2,
   "starting_xi": [
     {
       "name": "Raya",
@@ -19,7 +19,7 @@
       "name": "Calafiori",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 3.4,
+      "projected_points": 3.5,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 4.5,
+      "projected_points": 4.6,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.9,
+      "projected_points": 2.7,
       "captain": false,
       "vice_captain": true
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 8.1,
+      "projected_points": 6.9,
       "captain": false,
       "vice_captain": false
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.4,
+      "projected_points": 3.9,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 4.0,
+      "projected_points": 4.1,
       "captain": false,
       "vice_captain": false
     }

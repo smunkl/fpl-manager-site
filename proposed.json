@@ -1,71 +1,135 @@
 {
-  "last_updated": "2026-10-13T08:19:37.344684+00:00",
+  "last_updated": "2026-10-14T08:19:47.056100+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
-  "hits_taken": 0,
+  "hits_taken": 2,
   "transfers": [
+    {
+      "out": {
+        "name": "Ajayi",
+        "team": "HUL",
+        "horizon": 1.9,
+        "form": 1.0,
+        "fixture_ease": 10.6,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Dasilva",
+        "team": "COV",
+        "horizon": 11.8,
+        "form": 10.0,
+        "fixture_ease": 12.5,
+        "set_piece_bonus": 0.0
+      },
+      "alternatives": [
+        {
+          "name": "De Cuyper",
+          "horizon": 11.9
+        },
+        {
+          "name": "Vuskovic",
+          "horizon": 9.8
+        },
+        {
+          "name": "Thomas",
+          "horizon": 8.6
+        }
+      ]
+    },
     {
       "out": {
         "name": "Szoboszlai",
         "team": "LIV",
         "horizon": 4.8,
         "form": 1.0,
-        "fixture_ease": 9.5,
+        "fixture_ease": 9.9,
         "set_piece_bonus": 1.0
       },
       "in": {
         "name": "Buend\u00eda",
         "team": "AVL",
-        "horizon": 12.9,
+        "horizon": 13.0,
         "form": 8.0,
-        "fixture_ease": 10.5,
+        "fixture_ease": 10.4,
         "set_piece_bonus": 0.9
       },
       "alternatives": [
         {
-          "name": "Dewsbury-Hall",
-          "horizon": 9.8
-        },
-        {
-          "name": "McGinn",
-          "horizon": 9.6
-        },
-        {
           "name": "Semenyo",
-          "horizon": 9.6
+          "horizon": 12.3
+        },
+        {
+          "name": "Cherki",
+          "horizon": 11.5
+        },
+        {
+          "name": "Cunha",
+          "horizon": 11.3
         }
       ]
     },
     {
       "out": {
-        "name": "Jo\u00e3o Pedro",
-        "team": "CHE",
-        "horizon": 6.1,
-        "form": 6.0,
-        "fixture_ease": 11.2,
-        "set_piece_bonus": 0.0
+        "name": "B.Fernandes",
+        "team": "MUN",
+        "horizon": 7.1,
+        "form": 1.5,
+        "fixture_ease": 9.9,
+        "set_piece_bonus": 1.0
       },
       "in": {
-        "name": "Barry",
-        "team": "EVE",
-        "horizon": 11.2,
-        "form": 6.0,
-        "fixture_ease": 10.4,
-        "set_piece_bonus": 0.75
+        "name": "Semenyo",
+        "team": "MCI",
+        "horizon": 12.3,
+        "form": 10.0,
+        "fixture_ease": 12.6,
+        "set_piece_bonus": 0.25
       },
       "alternatives": [
         {
-          "name": "N.Jackson",
-          "horizon": 10.0
+          "name": "Buend\u00eda",
+          "horizon": 13.0
         },
         {
-          "name": "Solanke",
-          "horizon": 7.7
+          "name": "Cherki",
+          "horizon": 11.5
         },
         {
-          "name": "Kostoulas",
-          "horizon": 7.4
+          "name": "Cunha",
+          "horizon": 11.3
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Saka",
+        "team": "ARS",
+        "horizon": 7.3,
+        "form": 2.0,
+        "fixture_ease": 11.0,
+        "set_piece_bonus": 0.75
+      },
+      "in": {
+        "name": "Cherki",
+        "team": "MCI",
+        "horizon": 11.5,
+        "form": 9.0,
+        "fixture_ease": 12.6,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Buend\u00eda",
+          "horizon": 13.0
+        },
+        {
+          "name": "Semenyo",
+          "horizon": 12.3
+        },
+        {
+          "name": "Cunha",
+          "horizon": 11.3
         }
       ]
     }
@@ -76,6 +140,6 @@
   },
   "vice_change": {
     "from": "B.Fernandes",
-    "to": "Buend\u00eda"
+    "to": "Semenyo"
   }
 }

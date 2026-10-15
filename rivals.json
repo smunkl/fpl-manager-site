@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T08:19:45.378765+00:00",
+  "last_updated": "2026-10-15T08:03:06.009588+00:00",
   "last_completed_gw": 6,
   "leagues": [
     {
@@ -355,7 +355,22 @@
           "total_points": 290,
           "gw_points": 63,
           "is_me": false,
-          "squad": null
+          "squad": {
+            "captain": "B.Fernandes",
+            "xi": [
+              "Verbruggen",
+              "Mu\u00f1oz",
+              "Tarkowski",
+              "Calafiori",
+              "Gro\u00df",
+              "B.Fernandes",
+              "Palmer",
+              "Rogers",
+              "Calvert-Lewin",
+              "Wissa",
+              "Jo\u00e3o Pedro"
+            ]
+          }
         },
         {
           "rank": 12,

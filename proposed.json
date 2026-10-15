@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-14T08:19:47.056100+00:00",
+  "last_updated": "2026-10-15T08:03:07.423130+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
-  "hits_taken": 2,
+  "hits_taken": 3,
   "transfers": [
     {
       "out": {
@@ -32,8 +32,8 @@
           "horizon": 9.8
         },
         {
-          "name": "Thomas",
-          "horizon": 8.6
+          "name": "Hall",
+          "horizon": 9.0
         }
       ]
     },
@@ -130,6 +130,38 @@
         {
           "name": "Cunha",
           "horizon": 11.3
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Calvert-Lewin",
+        "team": "LEE",
+        "horizon": 6.1,
+        "form": 2.0,
+        "fixture_ease": 10.2,
+        "set_piece_bonus": 0.75
+      },
+      "in": {
+        "name": "Barry",
+        "team": "EVE",
+        "horizon": 11.4,
+        "form": 6.0,
+        "fixture_ease": 9.0,
+        "set_piece_bonus": 0.75
+      },
+      "alternatives": [
+        {
+          "name": "N.Jackson",
+          "horizon": 10.2
+        },
+        {
+          "name": "Solanke",
+          "horizon": 8.0
+        },
+        {
+          "name": "Gonzalo",
+          "horizon": 7.1
         }
       ]
     }

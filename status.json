@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-14T08:03:01.287907+00:00",
+  "last_updated": "2026-10-15T08:03:01.171708+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.7,
   "free_transfers": 0,
-  "total_projected_points": 40.2,
+  "total_projected_points": 36.5,
   "starting_xi": [
     {
       "name": "Raya",
@@ -35,7 +35,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 4.6,
+      "projected_points": 2.4,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 4.1,
+      "projected_points": 2.6,
       "captain": false,
       "vice_captain": false
     }

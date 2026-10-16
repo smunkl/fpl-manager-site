@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T08:03:07.423130+00:00",
+  "last_updated": "2026-10-16T11:22:00.592080+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
@@ -152,16 +152,16 @@
       },
       "alternatives": [
         {
+          "name": "Brobbey",
+          "horizon": 10.6
+        },
+        {
           "name": "N.Jackson",
           "horizon": 10.2
         },
         {
           "name": "Solanke",
           "horizon": 8.0
-        },
-        {
-          "name": "Gonzalo",
-          "horizon": 7.1
         }
       ]
     }

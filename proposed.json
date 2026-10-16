@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T11:22:00.592080+00:00",
+  "last_updated": "2026-10-16T23:28:29.427208+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
   "has_changes": true,
@@ -41,7 +41,7 @@
       "out": {
         "name": "Szoboszlai",
         "team": "LIV",
-        "horizon": 4.8,
+        "horizon": 1.6,
         "form": 1.0,
         "fixture_ease": 9.9,
         "set_piece_bonus": 1.0
@@ -60,12 +60,12 @@
           "horizon": 12.3
         },
         {
-          "name": "Cherki",
-          "horizon": 11.5
+          "name": "Rudoni",
+          "horizon": 11.9
         },
         {
-          "name": "Cunha",
-          "horizon": 11.3
+          "name": "Cherki",
+          "horizon": 11.5
         }
       ]
     },
@@ -77,6 +77,38 @@
         "form": 1.5,
         "fixture_ease": 9.9,
         "set_piece_bonus": 1.0
+      },
+      "in": {
+        "name": "Rudoni",
+        "team": "COV",
+        "horizon": 11.9,
+        "form": 6.0,
+        "fixture_ease": 12.5,
+        "set_piece_bonus": 0.9
+      },
+      "alternatives": [
+        {
+          "name": "Buend\u00eda",
+          "horizon": 13.0
+        },
+        {
+          "name": "Semenyo",
+          "horizon": 12.3
+        },
+        {
+          "name": "Cherki",
+          "horizon": 11.5
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "Saka",
+        "team": "ARS",
+        "horizon": 7.3,
+        "form": 2.0,
+        "fixture_ease": 11.0,
+        "set_piece_bonus": 0.75
       },
       "in": {
         "name": "Semenyo",
@@ -92,44 +124,12 @@
           "horizon": 13.0
         },
         {
+          "name": "Rudoni",
+          "horizon": 11.9
+        },
+        {
           "name": "Cherki",
           "horizon": 11.5
-        },
-        {
-          "name": "Cunha",
-          "horizon": 11.3
-        }
-      ]
-    },
-    {
-      "out": {
-        "name": "Saka",
-        "team": "ARS",
-        "horizon": 7.3,
-        "form": 2.0,
-        "fixture_ease": 11.0,
-        "set_piece_bonus": 0.75
-      },
-      "in": {
-        "name": "Cherki",
-        "team": "MCI",
-        "horizon": 11.5,
-        "form": 9.0,
-        "fixture_ease": 12.6,
-        "set_piece_bonus": 0.25
-      },
-      "alternatives": [
-        {
-          "name": "Buend\u00eda",
-          "horizon": 13.0
-        },
-        {
-          "name": "Semenyo",
-          "horizon": 12.3
-        },
-        {
-          "name": "Cunha",
-          "horizon": 11.3
         }
       ]
     },

@@ -1,17 +1,25 @@
 {
-  "last_updated": "2026-10-17T00:13:42.716340+00:00",
+  "last_updated": "2026-10-17T00:15:28.482574+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
-  "mode": "LIVE",
+  "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.4,
   "free_transfers": 0,
-  "total_projected_points": 42.5,
+  "total_projected_points": 63.5,
   "starting_xi": [
     {
-      "name": "Raya",
+      "name": "Verbruggen",
       "position": "GKP",
-      "team": "ARS",
-      "projected_points": 1.6,
+      "team": "BHA",
+      "projected_points": 5.3,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Dasilva",
+      "position": "DEF",
+      "team": "COV",
+      "projected_points": 6.7,
       "captain": false,
       "vice_captain": false
     },
@@ -24,18 +32,10 @@
       "vice_captain": false
     },
     {
-      "name": "Ajayi",
+      "name": "De Cuyper",
       "position": "DEF",
-      "team": "HUL",
-      "projected_points": 0.9,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Bogle",
-      "position": "DEF",
-      "team": "LEE",
-      "projected_points": 2.3,
+      "team": "BHA",
+      "projected_points": 7.0,
       "captain": false,
       "vice_captain": false
     },
@@ -45,7 +45,7 @@
       "team": "MCI",
       "projected_points": 7.2,
       "captain": false,
-      "vice_captain": false
+      "vice_captain": true
     },
     {
       "name": "B.Fernandes",
@@ -53,14 +53,14 @@
       "team": "MUN",
       "projected_points": 2.6,
       "captain": false,
-      "vice_captain": true
+      "vice_captain": false
     },
     {
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 8.0,
-      "captain": false,
+      "projected_points": 15.9,
+      "captain": true,
       "vice_captain": false
     },
     {
@@ -75,8 +75,16 @@
       "name": "Saka",
       "position": "MID",
       "team": "ARS",
-      "projected_points": 5.4,
-      "captain": true,
+      "projected_points": 2.7,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Thiago",
+      "position": "FWD",
+      "team": "BRE",
+      "projected_points": 4.1,
+      "captain": false,
       "vice_captain": false
     },
     {
@@ -86,36 +94,28 @@
       "projected_points": 4.4,
       "captain": false,
       "vice_captain": false
-    },
-    {
-      "name": "Calvert-Lewin",
-      "position": "FWD",
-      "team": "LEE",
-      "projected_points": 2.5,
-      "captain": false,
-      "vice_captain": false
     }
   ],
   "bench": [
     {
-      "name": "Verbruggen",
+      "name": "Raya",
       "position": "GKP",
-      "team": "BHA"
+      "team": "ARS"
     },
     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "team": "BHA"
-    },
-    {
-      "name": "Thiago",
+      "name": "Calvert-Lewin",
       "position": "FWD",
-      "team": "BRE"
+      "team": "LEE"
     },
     {
-      "name": "Dasilva",
+      "name": "Bogle",
       "position": "DEF",
-      "team": "COV"
+      "team": "LEE"
+    },
+    {
+      "name": "Ajayi",
+      "position": "DEF",
+      "team": "HUL"
     }
   ],
   "recent_activity": [

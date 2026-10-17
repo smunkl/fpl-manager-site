@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-16T23:28:23.104832+00:00",
+  "last_updated": "2026-10-17T00:13:42.716340+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
-  "mode": "PREVIEW (daily, no changes submitted)",
-  "bank": 1.7,
+  "mode": "LIVE",
+  "bank": 0.4,
   "free_transfers": 0,
-  "total_projected_points": 35.3,
+  "total_projected_points": 42.5,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 1.9,
+      "projected_points": 1.6,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Calafiori",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 3.5,
+      "projected_points": 3.6,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Ajayi",
       "position": "DEF",
       "team": "HUL",
-      "projected_points": 1.2,
+      "projected_points": 0.9,
       "captain": false,
       "vice_captain": false
     },
@@ -35,15 +35,15 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 2.4,
+      "projected_points": 2.3,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Szoboszlai",
+      "name": "Semenyo",
       "position": "MID",
-      "team": "LIV",
-      "projected_points": 0.5,
+      "team": "MCI",
+      "projected_points": 7.2,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.7,
+      "projected_points": 2.6,
       "captain": false,
       "vice_captain": true
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 6.9,
+      "projected_points": 8.0,
       "captain": false,
       "vice_captain": false
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.9,
+      "projected_points": 4.0,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Saka",
       "position": "MID",
       "team": "ARS",
-      "projected_points": 5.9,
+      "projected_points": 5.4,
       "captain": true,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Jo\u00e3o Pedro",
       "position": "FWD",
       "team": "CHE",
-      "projected_points": 3.7,
+      "projected_points": 4.4,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 2.6,
+      "projected_points": 2.5,
       "captain": false,
       "vice_captain": false
     }
@@ -103,9 +103,9 @@
       "team": "BHA"
     },
     {
-      "name": "N.Williams",
+      "name": "De Cuyper",
       "position": "DEF",
-      "team": "NFO"
+      "team": "BHA"
     },
     {
       "name": "Thiago",
@@ -113,9 +113,9 @@
       "team": "BRE"
     },
     {
-      "name": "F.Kad\u0131o\u011flu",
+      "name": "Dasilva",
       "position": "DEF",
-      "team": "BHA"
+      "team": "COV"
     }
   ],
   "recent_activity": [
@@ -177,6 +177,28 @@
         "  Other options considered: Tavernier (10.0), Schade (9.6), Stach (7.9)",
         "- Lineup: benched N.Williams, started Bogle",
         "- Captain: Gro\u00df, Vice: B.Fernandes"
+      ]
+    },
+    {
+      "header": "GW7 - 2026-10-17T00:13:42.715059+00:00",
+      "details": [
+        "- Transfer: OUT N.Williams -> IN De Cuyper",
+        "  N.Williams: horizon 4.0 pts/5gw (form 1.5, fixture ease 10.4, set-piece 0.00)",
+        "  De Cuyper: horizon 12.3 pts/5gw (form 10.5, fixture ease 10.4, set-piece 0.00)",
+        "  Other options considered: Tarkowski (10.4), Vuskovic (9.6), Dasilva (9.0)",
+        "- Transfer: OUT F.Kad\u0131o\u011flu -> IN Dasilva",
+        "  F.Kad\u0131o\u011flu: horizon 7.1 pts/5gw (form 7.0, fixture ease 10.4, set-piece 0.00)",
+        "  Dasilva: horizon 9.0 pts/5gw (form 10.0, fixture ease 12.5, set-piece 0.00)",
+        "  Other options considered: De Cuyper (12.3), Vuskovic (9.6), Hall (8.8)",
+        "- Transfer: OUT Szoboszlai -> IN Semenyo",
+        "  Szoboszlai: horizon 2.0 pts/5gw (form 1.0, fixture ease 9.9, set-piece 1.00)",
+        "  Semenyo: horizon 11.9 pts/5gw (form 10.0, fixture ease 12.6, set-piece 0.25)",
+        "  Other options considered: Cherki (11.9), Buend\u00eda (11.5), Cunha (10.6)",
+        "- Lineup: benched Raya, started Dasilva",
+        "- Lineup: benched Bogle, started Thiago",
+        "- Lineup: benched Calvert-Lewin, started De Cuyper",
+        "- Lineup: benched Ajayi, started Verbruggen",
+        "- Captain: Gro\u00df, Vice: Semenyo"
       ]
     }
   ]

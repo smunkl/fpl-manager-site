@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T23:28:24.879190+00:00",
+  "last_updated": "2026-10-17T00:13:44.669929+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -98,6 +98,29 @@
       "points_on_bench": 22,
       "hit_cost": 0,
       "overall_rank": 7951284
+    },
+    {
+      "gw": 7,
+      "date": "2026-10-17T00:13:42.715059+00:00",
+      "actions": [
+        "- Transfer: OUT N.Williams -> IN De Cuyper",
+        "  N.Williams: horizon 4.0 pts/5gw (form 1.5, fixture ease 10.4, set-piece 0.00)",
+        "  De Cuyper: horizon 12.3 pts/5gw (form 10.5, fixture ease 10.4, set-piece 0.00)",
+        "  Other options considered: Tarkowski (10.4), Vuskovic (9.6), Dasilva (9.0)",
+        "- Transfer: OUT F.Kad\u0131o\u011flu -> IN Dasilva",
+        "  F.Kad\u0131o\u011flu: horizon 7.1 pts/5gw (form 7.0, fixture ease 10.4, set-piece 0.00)",
+        "  Dasilva: horizon 9.0 pts/5gw (form 10.0, fixture ease 12.5, set-piece 0.00)",
+        "  Other options considered: De Cuyper (12.3), Vuskovic (9.6), Hall (8.8)",
+        "- Transfer: OUT Szoboszlai -> IN Semenyo",
+        "  Szoboszlai: horizon 2.0 pts/5gw (form 1.0, fixture ease 9.9, set-piece 1.00)",
+        "  Semenyo: horizon 11.9 pts/5gw (form 10.0, fixture ease 12.6, set-piece 0.25)",
+        "  Other options considered: Cherki (11.9), Buend\u00eda (11.5), Cunha (10.6)",
+        "- Lineup: benched Raya, started Dasilva",
+        "- Lineup: benched Bogle, started Thiago",
+        "- Lineup: benched Calvert-Lewin, started De Cuyper",
+        "- Lineup: benched Ajayi, started Verbruggen",
+        "- Captain: Gro\u00df, Vice: Semenyo"
+      ]
     }
   ]
 }

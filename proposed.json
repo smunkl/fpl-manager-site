@@ -1,10 +1,75 @@
 {
-  "last_updated": "2026-10-17T00:13:49.291838+00:00",
+  "last_updated": "2026-10-17T00:15:34.565815+00:00",
   "gameweek": 7,
   "deadline": "2026-10-17T10:00:00Z",
-  "has_changes": false,
+  "has_changes": true,
   "hits_taken": 0,
-  "transfers": [],
+  "transfers": [
+    {
+      "out": {
+        "name": "Ajayi",
+        "team": "HUL",
+        "horizon": 4.0,
+        "form": 1.0,
+        "fixture_ease": 10.6,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Tarkowski",
+        "team": "EVE",
+        "horizon": 10.4,
+        "form": 8.5,
+        "fixture_ease": 9.0,
+        "set_piece_bonus": 0.0
+      },
+      "alternatives": [
+        {
+          "name": "Justin",
+          "horizon": 8.2
+        },
+        {
+          "name": "Thomas",
+          "horizon": 7.6
+        },
+        {
+          "name": "Ajer",
+          "horizon": 7.2
+        }
+      ]
+    },
+    {
+      "out": {
+        "name": "B.Fernandes",
+        "team": "MUN",
+        "horizon": 10.0,
+        "form": 1.5,
+        "fixture_ease": 9.9,
+        "set_piece_bonus": 1.0
+      },
+      "in": {
+        "name": "Cherki",
+        "team": "MCI",
+        "horizon": 11.9,
+        "form": 9.0,
+        "fixture_ease": 12.6,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Buend\u00eda",
+          "horizon": 11.5
+        },
+        {
+          "name": "Cunha",
+          "horizon": 10.6
+        },
+        {
+          "name": "Palmer",
+          "horizon": 10.5
+        }
+      ]
+    }
+  ],
   "captain_change": null,
   "vice_change": null
 }

@@ -1,10 +1,13 @@
 {
-  "last_updated": "2026-10-17T09:11:39.533010+00:00",
-  "gameweek": 7,
-  "deadline": "2026-10-17T10:00:00Z",
-  "has_changes": false,
+  "last_updated": "2026-10-18T08:20:16.691678+00:00",
+  "gameweek": 8,
+  "deadline": "2026-10-23T17:30:00Z",
+  "has_changes": true,
   "hits_taken": 0,
   "transfers": [],
   "captain_change": null,
-  "vice_change": null
+  "vice_change": {
+    "from": "Semenyo",
+    "to": "De Cuyper"
+  }
 }

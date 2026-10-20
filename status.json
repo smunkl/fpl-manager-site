@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-19T08:00:23.574188+00:00",
+  "last_updated": "2026-10-20T08:03:00.512694+00:00",
   "gameweek": 8,
   "deadline": "2026-10-23T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.4,
   "free_transfers": 0,
-  "total_projected_points": 55.9,
+  "total_projected_points": -951.7,
   "starting_xi": [
     {
       "name": "Verbruggen",
       "position": "GKP",
       "team": "BHA",
-      "projected_points": 4.9,
+      "projected_points": 5.3,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Dasilva",
       "position": "DEF",
       "team": "COV",
-      "projected_points": 4.6,
+      "projected_points": 1.9,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Calafiori",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 3.8,
+      "projected_points": 5.2,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "De Cuyper",
       "position": "DEF",
       "team": "BHA",
-      "projected_points": 6.0,
+      "projected_points": 7.0,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Semenyo",
       "position": "MID",
       "team": "MCI",
-      "projected_points": 4.0,
+      "projected_points": -999.0,
       "captain": false,
       "vice_captain": true
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.5,
+      "projected_points": 1.5,
       "captain": false,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 13.8,
+      "projected_points": 10.2,
       "captain": true,
       "vice_captain": false
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 4.6,
+      "projected_points": 4.4,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Saka",
       "position": "MID",
       "team": "ARS",
-      "projected_points": 2.9,
+      "projected_points": 3.0,
       "captain": false,
       "vice_captain": false
     },

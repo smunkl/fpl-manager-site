@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T10:37:59.047218+00:00",
+  "last_updated": "2026-10-20T08:03:05.552331+00:00",
   "last_completed_gw": 6,
   "leagues": [
     {
@@ -112,8 +112,8 @@
           "rank": 1,
           "manager": "Kush Patel",
           "team_name": "los santos customs",
-          "total_points": 518,
-          "gw_points": 65,
+          "total_points": 519,
+          "gw_points": 66,
           "is_me": false,
           "squad": {
             "captain": "Palmer",
@@ -136,8 +136,8 @@
           "rank": 2,
           "manager": "Seema Shah",
           "team_name": "Seema's Team",
-          "total_points": 506,
-          "gw_points": 69,
+          "total_points": 508,
+          "gw_points": 71,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -160,8 +160,8 @@
           "rank": 3,
           "manager": "Aasav Patel",
           "team_name": "to cook or not cook",
-          "total_points": 433,
-          "gw_points": 60,
+          "total_points": 436,
+          "gw_points": 63,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -184,8 +184,8 @@
           "rank": 4,
           "manager": "Jignesh Patel",
           "team_name": "Change Name",
-          "total_points": 421,
-          "gw_points": 49,
+          "total_points": 423,
+          "gw_points": 51,
           "is_me": false,
           "squad": {
             "captain": "B.Fernandes",
@@ -280,8 +280,8 @@
           "rank": 8,
           "manager": "Hiren Patel",
           "team_name": "\u00d8degaardians",
-          "total_points": 388,
-          "gw_points": 54,
+          "total_points": 392,
+          "gw_points": 58,
           "is_me": false,
           "squad": {
             "captain": "\u00d8degaard",
@@ -328,8 +328,8 @@
           "rank": 10,
           "manager": "Binoy Shah",
           "team_name": "COYS",
-          "total_points": 344,
-          "gw_points": 51,
+          "total_points": 346,
+          "gw_points": 53,
           "is_me": false,
           "squad": {
             "captain": "B.Fernandes",

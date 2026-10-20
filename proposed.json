@@ -1,13 +1,49 @@
 {
-  "last_updated": "2026-10-19T10:38:00.750561+00:00",
+  "last_updated": "2026-10-20T08:05:35.686270+00:00",
   "gameweek": 8,
   "deadline": "2026-10-23T17:30:00Z",
   "has_changes": true,
-  "hits_taken": 0,
-  "transfers": [],
-  "captain_change": null,
+  "hits_taken": 1,
+  "transfers": [
+    {
+      "out": {
+        "name": "Semenyo",
+        "team": "MCI",
+        "horizon": 0.0,
+        "form": 7.0,
+        "fixture_ease": 12.6,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "Henderson",
+        "team": "CHE",
+        "horizon": 10.2,
+        "form": 7.9,
+        "fixture_ease": 11.3,
+        "set_piece_bonus": 0.0
+      },
+      "alternatives": [
+        {
+          "name": "Rudoni",
+          "horizon": 10.9
+        },
+        {
+          "name": "Rice",
+          "horizon": 9.9
+        },
+        {
+          "name": "Neto",
+          "horizon": 9.9
+        }
+      ]
+    }
+  ],
+  "captain_change": {
+    "from": "Gro\u00df",
+    "to": "De Cuyper"
+  },
   "vice_change": {
     "from": "Semenyo",
-    "to": "De Cuyper"
+    "to": "Henderson"
   }
 }

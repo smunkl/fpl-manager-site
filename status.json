@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-21T00:30:16.637578+00:00",
+  "last_updated": "2026-10-21T00:33:19.759502+00:00",
   "gameweek": 8,
   "deadline": "2026-10-23T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.4,
   "free_transfers": 0,
-  "total_projected_points": -949.3,
+  "total_projected_points": 49.7,
   "starting_xi": [
     {
       "name": "Verbruggen",
@@ -43,7 +43,7 @@
       "name": "Semenyo",
       "position": "MID",
       "team": "MCI",
-      "projected_points": -999.0,
+      "projected_points": 0.0,
       "captain": false,
       "vice_captain": true
     },

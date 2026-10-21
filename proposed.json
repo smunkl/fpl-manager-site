@@ -1,43 +1,10 @@
 {
-  "last_updated": "2026-10-21T00:33:25.308000+00:00",
+  "last_updated": "2026-10-21T00:49:33.848987+00:00",
   "gameweek": 8,
   "deadline": "2026-10-23T17:30:00Z",
   "has_changes": true,
-  "hits_taken": 1,
-  "transfers": [
-    {
-      "out": {
-        "name": "Semenyo",
-        "team": "MCI",
-        "horizon": 0.0,
-        "form": 2.0,
-        "fixture_ease": 10.7,
-        "set_piece_bonus": 0.25
-      },
-      "in": {
-        "name": "Henderson",
-        "team": "CHE",
-        "horizon": 10.3,
-        "form": 7.9,
-        "fixture_ease": 11.3,
-        "set_piece_bonus": 0.0
-      },
-      "alternatives": [
-        {
-          "name": "Rudoni",
-          "horizon": 11.1
-        },
-        {
-          "name": "Iwobi",
-          "horizon": 10.3
-        },
-        {
-          "name": "Neto",
-          "horizon": 10.2
-        }
-      ]
-    }
-  ],
+  "hits_taken": 0,
+  "transfers": [],
   "captain_change": null,
   "vice_change": {
     "from": "Semenyo",

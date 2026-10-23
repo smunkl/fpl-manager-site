@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-23T16:41:07.764924+00:00",
+  "last_updated": "2026-10-23T16:50:42.313608+00:00",
   "gameweek": 8,
   "deadline": "2026-10-23T17:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 0,
-  "total_projected_points": 65.0,
+  "total_projected_points": 64.1,
   "starting_xi": [
     {
-      "name": "Verbruggen",
+      "name": "Raya",
       "position": "GKP",
-      "team": "BHA",
-      "projected_points": 5.2,
+      "team": "ARS",
+      "projected_points": 4.3,
       "captain": false,
       "vice_captain": false
     },
@@ -98,9 +98,9 @@
   ],
   "bench": [
     {
-      "name": "Raya",
+      "name": "Verbruggen",
       "position": "GKP",
-      "team": "ARS"
+      "team": "BHA"
     },
     {
       "name": "Calvert-Lewin",

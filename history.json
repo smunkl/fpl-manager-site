@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T16:51:43.930621+00:00",
+  "last_updated": "2026-10-25T09:14:36.701961+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -144,7 +144,11 @@
         "  Other options considered: Evanilson (10.2), Barry (9.5), Solanke (8.1)",
         "- Lineup: benched Dasilva, started Bogle",
         "- Captain: Haaland, Vice: Gro\u00df"
-      ]
+      ],
+      "actual_points": 28,
+      "points_on_bench": 2,
+      "hit_cost": 8,
+      "overall_rank": 8430000
     }
   ]
 }

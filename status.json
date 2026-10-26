@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-25T09:14:34.844625+00:00",
+  "last_updated": "2026-10-26T09:11:23.537829+00:00",
   "gameweek": 9,
   "deadline": "2026-10-31T11:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 0.5,
   "free_transfers": 1,
-  "total_projected_points": 50.7,
+  "total_projected_points": 52.7,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 4.6,
+      "projected_points": 4.5,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 1.1,
+      "projected_points": 2.2,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "De Cuyper",
       "position": "DEF",
       "team": "BHA",
-      "projected_points": 4.8,
+      "projected_points": 5.0,
       "captain": false,
       "vice_captain": false
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 4.2,
+      "projected_points": 4.7,
       "captain": false,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Haaland",
       "position": "FWD",
       "team": "MCI",
-      "projected_points": 14.3,
+      "projected_points": 14.4,
       "captain": true,
       "vice_captain": false
     },

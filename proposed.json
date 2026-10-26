@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T09:58:27.198955+00:00",
+  "last_updated": "2026-10-26T11:23:19.675055+00:00",
   "gameweek": 9,
   "deadline": "2026-10-31T11:00:00Z",
   "has_changes": true,
@@ -7,33 +7,33 @@
   "transfers": [
     {
       "out": {
-        "name": "Ajayi",
-        "team": "HUL",
-        "horizon": 4.0,
-        "form": 1.0,
-        "fixture_ease": 10.5,
+        "name": "Calafiori",
+        "team": "ARS",
+        "horizon": 6.0,
+        "form": 5.3,
+        "fixture_ease": 10.4,
         "set_piece_bonus": 0.0
       },
       "in": {
         "name": "Konsa",
         "team": "ARS",
-        "horizon": 9.4,
+        "horizon": 9.6,
         "form": 9.0,
-        "fixture_ease": 10.5,
+        "fixture_ease": 10.4,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Boscagli",
-          "horizon": 7.0
+          "name": "Vuskovic",
+          "horizon": 9.4
         },
         {
-          "name": "Castagne",
-          "horizon": 7.0
+          "name": "White",
+          "horizon": 8.8
         },
         {
-          "name": "Bassey",
-          "horizon": 7.0
+          "name": "Hill",
+          "horizon": 8.0
         }
       ]
     }

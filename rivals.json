@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-26T11:23:17.676241+00:00",
-  "last_completed_gw": 7,
+  "last_updated": "2026-10-27T09:55:54.981204+00:00",
+  "last_completed_gw": 8,
   "leagues": [
     {
       "name": "Ferrets play FPL",
@@ -18,15 +18,15 @@
             "xi": [
               "Raya",
               "Calafiori",
+              "Gu\u00e9hi",
               "Maguire",
-              "Gvardiol",
-              "B.Fernandes",
+              "Egan",
+              "Mbeumo",
               "Rogers",
-              "Gro\u00df",
               "Barnes",
-              "Jo\u00e3o Pedro",
+              "Gro\u00df",
               "Haaland",
-              "Calvert-Lewin"
+              "Isak"
             ]
           }
         },
@@ -47,7 +47,7 @@
               "Maguire",
               "Davis",
               "Barnes",
-              "B.Fernandes",
+              "Cherki",
               "Gro\u00df",
               "Haaland",
               "Calvert-Lewin"
@@ -68,13 +68,13 @@
               "Calafiori",
               "Muharemovi\u0107",
               "Ajer",
-              "B.Fernandes",
-              "M.Sangar\u00e9",
+              "N.Williams",
+              "Palmer",
+              "Cherki",
               "Gomez",
               "Rogers",
               "Haaland",
-              "Calvert-Lewin",
-              "Wissa"
+              "Calvert-Lewin"
             ]
           }
         },
@@ -86,19 +86,19 @@
           "gw_points": 40,
           "is_me": true,
           "squad": {
-            "captain": "Gro\u00df",
+            "captain": "Haaland",
             "xi": [
-              "Verbruggen",
-              "Dasilva",
+              "Raya",
               "Calafiori",
               "De Cuyper",
-              "Semenyo",
-              "B.Fernandes",
+              "Bogle",
+              "Dasilva",
+              "Henderson",
               "Gro\u00df",
+              "Rudoni",
               "Mbeumo",
-              "Saka",
-              "Thiago",
-              "Jo\u00e3o Pedro"
+              "Calvert-Lewin",
+              "Haaland"
             ]
           }
         }
@@ -119,16 +119,16 @@
             "captain": "Haaland",
             "xi": [
               "Verbruggen",
+              "Kayode",
               "Calafiori",
-              "van Ewijk",
               "De Cuyper",
+              "Konsa",
               "Palmer",
-              "E.Le F\u00e9e",
+              "Cherki",
               "Gro\u00df",
-              "Saka",
+              "Tavernier",
               "Calvert-Lewin",
-              "Haaland",
-              "Jo\u00e3o Pedro"
+              "Haaland"
             ]
           }
         },
@@ -140,19 +140,19 @@
           "gw_points": 42,
           "is_me": false,
           "squad": {
-            "captain": "Haaland",
+            "captain": "Jo\u00e3o Pedro",
             "xi": [
-              "Kinsky",
+              "Verbruggen",
               "Calafiori",
               "Konsa",
               "De Cuyper",
-              "Maguire",
               "Manzambi",
-              "B.Fernandes",
-              "Schade",
+              "Rogers",
+              "Cherki",
               "Gomez",
+              "Schade",
               "Haaland",
-              "Jo\u00e3o Pedro"
+              "Brobbey"
             ]
           }
         },
@@ -172,7 +172,7 @@
               "Diop",
               "Thomas",
               "Mbeumo",
-              "B.Fernandes",
+              "Slater",
               "Szoboszlai",
               "\u00d8degaard",
               "Haaland",
@@ -194,12 +194,12 @@
               "Affengruber",
               "Hall",
               "Dunk",
+              "N.Williams",
               "Gro\u00df",
               "Mbeumo",
               "Rogers",
               "Wirtz",
               "Calvert-Lewin",
-              "Jo\u00e3o Pedro",
               "Haaland"
             ]
           }
@@ -212,17 +212,17 @@
           "gw_points": 30,
           "is_me": false,
           "squad": {
-            "captain": "Cherki",
+            "captain": "Jo\u00e3o Pedro",
             "xi": [
-              "Kinsky",
+              "Verbruggen",
               "Calafiori",
               "De Cuyper",
               "Konsa",
               "Maguire",
               "Ndiaye",
               "Palmer",
-              "Saka",
-              "Jo\u00e3o Pedro",
+              "Gibbs-White",
+              "Cherki",
               "Kostoulas",
               "Thiago"
             ]
@@ -239,16 +239,16 @@
             "captain": "Haaland",
             "xi": [
               "Verbruggen",
-              "Tarkowski",
-              "Giles",
-              "De Cuyper",
               "Bogle",
+              "Tarkowski",
+              "De Cuyper",
+              "Giles",
+              "Hall",
               "Palmer",
-              "Saka",
+              "Cherki",
               "Gomez",
               "Emersonn",
-              "Haaland",
-              "Jo\u00e3o Pedro"
+              "Haaland"
             ]
           }
         },
@@ -265,14 +265,14 @@
               "Raya",
               "Calafiori",
               "Gvardiol",
+              "De Cuyper",
               "Mitchell",
-              "B.Fernandes",
+              "Slater",
               "Gro\u00df",
               "\u00d8degaard",
               "E.Le F\u00e9e",
               "Haaland",
-              "Gonzalo",
-              "Jo\u00e3o Pedro"
+              "Gonzalo"
             ]
           }
         },
@@ -290,13 +290,13 @@
               "Gabriel",
               "Hato",
               "Mitchell",
-              "Rogers",
               "Gro\u00df",
-              "Semenyo",
+              "Cherki",
               "\u00d8degaard",
               "Tonali",
+              "Rogers",
               "Haaland",
-              "Jo\u00e3o Pedro"
+              "Calvert-Lewin"
             ]
           }
         },
@@ -308,19 +308,19 @@
           "gw_points": 36,
           "is_me": false,
           "squad": {
-            "captain": "Cherki",
+            "captain": "Palmer",
             "xi": [
               "Verbruggen",
               "Calafiori",
+              "Truffert",
+              "Konsa",
               "Tarkowski",
-              "Mu\u00f1oz",
-              "B.Fernandes",
+              "Ayari",
               "Rogers",
+              "Cherki",
               "Gro\u00df",
               "Palmer",
-              "Wissa",
-              "Jo\u00e3o Pedro",
-              "Calvert-Lewin"
+              "Evanilson"
             ]
           }
         },
@@ -332,19 +332,19 @@
           "gw_points": 40,
           "is_me": true,
           "squad": {
-            "captain": "Gro\u00df",
+            "captain": "Haaland",
             "xi": [
-              "Verbruggen",
-              "Dasilva",
+              "Raya",
               "Calafiori",
               "De Cuyper",
-              "Semenyo",
-              "B.Fernandes",
+              "Bogle",
+              "Dasilva",
+              "Henderson",
               "Gro\u00df",
+              "Rudoni",
               "Mbeumo",
-              "Saka",
-              "Thiago",
-              "Jo\u00e3o Pedro"
+              "Calvert-Lewin",
+              "Haaland"
             ]
           }
         },
@@ -364,9 +364,9 @@
               "Ajayi",
               "Justin",
               "Palmer",
-              "Szoboszlai",
               "Gro\u00df",
-              "Jo\u00e3o Pedro",
+              "Elanga",
+              "Cherki",
               "Haaland",
               "Thiago"
             ]
@@ -386,11 +386,11 @@
               "Tarkowski",
               "Calafiori",
               "Ajayi",
+              "Maguire",
+              "Gu\u00e9hi",
+              "Cherki",
               "M.Sangar\u00e9",
-              "B.Fernandes",
-              "Saka",
               "Barnes",
-              "Jo\u00e3o Pedro",
               "Thiago",
               "Kostoulas"
             ]
@@ -404,19 +404,19 @@
           "gw_points": 44,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Palmer",
             "xi": [
               "Verbruggen",
-              "Mu\u00f1oz",
+              "Truffert",
+              "Konsa",
               "Calafiori",
-              "Tarkowski",
-              "Rogers",
-              "B.Fernandes",
-              "Szoboszlai",
-              "Palmer",
               "Gro\u00df",
-              "Wissa",
-              "Jo\u00e3o Pedro"
+              "Tavernier",
+              "Palmer",
+              "Cherki",
+              "Rogers",
+              "Evanilson",
+              "Calvert-Lewin"
             ]
           }
         },
@@ -428,19 +428,19 @@
           "gw_points": 39,
           "is_me": false,
           "squad": {
-            "captain": "B.Fernandes",
+            "captain": "Palmer",
             "xi": [
               "Verbruggen",
-              "Mu\u00f1oz",
-              "Tarkowski",
+              "Konsa",
               "Calafiori",
-              "Rogers",
-              "B.Fernandes",
-              "Szoboszlai",
+              "Truffert",
+              "Tavernier",
+              "Cherki",
               "Palmer",
               "Gro\u00df",
-              "Wissa",
-              "Jo\u00e3o Pedro"
+              "Rogers",
+              "Calvert-Lewin",
+              "Wissa"
             ]
           }
         }

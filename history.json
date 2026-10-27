@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T09:11:25.377176+00:00",
+  "last_updated": "2026-10-27T09:02:07.747386+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -145,10 +145,10 @@
         "- Lineup: benched Dasilva, started Bogle",
         "- Captain: Haaland, Vice: Gro\u00df"
       ],
-      "actual_points": 28,
-      "points_on_bench": 2,
+      "actual_points": 40,
+      "points_on_bench": 6,
       "hit_cost": 8,
-      "overall_rank": 8430000
+      "overall_rank": 8704717
     }
   ]
 }

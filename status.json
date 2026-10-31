@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-31T09:00:06.337443+00:00",
+  "last_updated": "2026-10-31T10:22:57.639832+00:00",
   "gameweek": 9,
   "deadline": "2026-10-31T11:00:00Z",
-  "mode": "PREVIEW (daily, no changes submitted)",
-  "bank": 0.5,
-  "free_transfers": 1,
-  "total_projected_points": 50.0,
+  "mode": "LIVE",
+  "bank": 1.5,
+  "free_transfers": 0,
+  "total_projected_points": 57.2,
   "starting_xi": [
     {
       "name": "Raya",
@@ -24,10 +24,10 @@
       "vice_captain": false
     },
     {
-      "name": "Calafiori",
+      "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 2.8,
+      "projected_points": 6.0,
       "captain": false,
       "vice_captain": false
     },
@@ -88,10 +88,10 @@
       "vice_captain": false
     },
     {
-      "name": "Jo\u00e3o Pedro",
+      "name": "Calvert-Lewin",
       "position": "FWD",
-      "team": "CHE",
-      "projected_points": 0.0,
+      "team": "LEE",
+      "projected_points": 4.0,
       "captain": false,
       "vice_captain": false
     }
@@ -103,11 +103,6 @@
       "team": "BHA"
     },
     {
-      "name": "Calvert-Lewin",
-      "position": "FWD",
-      "team": "LEE"
-    },
-    {
       "name": "Dasilva",
       "position": "DEF",
       "team": "COV"
@@ -116,20 +111,14 @@
       "name": "Ajayi",
       "position": "DEF",
       "team": "HUL"
+    },
+    {
+      "name": "Jo\u00e3o Pedro",
+      "position": "FWD",
+      "team": "CHE"
     }
   ],
   "recent_activity": [
-    {
-      "header": "GW2 - 2026-08-26T14:14:19.400499+00:00",
-      "details": [
-        "- Transfer: OUT Wirtz -> IN Ndiaye",
-        "  Wirtz: horizon 2.2 pts/5gw (form 0.5, fixture ease 12.2, set-piece 0.00)",
-        "  Ndiaye: horizon 6.0 pts/5gw (form 2.2, fixture ease 11.4, set-piece 0.75)",
-        "  Other options considered: Gro\u00df (5.7), Buend\u00eda (5.3), Stach (4.6)",
-        "- Lineup: benched Enzo, started Mateta",
-        "- Captain: B.Fernandes, Vice: Szoboszlai"
-      ]
-    },
     {
       "header": "GW3 - 2026-09-01T14:10:37.113932+00:00",
       "details": [
@@ -208,6 +197,16 @@
         "  Other options considered: Evanilson (10.2), Barry (9.5), Solanke (8.1)",
         "- Lineup: benched Dasilva, started Bogle",
         "- Captain: Haaland, Vice: Gro\u00df"
+      ]
+    },
+    {
+      "header": "GW9 - 2026-10-31T10:22:57.637391+00:00",
+      "details": [
+        "- Transfer: OUT Calafiori -> IN Konsa",
+        "  Calafiori: horizon 6.0 pts/5gw (form 5.3, fixture ease 10.4, set-piece 0.00)",
+        "  Konsa: horizon 9.6 pts/5gw (form 9.0, fixture ease 10.4, set-piece 0.00)",
+        "  Other options considered: Vuskovic (9.4), White (8.8), Hill (8.0)",
+        "- Lineup: benched Jo\u00e3o Pedro, started Calvert-Lewin"
       ]
     }
   ]

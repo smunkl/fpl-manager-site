@@ -1,43 +1,10 @@
 {
-  "last_updated": "2026-10-31T09:00:12.978288+00:00",
+  "last_updated": "2026-10-31T10:23:03.694761+00:00",
   "gameweek": 9,
   "deadline": "2026-10-31T11:00:00Z",
-  "has_changes": true,
+  "has_changes": false,
   "hits_taken": 0,
-  "transfers": [
-    {
-      "out": {
-        "name": "Calafiori",
-        "team": "ARS",
-        "horizon": 6.0,
-        "form": 5.3,
-        "fixture_ease": 10.4,
-        "set_piece_bonus": 0.0
-      },
-      "in": {
-        "name": "Konsa",
-        "team": "ARS",
-        "horizon": 9.6,
-        "form": 9.0,
-        "fixture_ease": 10.4,
-        "set_piece_bonus": 0.0
-      },
-      "alternatives": [
-        {
-          "name": "Vuskovic",
-          "horizon": 9.4
-        },
-        {
-          "name": "White",
-          "horizon": 8.8
-        },
-        {
-          "name": "Hill",
-          "horizon": 8.0
-        }
-      ]
-    }
-  ],
+  "transfers": [],
   "captain_change": null,
   "vice_change": null
 }

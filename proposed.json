@@ -1,10 +1,43 @@
 {
-  "last_updated": "2026-10-31T10:23:03.694761+00:00",
-  "gameweek": 9,
-  "deadline": "2026-10-31T11:00:00Z",
-  "has_changes": false,
+  "last_updated": "2026-11-01T09:00:13.182601+00:00",
+  "gameweek": 10,
+  "deadline": "2026-11-06T18:30:00Z",
+  "has_changes": true,
   "hits_taken": 0,
-  "transfers": [],
+  "transfers": [
+    {
+      "out": {
+        "name": "Jo\u00e3o Pedro",
+        "team": "CHE",
+        "horizon": 0.0,
+        "form": 3.5,
+        "fixture_ease": 10.6,
+        "set_piece_bonus": 0.0
+      },
+      "in": {
+        "name": "N.Jackson",
+        "team": "AVL",
+        "horizon": 10.7,
+        "form": 8.2,
+        "fixture_ease": 11.9,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Evanilson",
+          "horizon": 10.4
+        },
+        {
+          "name": "Thiago",
+          "horizon": 10.2
+        },
+        {
+          "name": "McBurnie",
+          "horizon": 9.9
+        }
+      ]
+    }
+  ],
   "captain_change": null,
   "vice_change": null
 }

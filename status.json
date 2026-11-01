@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-31T10:22:57.639832+00:00",
-  "gameweek": 9,
-  "deadline": "2026-10-31T11:00:00Z",
-  "mode": "LIVE",
+  "last_updated": "2026-11-01T09:00:06.686947+00:00",
+  "gameweek": 10,
+  "deadline": "2026-11-06T18:30:00Z",
+  "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
-  "free_transfers": 0,
-  "total_projected_points": 57.2,
+  "free_transfers": 1,
+  "total_projected_points": 49.6,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 4.5,
+      "projected_points": 3.5,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 2.2,
+      "projected_points": 1.8,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 6.0,
+      "projected_points": 4.6,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "De Cuyper",
       "position": "DEF",
       "team": "BHA",
-      "projected_points": 5.0,
+      "projected_points": 5.3,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Henderson",
       "position": "MID",
       "team": "CHE",
-      "projected_points": 5.5,
+      "projected_points": 3.2,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.1,
+      "projected_points": 2.3,
       "captain": false,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 4.0,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": true
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 4.7,
+      "projected_points": 4.0,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Rudoni",
       "position": "MID",
       "team": "COV",
-      "projected_points": 4.7,
+      "projected_points": 5.4,
       "captain": false,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Haaland",
       "position": "FWD",
       "team": "MCI",
-      "projected_points": 14.4,
+      "projected_points": 12.1,
       "captain": true,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 4.0,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     }

@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-01T09:00:06.686947+00:00",
+  "last_updated": "2026-11-03T09:01:14.410987+00:00",
   "gameweek": 10,
   "deadline": "2026-11-06T18:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
   "free_transfers": 1,
-  "total_projected_points": 49.6,
+  "total_projected_points": 52.0,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 3.5,
+      "projected_points": 4.3,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 4.6,
+      "projected_points": 6.1,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Rudoni",
       "position": "MID",
       "team": "COV",
-      "projected_points": 5.4,
+      "projected_points": 5.5,
       "captain": false,
       "vice_captain": false
     },

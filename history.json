@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T09:00:08.569204+00:00",
+  "last_updated": "2026-11-03T09:01:16.567164+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -160,10 +160,10 @@
         "  Other options considered: Vuskovic (9.4), White (8.8), Hill (8.0)",
         "- Lineup: benched Jo\u00e3o Pedro, started Calvert-Lewin"
       ],
-      "actual_points": 30,
+      "actual_points": 45,
       "points_on_bench": 15,
       "hit_cost": 0,
-      "overall_rank": 8501982
+      "overall_rank": 8453965
     }
   ]
 }

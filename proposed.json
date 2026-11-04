@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T09:28:43.481064+00:00",
+  "last_updated": "2026-11-04T10:47:13.535136+00:00",
   "gameweek": 10,
   "deadline": "2026-11-06T18:30:00Z",
   "has_changes": true,
@@ -11,13 +11,13 @@
         "team": "CHE",
         "horizon": 0.0,
         "form": 3.5,
-        "fixture_ease": 10.6,
+        "fixture_ease": 11.9,
         "set_piece_bonus": 0.0
       },
       "in": {
         "name": "Evanilson",
         "team": "BOU",
-        "horizon": 10.4,
+        "horizon": 10.5,
         "form": 8.5,
         "fixture_ease": 12.0,
         "set_piece_bonus": 0.0
@@ -25,19 +25,22 @@
       "alternatives": [
         {
           "name": "Barry",
-          "horizon": 10.9
+          "horizon": 11.1
         },
         {
           "name": "Thiago",
-          "horizon": 10.2
+          "horizon": 10.3
         },
         {
-          "name": "McBurnie",
+          "name": "N.Jackson",
           "horizon": 9.9
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": null
+  "vice_change": {
+    "from": "Gro\u00df",
+    "to": "Rudoni"
+  }
 }

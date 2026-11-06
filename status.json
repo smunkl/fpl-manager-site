@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-05T09:16:12.484971+00:00",
+  "last_updated": "2026-11-06T09:02:00.592190+00:00",
   "gameweek": 10,
   "deadline": "2026-11-06T18:30:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
   "free_transfers": 1,
-  "total_projected_points": 52.6,
+  "total_projected_points": 50.2,
   "starting_xi": [
     {
       "name": "Raya",
@@ -27,7 +27,7 @@
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 6.2,
+      "projected_points": 4.6,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 3.7,
+      "projected_points": 2.8,
       "captain": false,
       "vice_captain": false
     }

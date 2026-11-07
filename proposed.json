@@ -1,39 +1,71 @@
 {
-  "last_updated": "2026-11-06T09:56:31.399713+00:00",
-  "gameweek": 10,
-  "deadline": "2026-11-06T18:30:00Z",
+  "last_updated": "2026-11-07T09:48:25.646197+00:00",
+  "gameweek": 11,
+  "deadline": "2026-11-21T11:00:00Z",
   "has_changes": true,
   "hits_taken": 0,
   "transfers": [
     {
       "out": {
+        "name": "Henderson",
+        "team": "CHE",
+        "horizon": 5.4,
+        "form": 4.6,
+        "fixture_ease": 11.9,
+        "set_piece_bonus": 0.1
+      },
+      "in": {
+        "name": "Tavernier",
+        "team": "BOU",
+        "horizon": 10.5,
+        "form": 4.8,
+        "fixture_ease": 12.0,
+        "set_piece_bonus": 0.25
+      },
+      "alternatives": [
+        {
+          "name": "Iwobi",
+          "horizon": 9.3
+        },
+        {
+          "name": "E.Le F\u00e9e",
+          "horizon": 8.3
+        },
+        {
+          "name": "Ayari",
+          "horizon": 8.1
+        }
+      ]
+    },
+    {
+      "out": {
         "name": "Jo\u00e3o Pedro",
         "team": "CHE",
         "horizon": 0.0,
-        "form": 3.5,
+        "form": 2.8,
         "fixture_ease": 11.9,
         "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Evanilson",
-        "team": "BOU",
-        "horizon": 10.5,
-        "form": 8.5,
-        "fixture_ease": 12.0,
-        "set_piece_bonus": 0.0
+        "name": "Barry",
+        "team": "EVE",
+        "horizon": 13.2,
+        "form": 7.0,
+        "fixture_ease": 11.1,
+        "set_piece_bonus": 0.75
       },
       "alternatives": [
         {
-          "name": "Barry",
-          "horizon": 11.1
-        },
-        {
           "name": "Thiago",
-          "horizon": 10.3
+          "horizon": 9.6
         },
         {
-          "name": "N.Jackson",
-          "horizon": 9.9
+          "name": "Evanilson",
+          "horizon": 9.6
+        },
+        {
+          "name": "McBurnie",
+          "horizon": 9.2
         }
       ]
     }
@@ -41,6 +73,6 @@
   "captain_change": null,
   "vice_change": {
     "from": "Gro\u00df",
-    "to": "Rudoni"
+    "to": "Barry"
   }
 }

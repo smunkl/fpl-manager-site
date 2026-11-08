@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T09:48:25.646197+00:00",
+  "last_updated": "2026-11-08T09:40:18.272017+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "has_changes": true,
@@ -7,33 +7,33 @@
   "transfers": [
     {
       "out": {
-        "name": "Henderson",
-        "team": "CHE",
-        "horizon": 5.4,
-        "form": 4.6,
-        "fixture_ease": 11.9,
-        "set_piece_bonus": 0.1
+        "name": "Dasilva",
+        "team": "COV",
+        "horizon": 4.2,
+        "form": 2.0,
+        "fixture_ease": 12.6,
+        "set_piece_bonus": 0.0
       },
       "in": {
-        "name": "Tavernier",
-        "team": "BOU",
-        "horizon": 10.5,
-        "form": 4.8,
-        "fixture_ease": 12.0,
-        "set_piece_bonus": 0.25
+        "name": "Van Hecke",
+        "team": "TOT",
+        "horizon": 9.9,
+        "form": 6.6,
+        "fixture_ease": 12.1,
+        "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
-          "name": "Iwobi",
-          "horizon": 9.3
+          "name": "Vuskovic",
+          "horizon": 8.8
         },
         {
-          "name": "E.Le F\u00e9e",
-          "horizon": 8.3
+          "name": "Muharemovi\u0107",
+          "horizon": 8.6
         },
         {
-          "name": "Ayari",
-          "horizon": 8.1
+          "name": "Justin",
+          "horizon": 8.2
         }
       ]
     },
@@ -65,7 +65,7 @@
         },
         {
           "name": "McBurnie",
-          "horizon": 9.2
+          "horizon": 9.4
         }
       ]
     }

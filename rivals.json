@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T09:40:16.661721+00:00",
+  "last_updated": "2026-11-09T09:42:51.033245+00:00",
   "last_completed_gw": 9,
   "leagues": [
     {
@@ -8,34 +8,10 @@
       "entries": [
         {
           "rank": 1,
-          "manager": "Daivik Sicotra",
-          "team_name": "SquirtleSquad",
-          "total_points": 591,
-          "gw_points": 37,
-          "is_me": false,
-          "squad": {
-            "captain": "Haaland",
-            "xi": [
-              "Raya",
-              "Konsa",
-              "Gabriel",
-              "Davis",
-              "Maguire",
-              "Palmer",
-              "Tavernier",
-              "Cherki",
-              "Gro\u00df",
-              "Haaland",
-              "Calvert-Lewin"
-            ]
-          }
-        },
-        {
-          "rank": 2,
           "manager": "Ash Pattni",
           "team_name": "Gabagool FC",
-          "total_points": 584,
-          "gw_points": 38,
+          "total_points": 626,
+          "gw_points": 80,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -55,11 +31,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "manager": "Mandeep Thandi",
           "team_name": "Thandi FC",
-          "total_points": 582,
-          "gw_points": 18,
+          "total_points": 619,
+          "gw_points": 55,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -79,11 +55,35 @@
           }
         },
         {
+          "rank": 3,
+          "manager": "Daivik Sicotra",
+          "team_name": "SquirtleSquad",
+          "total_points": 606,
+          "gw_points": 52,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Konsa",
+              "Gabriel",
+              "Davis",
+              "Maguire",
+              "Palmer",
+              "Tavernier",
+              "Cherki",
+              "Gro\u00df",
+              "Haaland",
+              "Calvert-Lewin"
+            ]
+          }
+        },
+        {
           "rank": 4,
           "manager": "Akash Mehta",
           "team_name": "A Team",
-          "total_points": 457,
-          "gw_points": 29,
+          "total_points": 487,
+          "gw_points": 59,
           "is_me": true,
           "squad": {
             "captain": "Haaland",
@@ -112,8 +112,8 @@
           "rank": 1,
           "manager": "Kush Patel",
           "team_name": "los santos customs",
-          "total_points": 660,
-          "gw_points": 24,
+          "total_points": 690,
+          "gw_points": 54,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -136,8 +136,8 @@
           "rank": 2,
           "manager": "Seema Shah",
           "team_name": "Seema's Team",
-          "total_points": 646,
-          "gw_points": 27,
+          "total_points": 683,
+          "gw_points": 64,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -160,8 +160,8 @@
           "rank": 3,
           "manager": "Jignesh Patel",
           "team_name": "Change Name",
-          "total_points": 547,
-          "gw_points": 20,
+          "total_points": 591,
+          "gw_points": 64,
           "is_me": false,
           "squad": {
             "captain": "Jo\u00e3o Pedro",
@@ -182,58 +182,10 @@
         },
         {
           "rank": 4,
-          "manager": "Aasav Patel",
-          "team_name": "to cook or not cook",
-          "total_points": 536,
-          "gw_points": 31,
-          "is_me": false,
-          "squad": {
-            "captain": "Haaland",
-            "xi": [
-              "Raya",
-              "Calafiori",
-              "Hall",
-              "Diop",
-              "Slater",
-              "Mbeumo",
-              "B.Fernandes",
-              "Szoboszlai",
-              "\u00d8degaard",
-              "Haaland",
-              "Jo\u00e3o Pedro"
-            ]
-          }
-        },
-        {
-          "rank": 5,
-          "manager": "Hiren Patel",
-          "team_name": "\u00d8degaardians",
-          "total_points": 521,
-          "gw_points": 22,
-          "is_me": false,
-          "squad": {
-            "captain": "Rogers",
-            "xi": [
-              "Verbruggen",
-              "Gabriel",
-              "Mitchell",
-              "Truffert",
-              "Gro\u00df",
-              "Tavernier",
-              "\u00d8degaard",
-              "Tonali",
-              "Rogers",
-              "Haaland",
-              "Isak"
-            ]
-          }
-        },
-        {
-          "rank": 6,
           "manager": "Maanika Shah",
           "team_name": "Gameofthrowins",
-          "total_points": 520,
-          "gw_points": 29,
+          "total_points": 566,
+          "gw_points": 75,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -253,11 +205,59 @@
           }
         },
         {
+          "rank": 5,
+          "manager": "Aasav Patel",
+          "team_name": "to cook or not cook",
+          "total_points": 555,
+          "gw_points": 50,
+          "is_me": false,
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Calafiori",
+              "Hall",
+              "Diop",
+              "Slater",
+              "Mbeumo",
+              "B.Fernandes",
+              "Szoboszlai",
+              "\u00d8degaard",
+              "Haaland",
+              "Jo\u00e3o Pedro"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "manager": "Hiren Patel",
+          "team_name": "\u00d8degaardians",
+          "total_points": 554,
+          "gw_points": 55,
+          "is_me": false,
+          "squad": {
+            "captain": "Rogers",
+            "xi": [
+              "Verbruggen",
+              "Gabriel",
+              "Mitchell",
+              "Truffert",
+              "Gro\u00df",
+              "Tavernier",
+              "\u00d8degaard",
+              "Tonali",
+              "Rogers",
+              "Haaland",
+              "Isak"
+            ]
+          }
+        },
+        {
           "rank": 7,
           "manager": "Hemali Shah",
           "team_name": "Hemali's Heroes",
-          "total_points": 520,
-          "gw_points": 22,
+          "total_points": 544,
+          "gw_points": 46,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -280,8 +280,8 @@
           "rank": 8,
           "manager": "Chirag Patel",
           "team_name": "Gada Rovers",
-          "total_points": 510,
-          "gw_points": 10,
+          "total_points": 543,
+          "gw_points": 43,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -302,25 +302,25 @@
         },
         {
           "rank": 9,
-          "manager": "Paraag Gudka",
-          "team_name": "Only Way is Up",
-          "total_points": 461,
-          "gw_points": 26,
+          "manager": "Binoy Shah",
+          "team_name": "COYS",
+          "total_points": 495,
+          "gw_points": 63,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
             "xi": [
-              "Verbruggen",
+              "Kinsky",
+              "Tarkowski",
               "Calafiori",
-              "De Cuyper",
-              "Ajayi",
-              "Palmer",
-              "Szoboszlai",
-              "Elanga",
-              "Cherki",
+              "Truffert",
+              "Ndiaye",
               "Gro\u00df",
-              "Haaland",
-              "Thiago"
+              "Cherki",
+              "Rogers",
+              "Calvert-Lewin",
+              "Evanilson",
+              "Haaland"
             ]
           }
         },
@@ -328,8 +328,8 @@
           "rank": 10,
           "manager": "Akash Mehta",
           "team_name": "A Team",
-          "total_points": 457,
-          "gw_points": 29,
+          "total_points": 487,
+          "gw_points": 59,
           "is_me": true,
           "squad": {
             "captain": "Haaland",
@@ -350,58 +350,34 @@
         },
         {
           "rank": 11,
-          "manager": "Binoy Shah",
-          "team_name": "COYS",
-          "total_points": 454,
-          "gw_points": 22,
+          "manager": "Paraag Gudka",
+          "team_name": "Only Way is Up",
+          "total_points": 480,
+          "gw_points": 45,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
             "xi": [
-              "Kinsky",
-              "Tarkowski",
+              "Verbruggen",
               "Calafiori",
-              "Truffert",
-              "Ndiaye",
-              "Gro\u00df",
+              "De Cuyper",
+              "Ajayi",
+              "Palmer",
+              "Szoboszlai",
+              "Elanga",
               "Cherki",
-              "Rogers",
-              "Calvert-Lewin",
-              "Evanilson",
-              "Haaland"
+              "Gro\u00df",
+              "Haaland",
+              "Thiago"
             ]
           }
         },
         {
           "rank": 12,
-          "manager": "Kayaan Patel",
-          "team_name": "K.F.C",
-          "total_points": 441,
-          "gw_points": 40,
-          "is_me": false,
-          "squad": {
-            "captain": "Cherki",
-            "xi": [
-              "Raya",
-              "Tarkowski",
-              "Calafiori",
-              "Ajayi",
-              "Maguire",
-              "Cherki",
-              "M.Sangar\u00e9",
-              "B.Fernandes",
-              "Barnes",
-              "Thiago",
-              "Kostoulas"
-            ]
-          }
-        },
-        {
-          "rank": 13,
           "manager": "Sneha Shah",
           "team_name": "Princess Kadhi",
-          "total_points": 431,
-          "gw_points": 22,
+          "total_points": 472,
+          "gw_points": 63,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -421,11 +397,11 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 13,
           "manager": "Priya Shah",
           "team_name": "Greywings",
-          "total_points": 423,
-          "gw_points": 24,
+          "total_points": 455,
+          "gw_points": 56,
           "is_me": false,
           "squad": {
             "captain": "Haaland",
@@ -441,6 +417,30 @@
               "Calvert-Lewin",
               "N.Jackson",
               "Haaland"
+            ]
+          }
+        },
+        {
+          "rank": 14,
+          "manager": "Kayaan Patel",
+          "team_name": "K.F.C",
+          "total_points": 452,
+          "gw_points": 51,
+          "is_me": false,
+          "squad": {
+            "captain": "Cherki",
+            "xi": [
+              "Raya",
+              "Tarkowski",
+              "Calafiori",
+              "Ajayi",
+              "Maguire",
+              "Cherki",
+              "M.Sangar\u00e9",
+              "B.Fernandes",
+              "Barnes",
+              "Thiago",
+              "Kostoulas"
             ]
           }
         }

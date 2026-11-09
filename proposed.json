@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T09:40:18.272017+00:00",
+  "last_updated": "2026-11-09T09:42:52.674567+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "has_changes": true,
@@ -11,7 +11,7 @@
         "team": "COV",
         "horizon": 4.2,
         "form": 2.0,
-        "fixture_ease": 12.6,
+        "fixture_ease": 12.8,
         "set_piece_bonus": 0.0
       },
       "in": {
@@ -19,13 +19,13 @@
         "team": "TOT",
         "horizon": 9.9,
         "form": 6.6,
-        "fixture_ease": 12.1,
+        "fixture_ease": 12.8,
         "set_piece_bonus": 0.0
       },
       "alternatives": [
         {
           "name": "Vuskovic",
-          "horizon": 8.8
+          "horizon": 10.8
         },
         {
           "name": "Muharemovi\u0107",
@@ -43,36 +43,33 @@
         "team": "CHE",
         "horizon": 0.0,
         "form": 2.8,
-        "fixture_ease": 11.9,
+        "fixture_ease": 11.0,
         "set_piece_bonus": 0.0
       },
       "in": {
         "name": "Barry",
         "team": "EVE",
-        "horizon": 13.2,
+        "horizon": 13.1,
         "form": 7.0,
-        "fixture_ease": 11.1,
+        "fixture_ease": 9.4,
         "set_piece_bonus": 0.75
       },
       "alternatives": [
         {
-          "name": "Thiago",
-          "horizon": 9.6
+          "name": "Evanilson",
+          "horizon": 10.9
         },
         {
-          "name": "Evanilson",
-          "horizon": 9.6
+          "name": "N.Jackson",
+          "horizon": 10.9
         },
         {
           "name": "McBurnie",
-          "horizon": 9.4
+          "horizon": 9.5
         }
       ]
     }
   ],
   "captain_change": null,
-  "vice_change": {
-    "from": "Gro\u00df",
-    "to": "Barry"
-  }
+  "vice_change": null
 }

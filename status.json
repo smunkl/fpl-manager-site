@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-08T09:05:47.590697+00:00",
+  "last_updated": "2026-11-09T09:04:34.228636+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
   "free_transfers": 2,
-  "total_projected_points": 48.4,
+  "total_projected_points": 52.9,
   "starting_xi": [
     {
       "name": "Raya",
@@ -19,7 +19,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 2.5,
+      "projected_points": 2.4,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 6.1,
+      "projected_points": 6.0,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "De Cuyper",
       "position": "DEF",
       "team": "BHA",
-      "projected_points": 4.4,
+      "projected_points": 5.2,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Henderson",
       "position": "MID",
       "team": "CHE",
-      "projected_points": 2.7,
+      "projected_points": 3.8,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 2.2,
+      "projected_points": 3.5,
       "captain": false,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 3.4,
+      "projected_points": 4.7,
       "captain": false,
       "vice_captain": true
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.4,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Haaland",
       "position": "FWD",
       "team": "MCI",
-      "projected_points": 11.0,
+      "projected_points": 10.9,
       "captain": true,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 3.5,
+      "projected_points": 3.4,
       "captain": false,
       "vice_captain": false
     }

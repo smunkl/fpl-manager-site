@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T09:22:59.372457+00:00",
+  "last_updated": "2026-11-09T09:04:36.136635+00:00",
   "gameweeks": [
     {
       "gw": 1,
@@ -10,7 +10,11 @@
         "- Transfer: OUT Mitchell -> IN Senesi",
         "- Lineup: benched N.Williams, started Senesi",
         "- Captain: Enzo, Vice: Mbeumo"
-      ]
+      ],
+      "actual_points": 30,
+      "points_on_bench": 8,
+      "hit_cost": 0,
+      "overall_rank": 8494418
     },
     {
       "gw": 2,
@@ -22,7 +26,11 @@
         "  Other options considered: Gro\u00df (5.7), Buend\u00eda (5.3), Stach (4.6)",
         "- Lineup: benched Enzo, started Mateta",
         "- Captain: B.Fernandes, Vice: Szoboszlai"
-      ]
+      ],
+      "actual_points": 90,
+      "points_on_bench": 0,
+      "hit_cost": 0,
+      "overall_rank": 6036188
     },
     {
       "gw": 3,
@@ -47,7 +55,20 @@
         "- Lineup: benched Thiago, started Saka",
         "- Lineup: benched Pedro Porro, started N.Williams",
         "- Captain: B.Fernandes, Vice: Saka"
-      ]
+      ],
+      "actual_points": 39,
+      "points_on_bench": 14,
+      "hit_cost": 12,
+      "overall_rank": 8108455
+    },
+    {
+      "gw": 4,
+      "date": null,
+      "actions": [],
+      "actual_points": 63,
+      "points_on_bench": 15,
+      "hit_cost": 0,
+      "overall_rank": 7928177
     },
     {
       "gw": 5,
@@ -63,7 +84,20 @@
         "  Other options considered: Tavernier (10.0), Schade (9.6), Stach (7.9)",
         "- Lineup: benched N.Williams, started Bogle",
         "- Captain: Gro\u00df, Vice: B.Fernandes"
-      ]
+      ],
+      "actual_points": 48,
+      "points_on_bench": 16,
+      "hit_cost": 0,
+      "overall_rank": 7794668
+    },
+    {
+      "gw": 6,
+      "date": null,
+      "actions": [],
+      "actual_points": 48,
+      "points_on_bench": 22,
+      "hit_cost": 0,
+      "overall_rank": 7951284
     },
     {
       "gw": 7,
@@ -86,7 +120,11 @@
         "- Lineup: benched Calvert-Lewin, started De Cuyper",
         "- Lineup: benched Ajayi, started Verbruggen",
         "- Captain: Gro\u00df, Vice: Semenyo"
-      ]
+      ],
+      "actual_points": 47,
+      "points_on_bench": 22,
+      "hit_cost": 4,
+      "overall_rank": 8342833
     },
     {
       "gw": 8,
@@ -106,7 +144,11 @@
         "  Other options considered: Evanilson (10.2), Barry (9.5), Solanke (8.1)",
         "- Lineup: benched Dasilva, started Bogle",
         "- Captain: Haaland, Vice: Gro\u00df"
-      ]
+      ],
+      "actual_points": 40,
+      "points_on_bench": 6,
+      "hit_cost": 8,
+      "overall_rank": 8704717
     },
     {
       "gw": 9,
@@ -117,7 +159,20 @@
         "  Konsa: horizon 9.6 pts/5gw (form 9.0, fixture ease 10.4, set-piece 0.00)",
         "  Other options considered: Vuskovic (9.4), White (8.8), Hill (8.0)",
         "- Lineup: benched Jo\u00e3o Pedro, started Calvert-Lewin"
-      ]
+      ],
+      "actual_points": 47,
+      "points_on_bench": 13,
+      "hit_cost": 0,
+      "overall_rank": 8525469
+    },
+    {
+      "gw": 10,
+      "date": null,
+      "actions": [],
+      "actual_points": 29,
+      "points_on_bench": 7,
+      "hit_cost": 0,
+      "overall_rank": 8290953
     }
   ]
 }

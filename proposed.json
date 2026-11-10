@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T09:42:52.674567+00:00",
+  "last_updated": "2026-11-10T09:44:47.185634+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "has_changes": true,
@@ -7,33 +7,33 @@
   "transfers": [
     {
       "out": {
-        "name": "Dasilva",
-        "team": "COV",
-        "horizon": 4.2,
-        "form": 2.0,
-        "fixture_ease": 12.8,
-        "set_piece_bonus": 0.0
+        "name": "Henderson",
+        "team": "CHE",
+        "horizon": 5.5,
+        "form": 1.8,
+        "fixture_ease": 11.0,
+        "set_piece_bonus": 0.1
       },
       "in": {
-        "name": "Van Hecke",
-        "team": "TOT",
-        "horizon": 9.9,
-        "form": 6.6,
-        "fixture_ease": 12.8,
-        "set_piece_bonus": 0.0
+        "name": "Tavernier",
+        "team": "BOU",
+        "horizon": 11.5,
+        "form": 6.5,
+        "fixture_ease": 10.0,
+        "set_piece_bonus": 0.25
       },
       "alternatives": [
         {
-          "name": "Vuskovic",
-          "horizon": 10.8
+          "name": "E.Le F\u00e9e",
+          "horizon": 10.9
         },
         {
-          "name": "Muharemovi\u0107",
-          "horizon": 8.6
+          "name": "Iwobi",
+          "horizon": 9.8
         },
         {
-          "name": "Justin",
-          "horizon": 8.2
+          "name": "Ayari",
+          "horizon": 8.9
         }
       ]
     },
@@ -42,14 +42,14 @@
         "name": "Jo\u00e3o Pedro",
         "team": "CHE",
         "horizon": 0.0,
-        "form": 2.8,
+        "form": 0.5,
         "fixture_ease": 11.0,
         "set_piece_bonus": 0.0
       },
       "in": {
         "name": "Barry",
         "team": "EVE",
-        "horizon": 13.1,
+        "horizon": 13.3,
         "form": 7.0,
         "fixture_ease": 9.4,
         "set_piece_bonus": 0.75
@@ -57,11 +57,11 @@
       "alternatives": [
         {
           "name": "Evanilson",
-          "horizon": 10.9
+          "horizon": 11.3
         },
         {
           "name": "N.Jackson",
-          "horizon": 10.9
+          "horizon": 11.0
         },
         {
           "name": "McBurnie",

@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-09T09:04:34.228636+00:00",
+  "last_updated": "2026-11-10T09:01:27.783622+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
   "free_transfers": 2,
-  "total_projected_points": 52.9,
+  "total_projected_points": 51.3,
   "starting_xi": [
     {
       "name": "Raya",
       "position": "GKP",
       "team": "ARS",
-      "projected_points": 4.3,
+      "projected_points": 4.9,
       "captain": false,
       "vice_captain": false
     },
@@ -19,7 +19,7 @@
       "name": "Bogle",
       "position": "DEF",
       "team": "LEE",
-      "projected_points": 2.4,
+      "projected_points": 2.9,
       "captain": false,
       "vice_captain": false
     },
@@ -27,7 +27,7 @@
       "name": "Konsa",
       "position": "DEF",
       "team": "ARS",
-      "projected_points": 6.0,
+      "projected_points": 6.8,
       "captain": false,
       "vice_captain": false
     },
@@ -35,7 +35,7 @@
       "name": "De Cuyper",
       "position": "DEF",
       "team": "BHA",
-      "projected_points": 5.2,
+      "projected_points": 4.0,
       "captain": false,
       "vice_captain": false
     },
@@ -43,7 +43,7 @@
       "name": "Henderson",
       "position": "MID",
       "team": "CHE",
-      "projected_points": 3.8,
+      "projected_points": 1.7,
       "captain": false,
       "vice_captain": false
     },
@@ -51,7 +51,7 @@
       "name": "B.Fernandes",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.5,
+      "projected_points": 3.8,
       "captain": false,
       "vice_captain": false
     },
@@ -59,7 +59,7 @@
       "name": "Gro\u00df",
       "position": "MID",
       "team": "BHA",
-      "projected_points": 4.7,
+      "projected_points": 4.5,
       "captain": false,
       "vice_captain": true
     },
@@ -67,7 +67,7 @@
       "name": "Mbeumo",
       "position": "MID",
       "team": "MUN",
-      "projected_points": 3.7,
+      "projected_points": 3.0,
       "captain": false,
       "vice_captain": false
     },
@@ -75,7 +75,7 @@
       "name": "Rudoni",
       "position": "MID",
       "team": "COV",
-      "projected_points": 5.0,
+      "projected_points": 5.1,
       "captain": false,
       "vice_captain": false
     },
@@ -91,7 +91,7 @@
       "name": "Calvert-Lewin",
       "position": "FWD",
       "team": "LEE",
-      "projected_points": 3.4,
+      "projected_points": 3.7,
       "captain": false,
       "vice_captain": false
     }

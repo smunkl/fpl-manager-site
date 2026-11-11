@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T09:44:47.185634+00:00",
+  "last_updated": "2026-11-11T09:33:56.093211+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "has_changes": true,
@@ -49,8 +49,8 @@
       "in": {
         "name": "Barry",
         "team": "EVE",
-        "horizon": 13.3,
-        "form": 7.0,
+        "horizon": 13.5,
+        "form": 7.2,
         "fixture_ease": 9.4,
         "set_piece_bonus": 0.75
       },
@@ -65,7 +65,7 @@
         },
         {
           "name": "McBurnie",
-          "horizon": 9.5
+          "horizon": 10.1
         }
       ]
     }

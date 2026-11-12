@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T09:33:54.424044+00:00",
+  "last_updated": "2026-11-12T09:24:38.188941+00:00",
   "last_completed_gw": 10,
   "leagues": [
     {
@@ -61,7 +61,22 @@
           "total_points": 606,
           "gw_points": 52,
           "is_me": false,
-          "squad": null
+          "squad": {
+            "captain": "Haaland",
+            "xi": [
+              "Raya",
+              "Maguire",
+              "Gabriel",
+              "Gu\u00e9hi",
+              "Konsa",
+              "Gro\u00df",
+              "Palmer",
+              "Tavernier",
+              "Cherki",
+              "Calvert-Lewin",
+              "Haaland"
+            ]
+          }
         },
         {
           "rank": 4,

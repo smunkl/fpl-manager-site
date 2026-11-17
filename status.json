@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-16T09:05:36.871678+00:00",
+  "last_updated": "2026-11-17T09:05:32.699851+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
   "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 1.5,
   "free_transfers": 2,
-  "total_projected_points": 51.1,
+  "total_projected_points": 48.0,
   "starting_xi": [
     {
       "name": "Raya",
@@ -43,7 +43,7 @@
       "name": "Henderson",
       "position": "MID",
       "team": "CHE",
-      "projected_points": 1.7,
+      "projected_points": 1.4,
       "captain": false,
       "vice_captain": false
     },
@@ -83,7 +83,7 @@
       "name": "Haaland",
       "position": "FWD",
       "team": "MCI",
-      "projected_points": 10.9,
+      "projected_points": 8.1,
       "captain": true,
       "vice_captain": false
     },

@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-20T23:51:03.425207+00:00",
+  "last_updated": "2026-11-20T23:51:55.882285+00:00",
   "gameweek": 11,
   "deadline": "2026-11-21T11:00:00Z",
-  "mode": "LIVE",
+  "mode": "PREVIEW (daily, no changes submitted)",
   "bank": 2.6,
   "free_transfers": 0,
-  "total_projected_points": 58.9,
+  "total_projected_points": 55.7,
   "starting_xi": [
     {
       "name": "Raya",
@@ -75,16 +75,16 @@
       "name": "Barry",
       "position": "FWD",
       "team": "EVE",
-      "projected_points": 14.4,
-      "captain": true,
+      "projected_points": 7.2,
+      "captain": false,
       "vice_captain": false
     },
     {
       "name": "Haaland",
       "position": "FWD",
       "team": "MCI",
-      "projected_points": 4.1,
-      "captain": false,
+      "projected_points": 8.1,
+      "captain": true,
       "vice_captain": false
     },
     {
